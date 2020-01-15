@@ -1,0 +1,207 @@
+
+<!-- saved from url=(0099)file:///C:/Users/zhb68/Documents/WeChat%20Files/philemonzheng/FileStorage/File/2020-01/index-1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>未知 </title></head><body>
+<h1 id="workshop-1-across-translation-units">Workshop 1: Across Translation Units</h1>
+<p>In this workshop, you implement aspects of linkage, storage duration, namespaces, header guards, and operating system interfaces.</p>
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<p>Upon successful completion of this workshop, you will have demonstrated the abilities to:
+- receive program arguments from the command line
+- guard a class definition from repetition
+- access a variable defined in a different translation unit
+- declare a local variable that remains in memory for the lifetime of the program
+- upgrade code to accept and manage a user-defined string of any length</p>
+<h2 id="submission-policy">Submission Policy</h2>
+<p>The <em>in-lab</em> section is to be completed during your assigned lab section.  It is to be completed and submitted by the end of the workshop period.  If you attend the lab period and cannot complete the <em>in-lab</em> portion of the workshop during that period, ask your instructor for permission to complete the <em>in-lab</em> portion after the period.  If you do not attend the workshop, you can submit the <em>in-lab</em> section along with your <em>at-home</em> section (see penalties below).  <strong>In order to get credit for the <em>in-lab</em> portion, you must be present in the lab for the entire duration of the lab.</strong></p>
+<p>The <em>at-home</em> portion of the workshop is due on the day that is four days after your scheduled <em>in-lab</em> workshop (@ 23:59:59), <strong>even if that day is a holiday</strong>.</p>
+<p>All your work (all the files you create or modify) must contain your name, Seneca email, student number and the date of completion (use the following template):</p>
+<p><code>cpp
+// Name:
+// Seneca Student ID:
+// Seneca email:
+// Date of completion:
+//
+// I confirm that the content of this file is created by me,
+//   with the exception of the parts provided to me by my professor.</code></p>
+<p>You are responsible to back up your work regularly.</p>
+<h3 id="late-submission-penalties">Late Submission Penalties</h3>
+<p>The workshop can be submitted up to <strong>1 (one) day</strong> late (the day that is 5 days after the lab period); submissions received on this day are considered <strong>late</strong> and are subject to penalties:</p>
+<ul>
+<li>only <em>in-lab</em> portion submitted late (after the end of the lab period): 0 for <em>in-lab</em> portion, max 7/10 for the entire workshop.</li>
+<li>only <em>at-home</em> portion submitted late (more than 4 days after the lab period): max 4 for the <em>at-home</em> portion, max 7/10 for the entire workshop.</li>
+<li>both <em>in-lab</em> <strong>and</strong> <em>at-home</em> portions submitted late: max 4/10 for the entire workshop.</li>
+<li>when the submission closes, if the workshop is not complete, the mark for the entire workshop will be 0/10. The workshop is considered complete if there are two separate submissions (<em>in-lab</em> submission and <em>at-home</em> submission) containing the <em>in-lab code</em>, <em>at-home code</em> and <em>reflection</em>.</li>
+</ul>
+<p>The submission is considered closed at the end of the day that is 5 (five) days after the lab period.</p>
+<h2 id="the-application">The application</h2>
+<p>The application tracks the current event that happens at a given time in the day, and executes a set of actions on the current event.</p>
+<p>The application maintains a system clock (representing the time of a day), then loads from a file the actions that must be executed:
+- <code>T</code> - <em>time</em>: all following actions must be executed (in sequence) when the system clock reaches the time following <code>T</code>
+- <code>S</code> - <em>start</em>: at the current time, a new event starts; the name of the event follows <code>S</code>
+- <code>E</code> - <em>end</em>: the current event has ended and no other event is happening right now
+- <code>P</code> - <em>print</em>: display the current event to screen
+- <code>A</code> - <em>archive</em>: add the current event to an archive for future reference.</p>
+<h2 id="in-lab"><em>In-Lab</em></h2>
+<p>This workshop consists of two modules:
+- <code>w1</code> (partially supplied)
+- <code>Event</code></p>
+<h3 id="w1-module-partially-supplied"><code>w1</code> Module (partially supplied)</h3>
+<p>Study the code supplied and make sure you understand it.</p>
+<p>Finish the implementation of the <code>main</code> function, by completing the parts marked with <code>TODO</code>:</p>
+<ul>
+<li>write the prototype of the <code>main</code> function to receive a set of standard command line arguments</li>
+<li>echoes the set of arguments to standard output in the following format:
+<code>1: first argument
+2: second argument
+3: third argument
+4: ...</code></li>
+</ul>
+<p><strong>Do not modify this module in any other place!</strong></p>
+<h3 id="event-module"><code>Event</code> Module</h3>
+<p>The <code>Event</code> module defines a system clock, as a global variable named <code>g_sysClock</code> that stores only positive integers.  The value of the clock represents the time of day as the number of seconds since midnight (an integer between 0 and 86400; choose an appropriate type). The clock will be accessed when a new event starts and from the <code>main</code> function.</p>
+<p>This module also defines a class named <code>Event</code> in the namespace <code>sdds</code> that stores some information about an event:</p>
+<ul>
+<li>
+<p>a C-style null-terminated string of up to 128 characters <em>including the null byte terminator</em> representing the description of the event.</p>
+</li>
+<li>
+<p>the time when the event starts, expressed in number of seconds that passed from midnight. The time must be an integer between 0 and 86400 (choose an appropriate type).</p>
+</li>
+</ul>
+<p><strong>Public Members</strong>
+- Default constructor
+- <code>display()</code>: a query that displays to the screen the content of an instance in the following format:
+    <code>COUNTER. HH:MM:SS -&gt; DESCRIPTION</code>
+    If there is no description stored, this query should print:
+    <code>COUNTER. [ No Event ]</code>
+    where
+    - <code>COUNTER</code> is a field of size 3, that represents how many times this function has been called (use a local-to-function variable that remains in memory for the lifetime of the program) <strong>Do not use global/member variables to store the counter!</strong>
+    - <code>HH:MM:SS</code> represents the time when the event started, expressed in hours, minutes and seconds
+- <code>setDescription()</code>: a modifier that receives as a parameter an array of characters. If the parameter is not null and and not empty, it means that a new event has started and the information about this event must stored in the current instance.  If the parameter is null or empty string, this function resets the current instance to an empty state.</p>
+<p>Add any other <strong>private</strong> members that your design requires (without changing the specs above)!</p>
+<h3 id="sample-output">Sample Output</h3>
+<p>The input files <code>monday.txt</code> and <code>tuesday.txt</code> are already provided; the main module contains a description of the structure for these files.</p>
+<p>When the program is started with the command:
+<code>w1.exe monday.txt tuesday.txt</code>
+the output should look like:
+```
+Command Line:
+1: w1.exe
+2: monday.txt
+3: tuesday.txt</p>
+<hr>
+<pre><code>Day 1
+</code></pre>
+<hr>
+<ol>
+<li>00:02:55 -&gt; Computer Starting</li>
+<li>00:02:55 -&gt; Computer Starting</li>
+<li>[ No Event ]</li>
+<li>01:15:34 -&gt; User logging in</li>
+<li>01:20:09 -&gt; User logging in</li>
+<li>09:01:04 -&gt; Browser closed</li>
+<li>17:33:33 -&gt; User checks email</li>
+</ol>
+<hr>
+<pre><code>Day 2
+</code></pre>
+<hr>
+<ol>
+<li>01:02:23 -&gt; User starts working on homework</li>
+<li>[ No Event ]</li>
+<li>01:20:34 -&gt; User take a break</li>
+<li>01:22:30 -&gt; User plays sudoku</li>
+<li>01:26:40 -&gt; User resumes homework</li>
+</ol>
+<hr>
+<pre><code>Archive
+</code></pre>
+<hr>
+<ol>
+<li>[ No Event ]</li>
+<li>01:20:00 -&gt; Authentication Failed</li>
+<li>01:23:20 -&gt; Browser starts</li>
+<li>09:01:04 -&gt; Browser closed</li>
+<li>17:33:33 -&gt; User checks email</li>
+<li>01:02:23 -&gt; User starts working on homework</li>
+<li>01:22:30 -&gt; User plays sudoku</li>
+<li>[ No Event ]</li>
+<li>01:26:40 -&gt; User resumes homework</li>
+</ol>
+<hr>
+<p>```</p>
+<h3 id="submission-30">Submission (30%)</h3>
+<p>To test and demonstrate execution of your program use the same data as shown in the output example above.</p>
+<p>Upload your source code to your <code>matrix</code> account. Compile and run your code using the latest version of the <code>g++</code> compiler (available at <code>/usr/local/gcc/9.1.0/bin/g++</code>) and make sure that everything works properly.</p>
+<p>Then, run the following command from your account (replace <code>profname.proflastname</code> with your professor’s Seneca userid):
+<code>~profname.proflastname/submit 345XXX_w1_lab</code>
+and follow the instructions. Replace XXX with the section letter(s) specified by your instructor.</p>
+<p><strong>:warning:Important:</strong> Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Resubmissions will attract a penalty.</p>
+<h2 id="at-home"><em>At-Home</em></h2>
+<p>For this part of the workshop, upgrade your <code>Event</code> class such that the description can be a C-style null-terminated string of any length.  <strong>Make sure your program doesn't have memory leaks.</strong></p>
+<h3 id="sample-output_1">Sample Output</h3>
+<p>When the program is started with the command:
+<code>w1.exe monday.txt tuesday.txt</code>
+the output should look like:
+```
+Command Line:
+1: w1.exe
+2: monday.txt
+3: tuesday.txt</p>
+<hr>
+<pre><code>Day 1
+</code></pre>
+<hr>
+<ol>
+<li>00:02:55 -&gt; Computer Starting</li>
+<li>00:02:55 -&gt; Computer Starting</li>
+<li>[ No Event ]</li>
+<li>01:15:34 -&gt; User logging in</li>
+<li>01:20:09 -&gt; User logging in</li>
+<li>09:01:04 -&gt; Browser closed</li>
+<li>17:33:33 -&gt; User checks email</li>
+</ol>
+<hr>
+<pre><code>Day 2
+</code></pre>
+<hr>
+<ol>
+<li>01:02:23 -&gt; User starts working on homework</li>
+<li>[ No Event ]</li>
+<li>01:20:34 -&gt; User take a break</li>
+<li>01:22:30 -&gt; User plays sudoku</li>
+<li>01:26:40 -&gt; User resumes homework</li>
+</ol>
+<hr>
+<pre><code>Archive
+</code></pre>
+<hr>
+<ol>
+<li>[ No Event ]</li>
+<li>01:20:00 -&gt; Authentication Failed</li>
+<li>01:23:20 -&gt; Browser starts</li>
+<li>09:01:04 -&gt; Browser closed</li>
+<li>17:33:33 -&gt; User checks email</li>
+<li>01:02:23 -&gt; User starts working on homework</li>
+<li>01:22:30 -&gt; User plays sudoku</li>
+<li>[ No Event ]</li>
+<li>01:26:40 -&gt; User resumes homework</li>
+</ol>
+<hr>
+<p>```</p>
+<h3 id="reflection">Reflection</h3>
+<p>Study your final solution, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop. <strong>This should take no less than 30 minutes of your time.</strong></p>
+<p>Create a <strong>text</strong> file named <code>reflect.txt</code> that contains your <strong><em>detailed</em></strong> description of the topics that you have learned in completing this particular workshop and mention any issues that caused you difficulty and how you solved them. Include in your explanation—<strong>but do not limit it to</strong>—the following points:
+- the difference between internal and external linkage using examples from your code
+- what are <code>static</code> variables and how were they useful in this workshop.
+- the changes that you made in upgrading your <code>Event</code> class.</p>
+<h4 id="quiz-reflection">Quiz Reflection</h4>
+<p>Add a section to <code>reflect.txt</code> called <strong>Quiz X Reflection</strong>. Replace the <strong>X</strong> with the number of the last quiz that you received and list all questions that you answered incorrectly.</p>
+<p>Then for each incorrectly answered question write your mistake and the correct answer to that question. If you have missed the last quiz, then write all the questions and their answers.</p>
+<h3 id="submission-30-for-code-40-for-reflection">Submission (30% for code, 40% for reflection)</h3>
+<p>To test and demonstrate execution of your program use the same data as shown in the output example above.</p>
+<p>Upload the source code and the reflection file to your <code>matrix</code> account. Compile and run your code using the latest version of the <code>g++</code> compiler (available at <code>/usr/local/gcc/9.1.0/bin/g++</code>) and make sure that everything works properly.</p>
+<p>Then, run the following command from your account (replace <code>profname.proflastname</code> with your professor’s Seneca userid):
+<code>~profname.proflastname/submit 345XXX_w1_home</code>
+and follow the instructions. Replace XXX with the section letter(s) specified by your instructor.</p>
+<p><strong>:warning:Important:</strong> Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Resubmissions will attract a penalty.</p>
+</body></html>

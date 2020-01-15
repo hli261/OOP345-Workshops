@@ -1,0 +1,38 @@
+1) g++ w1_in_lab.cpp -Wall -std=c++11 -o w1<ENTER>  
+2) g++ -g -Wall -std=c++11 -o w1 utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp
+
+3) valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes w1
+4) valgrind  -v --leak-check=full w1
+
+5) g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.cpp ms5.cpp Book.cpp Date.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+
+6) g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+
+• -Wall: display all warnings 
+• -std=c++11: compile using C++11 standards 
+• -o w1: name the executable w1
+• -g ready for using valgrind test the leak of memory //-g 和 -ggdb 都是令 gcc 生成调试信息
+
+~fardad.soleimanloo/submit 345NEE_w1_home
+
+
+g++ -Wall -std=c++11 -o ws utils.o Date.cpp Utils.cpp Menu.cpp ms1.cpp
+
+
+
+=============================================================================
+#ubuntu
+
+cd /mnt/c/OOP-Workshops/WS06/in_lab/Debug/in_lab.exe
+
+cd /mnt/c/OOP-Workshops/WS06/at_home/Debug/
+
+cd /mnt/c/OOP-Workshops/WS06/in_lab/
+
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+g++ -g -Wall -std=c++11 -o w1 Ore.cpp OreTester.cpp
+
+
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ./w1
+
+valgrind  -v --leak-check=full ./w1
