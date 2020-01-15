@@ -23,9 +23,5 @@ namespace sdds {
         int setDescription(char description[]);
         void display() const;
     };
-
-
-
-
 }
 #endif

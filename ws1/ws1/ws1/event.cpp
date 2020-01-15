@@ -41,10 +41,5 @@ namespace sdds {
                 << setw(2) << m_time % 60 << " -> ";
         }
         cout << m_description << std::endl;
-
     }
-
-
-
-
 }
