@@ -14,7 +14,7 @@
 • -g ready for using valgrind test the leak of memory //-g 和 -ggdb 都是令 gcc 生成调试信息
 
 ~fardad.soleimanloo/submit 345NEE_w1_home
-
+~fardad.soleimanloo/submit 345NEE_w1_lab
 
 g++ -Wall -std=c++11 -o ws utils.o Date.cpp Utils.cpp Menu.cpp ms1.cpp
 

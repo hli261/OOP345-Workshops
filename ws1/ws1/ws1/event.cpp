@@ -11,6 +11,7 @@
 #include "event.h"
 #include <iostream>
 #include <iomanip>
+#include <cstring>
 
 unsigned int g_sysClock = 0;
 using namespace std;
@@ -33,7 +34,7 @@ namespace sdds {
     }
 
     void Event::display() const {
-        cout << setw(2) << setfill(' ') << counters++ << ".";
+        cout << setw(3) << setfill(' ') << counters++ << ". ";
         if (strcmp(m_description, "[ No Event ]")) {
             cout << setfill('0') 
                 << setw(2) << m_time / 3600 << ":"
