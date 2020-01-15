@@ -7,7 +7,7 @@
 // Seneca email:    hzheng62@myseneca.ca
 // Date of completion:  1/15/2020
 //
-// I confirm that the content of this file is created by me, // with the exception of the parts provided to me by my professor.
+// I confirm that the content of this file is created by me, with the exception of the parts provided to me by my professor.
 //-------------------------------------------------------------------------------------------------------------
 
 
@@ -64,10 +64,10 @@ int main(int argc, char* argv[])
         in >> opcode >> time;
 
         // starting at midnight, until the end of the day
-        for (::g_sysClock = 0u; ::g_sysClock < secInDay; ::g_sysClock++)
+        for (::g_sysClock = 0u; g_sysClock < secInDay; g_sysClock++)
         {
             // what should happen this second
-            while (time == ::g_sysClock)
+            while (time == g_sysClock)
             {
                 // skip the delimiter
                 in.ignore();
