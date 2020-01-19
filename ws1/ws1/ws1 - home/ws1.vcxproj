@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="monday.txt" />
+    <Text Include="tuesday.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="event.cpp" />
     <ClCompile Include="w1_home.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="event.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="monday.txt" />
-    <Text Include="tuesday.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

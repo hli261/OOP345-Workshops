@@ -21,7 +21,7 @@ namespace sdds {
     public:
         Event();
         Event(const Event& event);
-        ~Event();
+        virtual ~Event();
         Event& operator=(const Event& event);
         int setDescription(const char description[]);
         void display() const;

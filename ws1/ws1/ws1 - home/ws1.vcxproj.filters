@@ -15,6 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="monday.txt" />
+    <Text Include="tuesday.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,9 +30,5 @@
     <ClInclude Include="event.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="monday.txt" />
-    <Text Include="tuesday.txt" />
   </ItemGroup>
 </Project>
