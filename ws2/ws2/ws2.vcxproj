@@ -156,6 +156,10 @@
     <ClInclude Include="RecordSet.h" />
     <ClInclude Include="TimedEvents.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\seneca_original\WS02\readme.md" />
+    <None Include="gutenberg_shakespeare" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

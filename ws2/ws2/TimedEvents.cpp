@@ -17,21 +17,32 @@ unsigned int g_sysClock = 0;
 using namespace std;
 
 namespace sdds {
-	void TimedEvents::startClock() {
+    TimedEvents::TimedEvents()//:m_recordsNumber(0),m_startTime(0),m_endTime(0)
+    {
 
-	}
+    }
 
-	void TimedEvents::stopClock() {
+    void TimedEvents::startClock() {
 
-	}
-	void TimedEvents::recordEvent(const char* str) {
+    }
 
-	}
+    void TimedEvents::stopClock() {
 
-	ostream& operator<<(ostream& os, const TimedEvents& TimedEvents) {
+    }
+    void TimedEvents::recordEvent(const char* str) {
+
+    }
+
+    ostream& operator<<(ostream& os, TimedEvents& TimedEvents) {
+        os << "Execution Times:" << endl;
+        os << "--------------------------" << endl;
+
+        os << TimedEvents.m_eventName<<TimedEvents.m_duration<< TimedEvents.m_timeUnit << endl;
+
+        os << "--------------------------" << endl;
 
 
-		return os;
-	}
+        return os;
+    }
 
 }

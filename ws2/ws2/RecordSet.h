@@ -18,8 +18,14 @@ namespace sdds {
     public:
         RecordSet();
         RecordSet(const char*);
-        RecordSet& getRecord(int ) const;
-        int size();
+        RecordSet(const RecordSet&);
+        RecordSet(const RecordSet&&);
+        RecordSet& operator=(const RecordSet&);
+        RecordSet& operator=(const RecordSet&&);
+        ~RecordSet();
+
+        std::string  getRecord(int ) const;
+        size_t  size() const;
     };
 
     std::ostream& operator<<(std::ostream& os, const RecordSet& TimeEvents);

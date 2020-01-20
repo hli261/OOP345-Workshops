@@ -24,19 +24,42 @@ namespace sdds {
 
     }
 
-    RecordSet& RecordSet::getRecord(int a) const {
-        RecordSet b;
+    RecordSet::RecordSet(const RecordSet&) {
+
+    }
+
+    RecordSet::RecordSet(const RecordSet&& recordSet) {
+
+    }
+
+    RecordSet& RecordSet::operator=(const RecordSet&) {
+
+        return *this;
+    }
+
+    RecordSet& RecordSet::operator=(const RecordSet&&) {
+
+        return *this;
+    }
+
+    RecordSet::~RecordSet() {
+
+    }
+
+    std::string  RecordSet::getRecord(int a) const {
+        std::string  b;
 
         return b;
     }
 
-    int RecordSet::size() {
+    size_t RecordSet::size() const{
 
 
         return 0;
     }
 
     ostream& operator<<(ostream& os, const RecordSet& TimedEvents) {
+
 
 
         return os;
