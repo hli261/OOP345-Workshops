@@ -18,7 +18,7 @@ using namespace std;
 
 namespace sdds {
     class RecordSet {
-        uint64_t m_recordNumber{};
+        size_t m_recordNumber{};
         string* m_record{};
     public:
         RecordSet();

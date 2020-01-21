@@ -24,7 +24,6 @@ namespace sdds {
 
     RecordSet::RecordSet(const char* str) {
         char buffer[50]{};
-        char c{};
         m_recordNumber = 0;
         ifstream in(str);
         if (!in.is_open()) {
@@ -32,30 +31,26 @@ namespace sdds {
         }
         else {
             while (!cin.fail() && !in.eof()) {
-                in.get(c);
-                if (c == ' ') m_recordNumber++;
+                in.get(buffer[0]);
+                if (buffer[0] == ' ') m_recordNumber++;
             }
             m_record = new string[m_recordNumber + 1]{};
             in.clear();
             in.seekg(0);
             m_recordNumber = 0;
             while (!cin.fail() && !in.eof()) {
-                //cout << in.tellg()<<endl;
                 in.getline(buffer, 49, ' ');
                 m_record[m_recordNumber] = buffer;
-                //if (in.eof() || m_recordNumber == 0 || m_recordNumber == 100 || m_recordNumber == 1000) 
-                //    cout <<buffer << endl<< m_record[m_recordNumber]<<endl;
                 m_recordNumber++;
             }
-            cout << m_recordNumber << endl;
         }
     }
 
     RecordSet::RecordSet(const RecordSet& recordSet) {
         if (recordSet.m_record != nullptr) {
-        m_recordNumber = recordSet.m_recordNumber;
+            m_recordNumber = recordSet.m_recordNumber;
             m_record = new string[m_recordNumber]{};
-            for (int i = 0; i < m_recordNumber;i++)
+            for (size_t i = 0; i < m_recordNumber; i++)
                 m_record[i] = recordSet.m_record[i];
         }
         else {
@@ -70,7 +65,7 @@ namespace sdds {
             if (recordSet.m_record != nullptr) {
                 m_recordNumber = recordSet.m_recordNumber;
                 m_record = new string[m_recordNumber]{};
-                for (int i = 0; i < m_recordNumber; i++)
+                for (size_t i = 0; i < m_recordNumber; i++)
                     m_record[i] = recordSet.m_record[i];
             }
             else {
@@ -83,12 +78,6 @@ namespace sdds {
 
     RecordSet::RecordSet(RecordSet&& recordSet) {
         *this = std::move(recordSet);
-        //delete[] m_record;
-        //m_record = recordSet.m_record;
-        //m_recordNumber = recordSet.m_recordNumber;
-        //recordSet.m_record = nullptr;
-        //recordSet.m_recordNumber = 0;
-
     }
 
     RecordSet& RecordSet::operator=(RecordSet&& recordSet) {

@@ -43,9 +43,8 @@ namespace sdds {
             << "--------------------------\n";
 
         for (int i = 0; i < TimedEvents.m_recordsNumber; i++)
-            os << setw(20) << std::left
-            << TimedEvents.m_events[i].m_eventName << ' ' << setw(12) << right
-            << TimedEvents.m_events[i].m_duration.count() << ' '
+            os << setw(20) << std::left<< TimedEvents.m_events[i].m_eventName << ' ' 
+            << setw(12) << right << TimedEvents.m_events[i].m_duration.count() << ' '
             << TimedEvents.m_events[i].m_timeUnit << '\n';
 
         os << "--------------------------" << endl;
