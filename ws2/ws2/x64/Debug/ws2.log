@@ -1,9 +1,2 @@
 ﻿  RecordSet.cpp
-  TimedEvents.cpp
-  w2_lab.cpp
-C:\OOP345Workshop\ws2\ws2\w2_lab.cpp(46,81): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\OOP345Workshop\ws2\ws2\w2_lab.cpp(58,81): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\OOP345Workshop\ws2\ws2\w2_lab.cpp(70,81): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\OOP345Workshop\ws2\ws2\w2_lab.cpp(82,81): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
   ws2.vcxproj -> C:\OOP345Workshop\ws2\x64\Debug\ws2.exe

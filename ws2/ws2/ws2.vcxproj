@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClCompile Include="RecordSet.cpp" />
     <ClCompile Include="TimedEvents.cpp" />
+    <ClCompile Include="w2_home.cpp" />
     <ClCompile Include="w2_lab.cpp" />
   </ItemGroup>
   <ItemGroup>

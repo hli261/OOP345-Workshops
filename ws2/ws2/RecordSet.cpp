@@ -43,7 +43,8 @@ namespace sdds {
                 //cout << in.tellg()<<endl;
                 in.getline(buffer, 49, ' ');
                 m_record[m_recordNumber] = buffer;
-                if (in.eof() || m_recordNumber == 0 || m_recordNumber == 100 || m_recordNumber == 1000) cout <<buffer << endl<< m_record[m_recordNumber]<<endl;
+                //if (in.eof() || m_recordNumber == 0 || m_recordNumber == 100 || m_recordNumber == 1000) 
+                //    cout <<buffer << endl<< m_record[m_recordNumber]<<endl;
                 m_recordNumber++;
             }
             cout << m_recordNumber << endl;
@@ -82,13 +83,21 @@ namespace sdds {
 
     RecordSet::RecordSet(RecordSet&& recordSet) {
         *this = std::move(recordSet);
+        //delete[] m_record;
+        //m_record = recordSet.m_record;
+        //m_recordNumber = recordSet.m_recordNumber;
+        //recordSet.m_record = nullptr;
+        //recordSet.m_recordNumber = 0;
+
     }
 
     RecordSet& RecordSet::operator=(RecordSet&& recordSet) {
         if (this != &recordSet) {
-            delete[] recordSet.m_record;
+            delete[] m_record;
             m_record = recordSet.m_record;
             m_recordNumber = recordSet.m_recordNumber;
+            recordSet.m_record = nullptr;
+            recordSet.m_recordNumber = 0;
         }
         return *this;
     }
@@ -105,13 +114,6 @@ namespace sdds {
 
     size_t RecordSet::size() const {
         return m_recordNumber;
-    }
-
-    ostream& operator<<(ostream& os, const RecordSet& TimedEvents) {
-
-
-
-        return os;
     }
 
 }

@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="w2_lab.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="RecordSet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TimedEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w2_home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w2_lab.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

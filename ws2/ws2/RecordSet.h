@@ -32,9 +32,5 @@ namespace sdds {
         string  getRecord(int ) const;
         size_t  size() const;
     };
-
-    ostream& operator<<(ostream& os, const RecordSet& TimeEvents);
-
-
 }
 #endif
