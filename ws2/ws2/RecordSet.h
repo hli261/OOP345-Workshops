@@ -8,6 +8,9 @@
 //-------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 #ifndef _SDDS_RecordSet_HEADER_
 #define _SDDS_RecordSet_HEADER_
@@ -15,20 +18,22 @@
 
 namespace sdds {
     class RecordSet {
+        uint64_t m_recordNumber{};
+        string* m_record{};
     public:
         RecordSet();
         RecordSet(const char*);
         RecordSet(const RecordSet&);
-        RecordSet(const RecordSet&&);
         RecordSet& operator=(const RecordSet&);
-        RecordSet& operator=(const RecordSet&&);
+        RecordSet(RecordSet&&);
+        RecordSet& operator=( RecordSet&&);
         ~RecordSet();
 
-        std::string  getRecord(int ) const;
+        string  getRecord(int ) const;
         size_t  size() const;
     };
 
-    std::ostream& operator<<(std::ostream& os, const RecordSet& TimeEvents);
+    ostream& operator<<(ostream& os, const RecordSet& TimeEvents);
 
 
 }

@@ -18,21 +18,20 @@
 #define _SDDS_TimedEvents_HEADER_
 
 namespace sdds {
+    const int MAX_RECORDS = 7;
     class TimedEvents {
-        RecordSet m_recordSet[7]{};
         int m_recordsNumber{};
         std::chrono::steady_clock::time_point m_startTime{};
         std::chrono::steady_clock::time_point m_endTime{};
 
         struct {
-            char* m_eventName{};
-            char* m_timeUnit{};
-            std::chrono::steady_clock::duration m_duration;
-        };
+            std::string m_eventName{};
+            std::string m_timeUnit{};
+            std::chrono::steady_clock::duration m_duration{};
+        }m_events[MAX_RECORDS];
 
 
     public:
-        TimedEvents();
         void startClock();
         void stopClock();
         void recordEvent(const char*);

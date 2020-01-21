@@ -11,36 +11,44 @@
 #include <iostream>
 #include <iomanip>
 #include <cstring>
+#include <chrono>
 #include "TimedEvents.h"
 
-unsigned int g_sysClock = 0;
 using namespace std;
+using namespace std::chrono;
 
 namespace sdds {
-    TimedEvents::TimedEvents()//:m_recordsNumber(0),m_startTime(0),m_endTime(0)
-    {
-
-    }
-
     void TimedEvents::startClock() {
-
+        m_startTime = std::chrono::steady_clock::now();
     }
 
     void TimedEvents::stopClock() {
-
+        m_endTime = steady_clock::now();
     }
-    void TimedEvents::recordEvent(const char* str) {
 
+    void TimedEvents::recordEvent(const char* str) {
+        if (m_recordsNumber < MAX_RECORDS)
+        {
+            m_events[m_recordsNumber].m_eventName = str;
+            m_events[m_recordsNumber].m_timeUnit = "nanoseconds";
+            m_events[m_recordsNumber].m_duration = duration_cast<nanoseconds>(m_endTime - m_startTime);;
+
+            m_recordsNumber++;
+        }
     }
 
     ostream& operator<<(ostream& os, TimedEvents& TimedEvents) {
-        os << "Execution Times:" << endl;
+        os << "--------------------------\n"
+            << "Execution Times: \n"
+            << "--------------------------\n";
+
+        for (int i = 0; i < TimedEvents.m_recordsNumber; i++)
+            os << setw(20) << std::left
+            << TimedEvents.m_events[i].m_eventName << ' ' << setw(12) << right
+            << TimedEvents.m_events[i].m_duration.count() << ' '
+            << TimedEvents.m_events[i].m_timeUnit << '\n';
+
         os << "--------------------------" << endl;
-
-        os << TimedEvents.m_eventName<<TimedEvents.m_duration<< TimedEvents.m_timeUnit << endl;
-
-        os << "--------------------------" << endl;
-
 
         return os;
     }

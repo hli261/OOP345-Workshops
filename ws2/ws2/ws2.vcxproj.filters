@@ -34,10 +34,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="gutenberg_shakespeare">
+    <None Include="..\..\seneca_original\WS02\readme.md">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\seneca_original\WS02\readme.md">
+    <None Include="..\..\seneca_original\WS02\in-lab\gutenberg_shakespeare">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
