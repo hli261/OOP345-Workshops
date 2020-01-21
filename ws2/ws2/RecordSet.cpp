@@ -96,9 +96,7 @@ namespace sdds {
     }
 
     std::string  RecordSet::getRecord(int index) const {
-        if (m_record != nullptr)
-            return m_record[index];
-        else return "";
+        return m_record != nullptr ? m_record[index] : "";
     }
 
     size_t RecordSet::size() const {
