@@ -30,7 +30,7 @@ namespace sdds {
             std::cout << "failed to open " << str << '\n';
         }
         else {
-            while (!cin.fail() && !in.eof()) {
+            while (!in.fail() && !in.eof()) {
                 in.get(buffer[0]);
                 if (buffer[0] == ' ') m_recordNumber++;
             }
@@ -38,7 +38,7 @@ namespace sdds {
             in.clear();
             in.seekg(0);
             m_recordNumber = 0;
-            while (!cin.fail() && !in.eof()) {
+            while (!in.fail() && !in.eof()) {
                 in.getline(buffer, 49, ' ');
                 m_record[m_recordNumber] = buffer;
                 m_recordNumber++;
