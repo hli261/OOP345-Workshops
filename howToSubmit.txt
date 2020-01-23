@@ -15,10 +15,27 @@
 
 ~fardad.soleimanloo/submit 345NEE_w1_home
 ~fardad.soleimanloo/submit 345NEE_w1_lab
+~fardad.soleimanloo/submit 345/NEE/WS02/attendance
 
+=============================================================================
+c++11:
 g++ -Wall -std=c++11 -o ws utils.o Date.cpp Utils.cpp Menu.cpp ms1.cpp
 
+c++17:
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp 2> errors.txt
 
+cp /usr/local/gcc/9.1.0/lib64/libstdc++.so.6 ~/try
+=============================================================================
+Set these alieses in .bash_profile or .bashrc in your home directory of Matrix for your compiler settings and ease of submitting works:
+export LD_LIBRARY_PATH=/usr/local/gcc/9.1.0/lib64:$LD_LIBRARY_PATH
+alias G++="/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17"
+
+alias fsub="~fardad.soleimanloo/submit"
+
+=============================================================================
+windows:
+powershell or command prompt login:
+ssh hzheng62@matrix.senecac.on.ca
 
 =============================================================================
 #ubuntu

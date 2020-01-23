@@ -23,26 +23,45 @@ namespace sdds {
     }
 
     RecordSet::RecordSet(const char* str) {
-        char buffer[50]{};
+        //char buffer[50]{};
+        //m_recordNumber = 0;
+        //ifstream in(str);
+        //if (!in.is_open()) {
+        //    std::cout << "failed to open " << str << '\n';
+        //}
+        //else {
+        //    while (!in.fail() && !in.eof()) {
+        //        in.get(buffer[0]);
+        //        if (buffer[0] == ' ') m_recordNumber++;
+        //    }
+        //    m_record = new string[m_recordNumber + 1]{};
+        //    in.clear();
+        //    in.seekg(0);
+        //    m_recordNumber = 0;
+        //    while (!in.fail() && !in.eof()) {
+        //        in.getline(buffer, 49, ' ');
+        //        m_record[m_recordNumber] = buffer;
+        //        m_recordNumber++;
+        //    }
+        //}
         m_recordNumber = 0;
-        ifstream in(str);
-        if (!in.is_open()) {
-            std::cout << "failed to open " << str << '\n';
+        string temp;
+        std::ifstream file(str);
+        // count record in file
+        if (file.is_open())
+        {
+            while (std::getline(file, temp, ' '))
+                ++m_recordNumber;
         }
-        else {
-            while (!in.fail() && !in.eof()) {
-                in.get(buffer[0]);
-                if (buffer[0] == ' ') m_recordNumber++;
-            }
-            m_record = new string[m_recordNumber + 1]{};
-            in.clear();
-            in.seekg(0);
-            m_recordNumber = 0;
-            while (!in.fail() && !in.eof()) {
-                in.getline(buffer, 49, ' ');
-                m_record[m_recordNumber] = buffer;
-                m_recordNumber++;
-            }
+
+        // allocate memory
+        m_record = new std::string[m_recordNumber];
+
+        file.clear();
+        file.seekg(0, ios::beg);
+
+        for (int i = 0; i < m_recordNumber; i++) {
+            getline(file, m_record[i], ' ');
         }
     }
 
@@ -78,6 +97,11 @@ namespace sdds {
 
     RecordSet::RecordSet(RecordSet&& recordSet) {
         *this = std::move(recordSet);
+        //delete[] m_record;
+        //m_record = recordSet.m_record;
+        //m_recordNumber = recordSet.m_recordNumber;
+        //recordSet.m_record = nullptr;
+        //recordSet.m_recordNumber = 0;
     }
 
     RecordSet& RecordSet::operator=(RecordSet&& recordSet) {
