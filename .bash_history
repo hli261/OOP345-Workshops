@@ -1,0 +1,11354 @@
+#1557241890
+ssh node04pd@matrix
+#1557286292
+cal
+#1557286297
+date
+#1557286311
+2^10
+#1557286347
+exit
+#1557408662
+~uli101/assign1
+#1557416806
+ls
+#1557416814
+pwd
+#1557416821
+who
+#1557416836
+whoami
+#1557416890
+ls -l
+#1557418026
+~uli101\assign1
+#1557418184
+exit
+#1557420776
+~uli101/assign1
+#1557422520
+exit
+#1557418153
+~uli101/assgn1
+#1557418256
+ssh
+#1557418266
+pwd
+#1557418279
+~uli101/assign1
+#1557421358
+man cat
+#1557421711
+ls
+#1557421724
+cat public_html
+#1557421746
+ls
+#1557421751
+ls -l
+#1557421757
+who
+#1557421767
+whoami
+#1557421786
+touch file1
+#1557421802
+ls -l
+#1557421810
+cat file1
+#1557421828
+mv file1 file 2
+#1557421839
+mv file1 file2
+#1557421841
+ls
+#1557421851
+cp file2 file1
+#1557421855
+ls
+#1557421881
+head -2 file2
+#1557421889
+tail -2 file2
+#1557421895
+cat file1
+#1557421907
+touch file1
+#1557421918
+touch file3 file4
+#1557422230
+ echo 'this is the first line' >> file1
+#1557422242
+echo 'this is the first line' >> file1
+#1557422269
+cat file1
+#1557422350
+vi file1
+#1557443056
+pwd
+#1557443061
+ls -a
+#1557443149
+ls -la
+#1557443161
+ls *f*
+#1557443171
+sort file1
+#1557443186
+cat file1
+#1557443434
+~uli101/assign1
+#1557499858
+pwd
+#1557499860
+cd
+#1557499867
+pwd -p
+#1557499874
+pwd
+#1557499913
+~uli101/assign1
+#1557518433
+echo
+#1557518440
+echo *
+#1557518453
+ls -l
+#1557518456
+ls
+#1557518500
+echo file1
+#1557518510
+ls file1
+#1557518520
+echo f*
+#1557518621
+touch file5
+#1557518623
+ls
+#1557518628
+echo *
+#1557518640
+vi file1
+#1557518815
+ls -ld
+#1557518931
+ld -ld *
+#1557518959
+ls -ld *
+#1557518981
+ld -ld testing/1/2/3
+#1557518993
+ls -ld testing/1/2/3
+#1557519026
+pwd
+#1557519033
+cd /tmp
+#1557519037
+pwd
+#1557519087
+cd
+#1557519089
+pwd
+#1557519313
+la
+#1557519315
+ls
+#1557519361
+ls /home/hzheng62/testing/1/2/3
+#1557519367
+echo
+#1557519382
+echo testing/1/2/3/file1
+#1557519396
+cd testing/1/2/3
+#1557519397
+ls
+#1557519496
+ls -R testing/1
+#1557519504
+cd
+#1557519518
+ls -R testing/1
+#1557519671
+mkdir /testing/1/2/3/file1
+#1557519696
+mk /testing/1/2/3
+#1557519717
+mkdir testing/1/2/3/file1
+#1557519729
+mkdir testing/1/2/3
+#1557519752
+touch testing/1/2/3/file1
+#1557519765
+ls testing/1/2/3
+#1557519854
+echo
+#1557519858
+echo *
+#1557519891
+rm -ri d?
+#1557519909
+ls -ld testing
+#1557519920
+ls -ld
+#1557519943
+ls _R testing
+#1557519960
+ls -R testing/1
+#1557520265
+mkdir systems/part3
+#1557520383
+mkdir testing/1/2
+#1557520460
+ mkdir testing/1/2/3
+#1557520496
+mkdir testing
+#1557520516
+rmdir testing
+#1557520766
+rd
+#1557521252
+man cy
+#1557521258
+man cp
+#1557619262
+~uli101/assign1
+#1557619941
+exit
+#1557619335
+ls
+#1557619340
+ls -l
+#1557619345
+ls -ld
+#1557619387
+cacademo
+#1557619441
+ll / | lolcat
+#1557619914
+lsb_release -a
+#1557621079
+exit
+#1557628820
+~uli101/assign1
+#1557709816
+cd ~uli101/assign1
+#1557709829
+cd ~uli101
+#1557709833
+ls
+#1557709850
+sudo ls -l
+#1557709894
+echo *
+#1557709901
+ls -la
+#1557709914
+exit
+#1557712216
+~uli101/assign1
+#1557712379
+pwd
+#1557712406
+mkdir sample_dir
+#1557712424
+cd sample_dir
+#1557712482
+mkdir cambridge faculty markham oxford stenton
+#1557712506
+cd cambridge
+#1557712530
+mkdir library security
+#1557712538
+cd security
+#1557712588
+touch annex parking
+#1557712636
+cd ../../markham
+#1557712639
+pwd
+#1557712668
+touch annex
+#1557712690
+cd ../oxford
+#1557712692
+pwd
+#1557712708
+mkdir programming
+#1557712727
+touch outline.doc
+#1557712763
+touch programming/report.pdf
+#1557712768
+ls
+#1557712784
+cd
+#1557712785
+pwd
+#1557712805
+touch history.online
+#1557712809
+ls -R
+#1557712848
+cd stenton
+#1557712856
+pwd
+#1557712923
+cd sample_dir/stenton
+#1557712939
+mkdir lib_arts
+#1557712949
+cd lib_arts
+#1557712953
+pwd
+#1557713001
+touch english.txt match.doc
+#1557713006
+cd
+#1557713008
+pwd
+#1557713047
+mv history.online sample_dir
+#1557713083
+~uli101/2019b/showtree ~/sample_dir
+#1557713300
+pwd
+#1557713925
+ls
+#1557714054
+cd sample_dir
+#1557714063
+cd cambridge
+#1557714070
+pwd
+#1557714082
+cd ..
+#1557714083
+pwd
+#1557714090
+cd ..
+#1557714108
+cd sample_dir/cambridge
+#1557714110
+pwd
+#1557714119
+cd ../../
+#1557714124
+pwd
+#1557714279
+cd sample_dir/cambridge
+#1557714282
+cd~
+#1557714286
+cd ~
+#1557714292
+pwd
+#1557714297
+cd sample_dir/cambridge
+#1557714299
+pwd
+#1557714304
+cd ~
+#1557714312
+cd sample_dir/cambridge
+#1557714315
+cd ~/
+#1557714319
+pwd
+#1557714566
+Your current directory is cambridge. Move to your home directory using a relative pathname (don't
+#1557714570
+use cd by itself for this move):
+#1557714573
+Your current directory is cambridge. Move to your home directory using a relative pathname (don't
+#1557714575
+use cd by itself for this move):
+#1557714625
+cleae
+#1557714628
+clear
+#1557714657
+cd sample_dir/cambridge
+#1557714660
+pwd
+#1557714720
+cd ../..
+#1557714723
+pwd
+#1557843732
+df
+#1557843749
+df -h
+#1557843856
+df -T
+#1557844125
+ls -R
+#1557844130
+df
+#1557844148
+df -T
+#1557844262
+w
+#1557844275
+whoami
+#1557844278
+who
+#1557844280
+w
+#1557844372
+ls
+#1557844399
+file file5
+#1557844614
+touch new-file
+#1557844615
+ls
+#1557844621
+ls -l
+#1557844638
+mv new-file *
+#1557844641
+ls -l
+#1557844710
+cd
+#1557844713
+ls -l
+#1557844820
+touch 1.2.3
+#1557844826
+ls -l
+#1557844846
+mv 1.2.3 *
+#1557844862
+ls -l
+#1557844886
+touch 1.2
+#1557844892
+mv 1.2 1.3
+#1557844895
+ls -l
+#1557845004
+ls -l sample_dir
+#1557845026
+cd *
+#1557845040
+cd 1.3
+#1557845134
+cd s
+#1557845311
+man df
+#1557845455
+man man
+#1557845490
+man 9 man
+#1557845496
+man -9 man
+#1557845507
+man 3 printf
+#1557845714
+man 9 man
+#1557845717
+ls -l
+#1557845765
+mv 1.3 '*'
+#1557845769
+ls -l
+#1557845820
+man 1 man
+#1557845871
+man 
+#1557845878
+man man
+#1557846079
+man df
+#1557846204
+man  prints
+#1557846209
+man  printf
+#1557846245
+ls -l
+#1557846251
+cd
+#1557846255
+ls -a
+#1557846260
+touch 1
+#1557846278
+vi 1
+#1557846395
+cat 1
+#1557846423
+more 1
+#1557846427
+less
+#1557846431
+less 1
+#1557846722
+pwd
+#1557846726
+ls -l
+#1557846737
+rm '*'
+#1557846739
+ls
+#1557846745
+cat 1
+#1557846755
+less 1
+#1557846856
+more 1
+#1557846866
+less 1
+#1557846882
+tail -3
+#1557846910
+tail -3 1
+#1557846920
+head -3 1
+#1557846928
+sort 1
+#1557846935
+uniq 1
+#1557846940
+cat 1
+#1557846955
+less 1
+#1557846984
+file
+#1557846988
+file 1
+#1557847001
+mv 1 1.jpg
+#1557847009
+file 1
+#1557847016
+file 1.jpg
+#1557847025
+df -T
+#1557847034
+df -h
+#1557847061
+pwd
+#1557847065
+ls -l
+#1557847077
+ls sample_dir -l
+#1557847096
+~uli101/assign1
+#1557863476
+mkdir w01
+#1557863483
+cd w01
+#1557863930
+ls
+#1557864026
+gcc w1_lab.c -o wl
+#1557864062
+wl
+#1557864249
+gcc w1_lab.c -o w1
+#1557864279
+ls
+#1557864287
+pwd
+#1557864293
+ls -l
+#1557864311
+cd w1
+#1557864338
+ls
+#1557864346
+gcc w1_lab.c -o w1
+#1557864350
+w1
+#1557864630
+ls
+#1557864641
+df
+#1557864658
+ls -l
+#1557864784
+gcc w1_lab.c -o w2
+#1557864786
+w2
+#1557864872
+w1
+#1557865353
+ls
+#1557865380
+~gayan.gamage/submit 144w1/SKK_lab
+#1557865902
+w
+#1557865907
+whoami
+#1557865936
+pico w1
+#1557866046
+pico w1_lab.c
+#1557866453
+less 1
+#1557866673
+gcc w1_lab.c
+#1557866674
+ls
+#1557866676
+a
+#1557866686
+ws
+#1557866743
+rm a.out
+#1557866744
+ls
+#1557866762
+cat output.txt
+#1557866777
+cat error.txt
+#1557866795
+cat lab_output.txt
+#1557883523
+cd w01
+#1557883525
+ls
+#1557883596
+gcc w1_home.c w2 -o
+#1557883606
+gcc w1_home.c -o w2
+#1557883608
+ls
+#1557883611
+w2
+#1557883669
+pico reflect.txt
+#1557883731
+~gayan.gamage/submit 144w1/skk_home
+#1557883803
+~gayan.gamage/submit 144w1/SKK_home
+#1557890531
+ls
+#1557890554
+gcc w1_home.c -o w2
+#1557890556
+w2
+#1557890563
+gcc w1_home.c -o w3
+#1557890566
+w3
+#1557890573
+~gayan.gamage/submit 144w1/SKK_home
+#1557960326
+tree
+#1557960392
+rm -ri 1.2.3
+#1557960400
+pwd
+#1557960405
+ls
+#1557960438
+rm -ir /smaple_dir/1.2.3
+#1557960453
+cd smaple_dir
+#1557960497
+ls
+#1557960504
+cd w01
+#1557960514
+cd 
+#1557960516
+ls
+#1557960524
+cd sample_dir
+#1557960527
+ls
+#1557960549
+rm 1.2.3
+#1557960559
+rm file5
+#1557960561
+ls
+#1557960566
+tree
+#1557960599
+~uli101/assign1
+#1557960610
+cd
+#1557960614
+cd w01
+#1557960616
+w1
+#1557960617
+ls
+#1557960620
+w2
+#1557960623
+w3
+#1557960626
+ws
+#1557962051
+tftp
+#1557963796
+tree
+#1557964245
+quit
+#1557964249
+exit
+#1557967253
+tree
+#1557967525
+~uli101/assign1
+#1557967627
+tree
+#1557967669
+pwd
+#1557967741
+tree
+#1557967749
+tftp
+#1557967756
+quit
+#1557967762
+exit
+#1557968024
+tree
+#1557968054
+~uli101/assign1
+#1557963293
+tree
+#1557972347
+ls
+#1557972351
+pwd
+#1557972356
+tree
+#1557972392
+rm -r ../w2
+#1557972416
+rm -r w01/w2
+#1557972419
+tree
+#1557972464
+rm -r w01/w[1-2]
+#1557972466
+tree
+#1557972486
+rm -r w01/w[1-3]
+#1557972508
+gcc w1_lab.c -o w1
+#1557972518
+cd w01
+#1557972522
+gcc w1_lab.c -o w1
+#1557972526
+w1
+#1557972538
+gcc w1_home.c -o w2
+#1557972540
+w2
+#1557972618
+~gayan.gamage/submit 144w1/SKK_home
+#1557972652
+cat reflect.txt
+#1557972680
+cat w1_home.c
+#1557973545
+ls
+#1557973549
+tree
+#1557973559
+ws
+#1557973566
+cd /
+#1557973568
+pwd
+#1557973571
+cd
+#1557973573
+pwd
+#1557973576
+ls
+#1557973585
+cd sample_dir
+#1557973587
+ls
+#1557973668
+who
+#1557973681
+whoami
+#1557973682
+w
+#1557973690
+pico
+#1557973714
+pico newFile.txt
+#1557974102
+
+#1557974107
+cd
+#1557974109
+ls
+#1557974116
+cd /
+#1557974117
+ls
+#1557974133
+cd
+#1557974137
+ls
+#1557974179
+pico newFile.txt
+#1557974246
+cat newFile.txt
+#1557974254
+ls
+#1557974273
+sort newFile.txt
+#1557974288
+uniq newFile.txt
+#1557974300
+cat newFile.txt
+#1557974318
+head -8
+#1557974366
+head -8 newFile.txt
+#1557974380
+more newFile.txt
+#1557974399
+less newFile.txt
+#1557974550
+ls
+#1557974571
+del newFile.txt
+#1557974589
+rm -r newFile.txt
+#1557974591
+ls
+#1557974597
+pw
+#1557974600
+pwd
+#1558027442
+clear
+#1558027446
+w
+#1558021313
+ls
+#1558021319
+tree
+#1558021326
+pico
+#1558021342
+less sample_dir
+#1558021697
+cal 2 2025
+#1558021704
+cal 2019
+#1558021707
+cal
+#1558021710
+date
+#1558021951
+mkdir philip
+#1558021954
+cd pilip
+#1558021955
+pwd
+#1558021959
+ls
+#1558021970
+cd philip
+#1558021978
+touch a file
+#1558021979
+ls
+#1558021991
+rm a file
+#1558021993
+ls
+#1558022000
+touch aFile
+#1558022043
+ls -i aFile
+#1558022272
+mv aFile ../music
+#1558022274
+ls
+#1558022279
+cd
+#1558022281
+ls
+#1558022293
+ls -i music
+#1558022477
+mv music bFile
+#1558022484
+ls -i bFile
+#1558023370
+vi
+#1558023410
+ls
+#1558023428
+mv bFile philip
+#1558023429
+ls
+#1558023432
+cd philip
+#1558023435
+ls
+#1558023449
+ls -bFile
+#1558023457
+ls -i bFile
+#1558023505
+vi
+#1558023645
+ls
+#1558023655
+vi a1.c
+#1558024007
+cat a1.c
+#1558024191
+less a1.c
+#1558024283
+ls
+#1558024547
+vi bFile
+#1558024783
+file
+#1558024791
+find a.c
+#1558025052
+tree
+#1558025058
+tree home
+#1558025069
+cd
+#1558025075
+tree home
+#1558025079
+cd /
+#1558025084
+tree home
+#1558025106
+ir
+#1558025107
+ls
+#1558025117
+tree /
+#1558025177
+cd
+#1558025180
+pwd
+#1558025185
+tree home
+#1558025193
+tree /home
+#1558025221
+tree /hzheng62
+#1558025252
+tree /home/hzheng62
+#1558026761
+cd
+#1558026817
+cp -r .home/john.selmys/.vim . 
+#1558026829
+cp -r /home/john.selmys/.vim . 
+#1558026832
+ls
+#1558026850
+ls .vim
+#1558026923
+ls .vim/colors/
+#1558026951
+cd .vim/colors
+#1558026952
+ls
+#1558026974
+cd 
+#1558026977
+ls
+#1558026990
+ls -a
+#1558027113
+vi a1.c
+#1558122547
+~uli101/assign1
+#1558446317
+vi
+#1558446479
+vi 123
+#1558446582
+nl 123
+#1558446588
+less 123
+#1558446629
+color scheme
+#1558446714
+vi 123
+#1558446808
+ls 123
+#1558446811
+ls
+#1558446823
+less a1.c
+#1558446857
+vi a1.c
+#1558446971
+gcc a1.c -o a1
+#1558446980
+vi a1.c
+#1558447050
+gcc a1.c -o a1
+#1558447053
+a1
+#1558447477
+vi a1.c
+#1558448538
+find
+#1558448543
+file
+#1558448589
+file /
+#1558448598
+find /
+#1558448840
+pwd
+#1558448845
+ls
+#1558448854
+find /a1
+#1558448866
+find / -name a1
+#1558448897
+find .  -name a1
+#1558449374
+which ls
+#1558450197
+which echo
+#1558450222
+ls /usr/bin/echo
+#1558450237
+echo a*
+#1558450472
+bash
+#1558450476
+ls
+#1558450483
+ls 'a1'
+#1558450494
+echo 'a1'
+#1558450513
+ls a*
+#1558450521
+ls 'a*'
+#1558452082
+;4~;4~;3~;3~
+#1558452084
+;3~
+#1558452091
+;4~
+#1558452404
+123  a1  a1.c  philip  sample_dir  w01123  a1  a1.c  philip  sample_dir  w01123  a1  a1.c  philip  sample_dir  w01123  a1  a1.c  philip  sample_dir  w01
+#1558452415
+123  a1  a1.c  philip  sample_dir  w01
+#1558452421
+vi
+#1558452201
+~uli101/assign
+#1558452207
+~uli101/assign1
+#1558469055
+cd w02
+#1558469058
+ls
+#1558469088
+gcc cashRegister.c -o cashRegister
+#1558469097
+cashRegister
+#1558469158
+~gayan.gamage submit 144w1 SKK_lab
+#1558469192
+~gayan.gamage submit 144w2  SKK_lab
+#1558469212
+cd
+#1558469216
+~gayan.gamage submit 144w2  SKK_lab
+#1558469223
+pwd
+#1558469226
+cd pwd
+#1558469240
+pwd
+#1558469246
+cd /
+#1558469248
+pwd
+#1558469254
+~gayan.gamage submit 144w2  SKK_lab
+#1558469830
+cd w02
+#1558469833
+cd
+#1558469836
+pwd
+#1558469838
+ls
+#1558469842
+cd w02
+#1558469844
+ls
+#1558469858
+~gayan.gamage/submit 144w2/SKK_lab
+#1558472279
+cd w02-home
+#1558472280
+ls
+#1558472285
+pwd
+#1558472287
+ls
+#1558472301
+cd w02-home
+#1558472347
+cd ..
+#1558472353
+cd w02-home
+#1558469360
+cd w02
+#1558469398
+gcc cashRegister.c -o a2
+#1558469402
+a2
+#1558469513
+~gayan.gamage submit 144w2/SKK_lab
+#1558469527
+[hzheng62@mtrx-node01pd w02]$ ~gayan.gamage submit 144w2 SKK_lab
+#1558469566
+ ~gayan.gamage/submit 144w2/SKK_lab
+#1558472394
+ls
+#1558472431
+gcc cashRegister_home.c -o 1
+#1558472433
+1
+#1558472476
+~gayan.gamage/submit 144w2/SKK_home
+#1558472652
+gcc cashRegister.c -o 2
+#1558472654
+2
+#1558472694
+gcc cashRegister.c -o 2
+#1558472696
+2
+#1558473837
+gcc -wall cashRegister.c -o 3
+#1558473918
+gcc -Wall cashRegister.c -o 3
+#1558473930
+gcc cashRegister.c -o ws
+#1558473935
+ws
+#1558487503
+cd w02
+#1558487505
+ls
+#1558487529
+gcc -Wall cashRegister.c -o ws
+#1558487532
+ws
+#1558487580
+~gayan.gamage/submit 144w2/SKK_home
+#1558487683
+cat output.txt
+#1558487809
+gcc -Wall cashRegister.c -o ws
+#1558487811
+ws
+#1558487826
+~gayan.gamage/submit 144w2/SKK_home
+#1558487975
+gcc -Wall cashRegister.c -o ws
+#1558487980
+ws
+#1558487991
+~gayan.gamage/submit 144w2/SKK_home
+#1558488064
+gcc -Wall cashRegister.c -o ws
+#1558488069
+ws
+#1558488078
+~gayan.gamage/submit 144w2/SKK_home
+#1558488226
+ls
+#1558548875
+cd ~gayan.gamage
+#1558548879
+ls
+#1558548887
+pwd
+#1558548893
+cd
+#1558548895
+pwd
+#1558548900
+ls
+#1558548916
+cd philip
+#1558548918
+ls
+#1558548948
+rm ~/philip -ri
+#1558548967
+ls
+#1558548990
+pwd
+#1558548996
+ls
+#1558549001
+cd
+#1558549003
+ls
+#1558549016
+mkdir ~/philip
+#1558549020
+ls
+#1558549035
+rm philip
+#1558549048
+rm -r philip
+#1558549051
+ls
+#1558549173
+mkdir tmp
+#1558549175
+ls -l
+#1558549179
+ls -ld
+#1558549211
+a1
+#1558549264
+rm *1*
+#1558549268
+ls
+#1558549272
+cd w02
+#1558549274
+ls
+#1558549278
+ws
+#1558549316
+cd
+#1558549318
+ls
+#1558549334
+mkdir -p tmp/subtmp
+#1558549338
+cd tmp
+#1558549341
+ls
+#1558549342
+cd
+#1558549358
+mkdir tmp1/subtmp
+#1558550178
+ls
+#1558550186
+mkdir ~/philip
+#1558550191
+ls
+#1558550201
+cd philip
+#1558550202
+ls
+#1558550210
+cd
+#1558550211
+ls
+#1558550225
+rm -r philip
+#1558550227
+ls
+#1558550233
+rm tmp
+#1558550241
+rm -r tmp
+#1558550244
+ls
+#1558550400
+echo
+#1558550406
+echo *
+#1558550414
+echo /*
+#1558550426
+echo \*
+#1558550438
+echo \\
+#1558550650
+who
+#1558550653
+w
+#1558550656
+whoami
+#1558550662
+we=us
+#1558550672
+echo $we
+#1558550684
+echo \$we
+#1558550699
+echo "$we"
+#1558550710
+echo '$we'
+#1558551991
+ls -l
+#1558551995
+ls -ld
+#1558552059
+ls -a
+#1558552066
+ls -A
+#1558552565
+cd
+#1558552589
+cat .bash_profile
+#1558553709
+vi
+#1558554982
+VI 1
+#1558555267
+vi 1
+#1558555480
+~uli101/assign2
+#1558557521
+ls
+#1558557523
+date
+#1558557526
+vi 1
+#1558627541
+date
+#1558627546
+cal 5
+#1558627552
+cal may
+#1558627557
+cal May
+#1558627563
+cal MAY
+#1558627568
+cal
+#1558627584
+cal 2019
+#1558627603
+port
+#1558627726
+find -size 1
+#1558627734
+date
+#1558627735
+cal
+#1558628071
+cal 5
+#1558628090
+cal -s
+#1558628318
+cal 5 2019
+#1558628331
+cal 23 5 2019
+#1558628341
+cal 12 5 2019
+#1558628346
+cal 5
+#1558628420
+clear
+#1558629330
+w
+#1558629393
+cd ~/
+#1558629396
+pwd
+#1558630235
+ks
+#1558630262
+ps
+#1558630273
+ksh
+#1558630302
+ps
+#1558630307
+csh
+#1558630311
+ksh
+#1558627971
+man -cal
+#1558627979
+man cal
+#1558628123
+cal 5
+#1558628128
+cal -5
+#1558628142
+cal -3
+#1558628163
+cal -m
+#1558628176
+man cal
+#1558628414
+clear
+#1558629578
+w
+#1558629582
+who
+#1558629734
+ls
+#1558629744
+echo w02
+#1558629758
+echo ~/w02
+#1558629776
+echo ~uli101/wwwwkhdsa
+#1558629929
+ls ../../
+#1558629934
+pwd
+#1558629984
+ls
+#1558629988
+cd ..
+#1558629990
+ls
+#1558629995
+cd ..
+#1558629996
+ls
+#1558630014
+cd ..
+#1558630015
+ls
+#1558630019
+pwd
+#1558630031
+cd home
+#1558630033
+pwd
+#1558630042
+cd hzheng62
+#1558630043
+pwd
+#1558630049
+cd w02
+#1558630052
+pwd
+#1558630063
+ls ..
+#1558630072
+ls ../../
+#1558630226
+csheel
+#1558630228
+csh
+#1558630774
+echo "~"
+#1558630786
+echo ~
+#1558630799
+age=4
+#1558630817
+echo "$age"
+#1558631187
+~uli101/marks -s k
+#1558631199
+cd
+#1558631205
+~uli101/marks -s k
+#1559053576
+bc
+#1559054070
+vi a.c
+#1559054209
+ls
+#1559054215
+ls 1
+#1559054220
+cat 1
+#1559054228
+touch 1
+#1559054232
+cat 1
+#1559054280
+man ascii
+#1559055181
+ls
+#1559055185
+cd w02
+#1559055187
+ls
+#1559055228
+mkdir w03
+#1559055230
+ls
+#1559055246
+rmdir w03
+#1559055247
+ls
+#1559055251
+cd ..
+#1559055253
+ls
+#1559055260
+mkdir w03
+#1559055262
+ls
+#1559055500
+more 1
+#1559055751
+cat 1
+#1559055754
+vi
+#1559055763
+ls
+#1559055768
+cd w02
+#1559055770
+ls
+#1559055775
+ws
+#1559055803
+vi cashRegister.c
+#1559055972
+time
+#1559055985
+date
+#1559055999
+cal
+#1559056258
+less cashRegister.c
+#1559056297
+gcc cashRegister.c -o 1
+#1559056298
+ls
+#1559056300
+1
+#1559056332
+rm 1
+#1559056334
+ls
+#1559056335
+1
+#1559056392
+,.,,..,.,.,;';'{[]::"l;';',..,....////
+.
+
+
+#1559056407
+,
+#1559056409
+.
+#1559056413
+,.
+#1559056418
+/
+#1559056434
+cd /
+#1559056435
+ls
+#1559056438
+pwd
+#1559056443
+cd
+#1559056445
+pwd
+#1559071741
+ls
+#1559071746
+cd w03
+#1559071748
+ls
+#1559071769
+gcc temps.c -o ts
+#1559071772
+ts
+#1559071863
+~gayan.gamage/submit 144w3/SKK_lab
+#1559074506
+gcc temps.c -o ts
+#1559074511
+ts
+#1559074604
+~gayan.gamage/submit 144w3/SKK_home
+#1559075174
+ls
+#1559075184
+cat reflection.txt
+#1559075187
+ls
+#1559075202
+reflect.txt
+#1559075217
+cat reflect.txt
+#1559087662
+~gayan.gamage/submit 144w3/SKK_home
+#1559087705
+ls
+#1559087709
+cd w03
+#1559087713
+~gayan.gamage/submit 144w3/SKK_home
+#1559093784
+cd w03
+#1559093785
+ls
+#1559093791
+~gayan.gamage/submit 144w3/SKK_home
+#1559096006
+cat home_output.txt
+#1559096046
+cat output.txt
+#1559096083
+~gayan.gamage/submit 144w3/SKK_home
+#1559096294
+cat home_output.txt
+#1559096661
+cd w03
+#1559096666
+ls
+#1559096683
+gcc temps.c -o ts
+#1559096719
+rm ?s
+#1559096721
+ls
+#1559096735
+~gayan.gamage/submit 144w3/SKK_home
+#1559096907
+gcc temps.c -o ts
+#1559096910
+ts
+#1559099974
+gcc temps.c -o ts
+#1559099976
+ts
+#1559100006
+~gayan.gamage/submit 144w3/SKK_home
+#1559100130
+cat home_output.txt
+#1559100216
+Enter the
+#1559151265
+~gayan.gamage/submit 144w3/SKK_home
+#1559151289
+cd w03
+#1559151291
+ls
+#1559151304
+~gayan.gamage/submit 144w3/SKK_home
+#1559151507
+cat home_output.txt
+#1559151611
+~gayan.gamage/submit 144w3/SKK_home
+#1559157862
+write
+#1559157884
+w
+#1559157902
+write jyang219
+#1559177460
+~gayan.gamage/submit 144w3/SKK_home
+#1559177466
+cd w03
+#1559177469
+~gayan.gamage/submit 144w3/SKK_home
+#1559218262
+cd w03
+#1559218267
+~gayan.gamage/submit 144w3/SKK_home
+#1559218299
+cd w03
+#1559218301
+~gayan.gamage/submit 144w3/SKK_home
+#1559234192
+ls -l
+#1559234284
+cd w03
+#1559234285
+ls
+#1559234288
+ls -l
+#1559234508
+cd ..
+#1559234516
+ls -l
+#1559235057
+cd 
+#1559235058
+pwd
+#1559235074
+~uli101/assign2
+#1559235110
+~uli101/assign1
+#1559343810
+~uli101/assign2
+#1559343823
+cd  w03
+#1559343827
+ls
+#1559343836
+cat temps.c
+#1559343856
+cat reflection.txt
+#1559343859
+ls
+#1559343873
+cat reflect.txt
+#1559343897
+~gayan.gamage/submit 144w3/SKK_home
+#1559352335
+~uli101/assign1
+#1559402731
+cd w04
+#1559402734
+cd lab
+#1559402736
+ls
+#1559402762
+~gayan.gamage/submit 144w4/SKKlab
+#1559402780
+~gayan.gamage/submit 144w4/SKK_lab
+#1559402806
+gcc temps2.c -o ws
+#1559402808
+ws
+#1559403276
+gcc temps2.c -o ws
+#1559403281
+ws
+#1559403336
+cd ..
+#1559403340
+cd home
+#1559403344
+gcc temps2.c -o ws
+#1559403351
+cat reflect.txt
+#1559403368
+ws
+#1559408057
+~gayan.gamage/submit 144w3/SKK_home
+#1559408064
+cd w03
+#1559408067
+~gayan.gamage/submit 144w3/SKK_home
+#1559408071
+cd w03
+#1559408078
+cd ../w03
+#1559408081
+pwd
+#1559408084
+ls
+#1559408102
+cd ../../w03
+#1559408104
+ls
+#1559408116
+~gayan.gamage/submit 144w3/SKK_home
+#1559432854
+ls
+#1559432864
+cd w04
+#1559432869
+cd lab
+#1559432884
+gcc temps2.c -o ws
+#1559432886
+ws
+#1559433067
+cd ../home
+#1559433079
+gcc temps2.c -o ws
+#1559433092
+cat reflect.txt
+#1559433142
+ws
+#1559656399
+~uli101/assign2
+#1559660460
+ vi
+#1559660539
+cat afile
+#1559660541
+ls
+#1559660554
+ls -l
+#1559660564
+nmask
+#1559660600
+w
+#1559660606
+whoami
+#1559660610
+nmask
+#1559660703
+umask
+#1559660749
+mkdir abcd
+#1559660757
+ls -l
+#1559660781
+chmod 777 afile
+#1559660789
+ls -l afile
+#1559660798
+chmod 777 
+#1559660803
+chmod 777 abcd
+#1559660808
+ls -l
+#1559660871
+chmod g-w-x afile
+#1559660875
+ls -l
+#1559661004
+chmod u-rwx g+w afile
+#1559661022
+chmod u-rwx  afile
+#1559661027
+ls -l
+#1559661056
+chmod g+w afile
+#1559661067
+ls
+#1559661070
+ls -l
+#1559661087
+chmod 777 afile
+#1559661090
+ls -l
+#1559661102
+head -3
+#1559661126
+head -3 afile
+#1559661131
+cat head
+#1559661138
+cat afile
+#1559661149
+tail -3 afile
+#1559661169
+head -3 > afile3
+#1559661191
+head -3 afile> afile3
+#1559661199
+cat afile3
+#1559661222
+cat c1,3
+#1559661242
+cat -c1,3 af ile
+#1559661247
+cat -c1,3 afile
+#1559661265
+cut -c1,3 afile
+#1559661276
+cat afile
+#1559661284
+cut afile
+#1559661311
+cut --help
+#1559661656
+wc -l afile
+#1559661665
+wc -c afile
+#1559661688
+tr o A afile
+#1559661696
+tr o A <afile
+#1559661712
+cat afile
+#1559661731
+cut c3 afile
+#1559661741
+cut -c3 afile
+#1559677307
+cd w04
+#1559677309
+cd lab
+#1559677310
+ls
+#1559677358
+~gayan.gamage/submit 144w4/SKK_lab
+#1559677463
+~gayan.gamage/submit 144w4/SKK_home
+#1559677472
+cd  ../home
+#1559677476
+~gayan.gamage/submit 144w4/SKK_home
+#1559699677
+ls
+#1559699692
+mkdir w05
+#1559699700
+cd w05
+#1559699701
+ls
+#1559699710
+mkdir lab
+#1559699715
+mkdir home
+#1559699928
+cd ..
+#1559699929
+ls
+#1559699934
+cd w05
+#1559699943
+cd home
+#1559699975
+gcc emp_athome.c -o ws
+#1559700175
+ws
+#1559700395
+gcc emp_athome.c -o ws
+#1559700414
+cd w05
+#1559700420
+cd home
+#1559700421
+ls
+#1559700428
+ws
+#1559700470
+gcc emp_athome.c -o ws
+#1559700472
+ws
+#1559700500
+cd lab
+#1559700503
+cd ..
+#1559700505
+cd lab
+#1559700525
+gcc emp_atlab.c -o ws
+#1559700537
+ls
+#1559700548
+gcc emp_inlab.c -o ws
+#1559700551
+ws
+#1559700585
+gcc emp_inlab.c -o ws
+#1559700587
+ws
+#1559704120
+~gayan.gamage/submit 144w5/SKK_lab
+#1559706027
+w
+#1559788441
+cd w05
+#1559788445
+cd home
+#1559788446
+ls
+#1559788469
+gcc emp_athome.c -o ws
+#1559788473
+ws
+#1559840145
+tree
+#1559840157
+cd sample_dir
+#1559840165
+tree
+#1559840199
+mkdir a1/sub_a1
+#1559840202
+tree
+#1559840242
+mkdir a1/sub_2/sub_sub_1
+#1559840253
+mkdir a1/sub_2/sub_sub_1 -p
+#1559840256
+tree
+#1559840289
+rm -ri a1
+#1559840303
+tree
+#1559840337
+~uli101/assign1
+#1559841550
+~uli101/assign2
+#1560021801
+ls
+#1560021811
+rm 1
+#1560021816
+rm abcd
+#1560021833
+rm -r abdc
+#1560021849
+rm -ri abcd
+#1560021866
+ls
+#1560021872
+rm afile
+#1560021882
+rm a*
+#1560021883
+ls
+#1560021913
+cp -r ~uli101/so19b/VI
+#1560021930
+cp -r ~uli101/so19b/VI .
+#1560021971
+cp -r ~uli101/2019b/VI .
+#1560021989
+cd VI
+#1560021990
+ls
+#1560021999
+tree
+#1560022003
+pwd
+#1560022147
+vi 6vimtutor
+#1560022945
+:wq
+#1560022950
+vi 6vimtutor
+#1560023218
+cp -r ~uli101/2019b/VI ../
+#1560023221
+ls
+#1560023231
+vim 6vimtutor
+#1560032607
+ls
+#1560032612
+cd 
+#1560032613
+ls
+#1560032625
+ls -a
+#1560032644
+ls -l
+#1560033451
+ls -la
+#1560034517
+cp -r ~uli101/2019b/VI ./VI
+#1560034526
+cd VI
+#1560034529
+cd
+#1560034536
+cd /VI/VI
+#1560034543
+cd VI
+#1560034544
+ls
+#1560034551
+cd VI
+#1560034557
+ls
+#1560034568
+vim 6vimtutor
+#1560034837
+cd ..
+#1560034838
+ls
+#1560034842
+vim 6vimtutor
+#1560035062
+~uli101/assign2
+#1560036745
+umask
+#1560036803
+umask 0777
+#1560036809
+umask
+#1560036817
+umask 444
+#1560036822
+umask
+#1560049946
+whoami
+#1560049954
+who
+#1560050071
+who am i
+#1560050265
+~uli101/assign2
+#1560051192
+cd
+#1560051196
+ls
+#1560051202
+more today
+#1560051255
+more june
+#1560051563
+tr
+#1560051603
+tr "[a-z]" "[A-Z] <june
+
+
+#1560051639
+cat june
+#1560051647
+more june
+#1560051665
+tr "[a-z]" "[A-Z] <june
+
+
+asdfaga
+gasfa
+
+#1560051696
+cal >june
+#1560051700
+cat june
+#1560051709
+ls
+#1560051719
+ls -l
+#1560051738
+chmod 777 june
+#1560051741
+ls -l
+#1560051754
+umask 777
+#1560051762
+cat june
+#1560051774
+tr "[a-z]" "[A-Z] <june
+
+
+asdfaga
+gasfa
+
+
+
+#1560051834
+tr "a-z" "A-Z" <june
+#1560052620
+ls
+#1560052628
+cat caltest
+#1560052636
+tr "a-z" "A-Z" <june
+#1560052746
+ls
+#1560052753
+cat caltest
+#1560052906
+cal 8 1962 2>caltest
+#1560052915
+cat caltest
+#1560052927
+ls -l
+#1560052946
+chmon 0000 caltest
+#1560052955
+chmod 0000 caltest
+#1560052962
+cat caltest
+#1560052977
+chmod 0777 caltest
+#1560052980
+cat caltest
+#1560052995
+cal 8 1962 >caltest
+#1560052998
+cat caltest
+#1560053010
+umask 000
+#1560053660
+cal 2019 | head | tail -5
+#1560053684
+cal 2019 | head -15
+#1560053689
+cal 2019 | head | tail -5
+#1560053709
+ls
+#1560053716
+cal 2019 | head 
+#1560053727
+cal 2019 | head -5
+#1560053732
+cal 2019 | head | tail -5
+#1560053743
+cal 2019 | head -7| tail -5
+#1560053963
+ls -l
+#1560055113
+ls | more
+#1560055135
+ls /etc | more
+#1560055163
+ls /etc | less
+#1560055286
+ls /etc | morecat
+#1560055291
+cat threelines | head -2|tail -1
+#1560055302
+ head -2|tail -1
+#1560055340
+head -2 threelines |tail -1
+#1560055438
+more errors
+#1560055442
+ls
+#1560055917
+cat numbers
+#1560055919
+ls
+#1560056336
+cat cars
+#1560056340
+ls
+#1560056356
+cd
+#1560056358
+ls
+#1560056365
+cat cars
+#1560056432
+ls -l
+#1560056458
+cd
+#1560056465
+pwd
+#1560056473
+ls -l
+#1560056478
+ls -la
+#1560056761
+umask 777
+#1560056785
+~uli101/assign2
+#1560022708
+tree
+#1560022718
+cd vi
+#1560022722
+cd VI
+#1560022746
+vi 6vimtutor
+#1560022971
+ls
+#1560022978
+vi 1basics
+#1560030056
+~uli101/assign1
+#1560086595
+ls -l
+#1560086609
+cd VI
+#1560086610
+ls
+#1560086679
+ls -l
+#1560086689
+cd ..
+#1560086691
+ls -l
+#1560087249
+touch 1
+#1560087252
+ls
+#1560087255
+ls -l
+#1560087264
+ln 1 11
+#1560087270
+ls -l
+#1560087284
+ln 11 111
+#1560087290
+ls -l
+#1560087313
+ln -s 111 222
+#1560087321
+vi 1
+#1560087342
+cat 111
+#1560087351
+ls -l
+#1560087356
+cat 222
+#1560087379
+rm [1]*
+#1560087384
+ls -l
+#1560087393
+cat 222
+#1560087407
+mv june 111
+#1560087411
+cat 222
+#1560087417
+ls -l
+#1560088569
+ls -l ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1560088936
+ls -l
+#1560088955
+cd  ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1560088959
+ls -l
+#1560088964
+cd ..
+#1560088968
+ls -l
+#1560088983
+cd  ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1560088984
+ls
+#1560089030
+cd
+#1560089031
+pwd
+#1560089034
+ls
+#1560089040
+ls -l
+#1560089076
+ls -la
+#1560089466
+cd  ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1560089469
+ls -la
+#1560089512
+show
+#1560089535
+ls -s
+#1560089542
+showtree
+#1560089556
+showtree cars.link
+#1560089708
+./showtree
+#1560090249
+cd
+#1560090257
+ls -l
+#1560090474
+cd ~/sample_dir2/sample_dir
+#1560090480
+ls -l
+#1560090487
+cd stenton
+#1560090489
+ls
+#1560090503
+ls -l ../marham
+#1560090527
+ls -l ../markham
+#1560090827
+cd
+#1560090841
+cd ~/sample_dir2/sample_dir
+#1560090847
+cd stenton
+#1560090861
+ls -ld ../markham
+#1560090885
+ls -l -d ../markham
+#1560090988
+ls -l -d ..
+#1560091003
+ls -l -d ../
+#1560091015
+pwd
+#1560091031
+ls -ld ../
+#1560091043
+ls -ld .
+#1560091056
+ls -ld ../..
+#1560086498
+~uli101/assign2
+#1560102784
+ls
+#1560102822
+cd sample_dir2/sample_dir/stenton
+#1560102853
+grep 'Bruce Byce' phone_directory
+#1560102881
+grep 'Bruce Byce' phone_directory | more 
+#1560102895
+grep 'Bruce Byce' phone_directory | more  phone_directory
+#1560102925
+ more  phone_directory
+#1560102968
+grep 'Bruce Byce' phone_directory
+#1560102978
+ more  phone_directory
+#1560103132
+grep 'BYCE BRUCE' phone_directory
+#1560105715
+man sort
+#1560105799
+sort -nk  4 stenton/gen_ed/cars2
+#1560105811
+ls
+#1560105833
+sort -nk  4 gen_ed/cars2
+#1560105839
+tre
+#1560105841
+tree
+#1560105846
+pwd
+#1560105866
+ls -l
+#1560105873
+cd ..
+#1560105876
+ls -s
+#1560105887
+cd
+#1560105888
+ls
+#1560105893
+cat 222
+#1560105911
+sort -nk  4 222
+#1560105926
+sort -n -k  4 222
+#1560105938
+sort -rn -k  4 222
+#1560105954
+sort -k -n -r  4 222
+#1560105966
+sort -k -nr  4 222
+#1560105979
+sort -k -rn  4 222
+#1560105992
+sort -krn  4 222
+#1560106000
+sort -rnk  4 222
+#1560106009
+sort -r -nk  4 222
+#1560106015
+sort -r -n -k  4 222
+#1560106025
+sort -n -r -k  4 222
+#1560106033
+sort -nr -k  4 222
+#1560106040
+sort -nrk  4 222
+#1560106508
+man cut
+#1560107057
+man wc
+#1560108609
+ps
+#1560108689
+ps f -f
+#1560108856
+pstree
+#1560108873
+pstree -A hzheng62
+#1560108930
+pstree -A
+#1560108942
+pstree
+#1560109558
+tail -f cars
+#1560109575
+pwd
+#1560109596
+cp ~uli101/2019b/cars .
+#1560109598
+ls
+#1560109606
+tail -f cars
+#1560109628
+head cars
+#1560109644
+cat cars
+#1560109666
+tail cars
+#1560109710
+ls &
+#1560109728
+tail -f cars
+#1560109740
+man tail
+#1560109791
+tail -f cars &
+#1560109943
+job
+#1560109947
+jobs
+#1560110015
+fg %2
+#1560110062
+jobs
+#1560110100
+bg %2
+#1560110109
+jobs
+#1560110133
+kill %3
+#1560110135
+jobs
+#1560110281
+kill -SIGTSTP %1
+#1560110288
+JOBS
+#1560110291
+jobs
+#1560110382
+kill %1 %2
+#1560110390
+jobs
+#1560111103
+kill %5 %4
+#1560111106
+jobs
+#1560111116
+bg %2
+#1560111126
+fg %2
+#1560111147
+tail -f cars
+#1560111155
+jobs
+#1560111166
+tail -f cars &
+#1560111177
+jobs
+#1560111184
+tail -f cars
+#1560111194
+tail -f cars &
+#1560111200
+jobs
+#1560111208
+ps
+#1560111214
+pstree
+#1560123741
+cp -r ~uli/2019b .
+#1560123752
+cp -r ~uli101/2019b .
+#1560123763
+cp -r ~uli101/2019b/VI
+#1560123786
+cp -r ~uli101/2019b/VI .
+#1560124005
+cd VI
+#1560124007
+ls
+#1560124019
+vi 6vimtutor
+#1560124279
+cp -r ~uli101/2019b/VI ./uli101_assign2
+#1560124286
+cd VI
+#1560124379
+cp -r ~uli101/2019b/VI ../uli101_assign
+#1560124437
+pw
+#1560124438
+pwd
+#1560124453
+vim 6vimtutor
+#1560134849
+pwd
+#1560134864
+cp -r ~uli101/2019b/VI .
+#1560134884
+cp -r ~uli101/2019b/VI ../uli101_assign2
+#1560134957
+vim 6vimtutor
+#1560135192
+cp -r ~uli101/2019b/VI .
+#1560135225
+cp -r ~uli101/2019b/VI uli101_assign2
+#1560135228
+ls
+#1560135238
+cd VI
+#1560135251
+ls
+#1560135262
+vim 6vimtutor
+#1560123665
+~uli101/assign2
+#1560127552
+cp ~uli101/assign1 ..
+#1560131613
+umask
+#1560131626
+umask 0000
+#1560131631
+umask
+#1560131633
+pwd
+#1560131853
+cd VI
+#1560131854
+ls
+#1560131862
+cat TEST
+#1560133526
+~uli101/assign2
+#1560135037
+cd
+#1560135125
+cat june
+#1560135138
+~uli101/assign2
+#1560175068
+ls
+#1560175073
+cd VI
+#1560175081
+ls
+#1560175095
+vim 1basics
+#1560177047
+vim 2moving
+#1560181063
+vi 3cutpaste
+#1560185836
+vi 4inserting
+#1560186365
+vi 5tricks
+#1560186767
+fg
+#1560186778
+ls
+#1560186782
+fg
+#1560198789
+vi 5tricks
+#1560198814
+cd VI
+#1560198819
+vi 5tricks
+#1560198928
+fg
+#1560199262
+vi 4inserting
+#1560203154
+ls
+#1560203170
+vim 3cutpaste
+#1560203421
+vi 2moving
+#1560204132
+vi 1basics
+#1560204373
+vi 6tutors
+#1560204387
+ls
+#1560204399
+vi 6vimtutor
+#1560209456
+~uli101/assign2
+#1560261072
+ps
+#1560261075
+w
+#1560261081
+whoame
+#1560261086
+who am i
+#1560261092
+whoami
+#1560261114
+fg
+#1560261118
+bg
+#1560263203
+mail -s "greeting" hzheng62@myseneca.ca
+#1560263321
+mail -s "greeting" philemonzheng@gmail.com
+#1560263705
+mail -s "greeting" jwang471@myseneca.ca
+#1560281397
+cd w05
+#1560281398
+ls
+#1560281407
+cd lab
+#1560281409
+ls
+#1560281457
+~gayan.gamage/submit 144w5/SKK_lab
+#1560281575
+cd ../home
+#1560281581
+~gayan.gamage/submit 144w5/SKK_home
+#1560286251
+cat home_output
+#1560286254
+ls
+#1560286261
+cat home_output.txt
+#1560350634
+~uli101/assign2
+#1560351134
+ls -s
+#1560351144
+ls _l
+#1560351147
+ls -l
+#1560351190
+id
+#1560351309
+chown 111 users
+#1560351330
+chown  users 111
+#1560351345
+chown
+#1560351356
+chown --help
+#1560351396
+chgrp --help
+#1560351591
+ip
+#1560351595
+id
+#1560351618
+chown users hzheng62
+#1560360811
+umask 027
+#1560360826
+touch testing
+#1560360834
+ls -l testing
+#1560360862
+cd w01
+#1560360866
+cd w02
+#1560360868
+ls
+#1560360898
+gcc -o cashRegister.c ww
+#1560360922
+gcc  cashRegister.c -o  ww
+#1560360928
+ls
+#1560360935
+ls -l ww
+#1560360948
+umask
+#1560360969
+touch 123
+#1560360974
+ls -l 123
+#1560360991
+mv 123 ww
+#1560360992
+ls
+#1560361012
+mv ww
+#1560361013
+ls
+#1560361040
+ww
+#1560361045
+ls
+#1560361050
+ls -l
+#1560361083
+rm ww
+#1560361094
+cd
+#1560361095
+ls
+#1560361117
+cd w02
+#1560361117
+ls
+#1560362184
+umask
+#1560362192
+umask 000
+#1560362195
+usmak
+#1560362200
+umask
+#1560362207
+touch 123
+#1560362212
+ls -l 123
+#1560362229
+chmod a=rwx 123
+#1560362233
+ls -l 123
+#1560362250
+chmod a=rx 123
+#1560362253
+ls -l 123
+#1560362266
+chmod a=rwx 123
+#1560362272
+chmod a-rwx 123
+#1560362275
+ls -l 123
+#1560362283
+chmod a+rwx 123
+#1560362287
+ls -l 123
+#1560362339
+chmod a-xo-w 123
+#1560362345
+chmod a-x,o-w 123
+#1560362354
+ls -l 123
+#1560364608
+sort << eof
+word
+name
+car
+eof
+
+#1560364657
+sort << eof
+word
+name
+car
+eof
+
+#1560364657
+> text.123
+#1560364670
+ls -l text.123
+#1560364682
+cat text.123
+#1560364724
+sort << eof
+word
+name
+car
+eof
+
+#1560364737
+sort << eof
+1
+2
+3
+eof>> text.123
+eof
+
+#1560364773
+ls
+#1560364786
+rm *123*
+#1560364787
+ls
+#1560365497
+mail -s "greeting" hzheng62@myseneca.ca
+#1560365578
+lls
+#1560365583
+lpwd
+#1560365594
+ls
+#1560365600
+pwd
+#1560365601
+cd
+#1560365604
+pwd
+#1560365606
+ls
+#1560365609
+lls
+#1560365612
+lpwd
+#1560366054
+file 111
+#1560366061
+file VI
+#1560366081
+file /dev/pts/0
+#1560366733
+date < today
+#1560366735
+ls
+#1560366745
+cat today
+#1560367253
+cat cars
+#1560367260
+cat <cars
+#1560367270
+2
+#1560367473
+cal 1989 8>caltest
+#1560367625
+cal 1989 8|tee >err|<caltest
+#1560367652
+cal 1989 8|tee 2>err|>caltest
+#1560367673
+cal 1989 8>caltest
+#1560367685
+cat caltest
+#1560367697
+cal 1989 8 2>caltest
+#1560367700
+cat caltest
+#1560368003
+cal 2019 | grep er
+#1560368019
+cal 2019 | grep st
+#1560368170
+ls -l
+#1560360135
+~uli101/assign2
+#1560370844
+pwd
+#1560370846
+ls
+#1560370849
+cat 1
+#1560370879
+rm 1*
+#1560370884
+ls
+#1560370905
+rm err testing
+#1560370906
+ls
+#1560370926
+cat Assingment 1.txt
+#1560371069
+cat ULI101 Assingment 1.txt
+#1560371088
+cd
+#1560371089
+ls
+#1560371108
+cat ULI101 Assignment 1.txt
+#1560371143
+ls -l ULI101 Assignment 1.txt
+#1560371150
+ls -l
+#1560371170
+ls -l ULI101 Assignment 1.txt
+#1560442523
+head -4 filename | tail -1
+#1560442533
+head --hhelp
+#1560442538
+head --help
+#1560442784
+echo toronto >cities
+#1560442788
+ls
+#1560442794
+cat cities
+#1560442833
+touch toronto "I love toronto"
+#1560442838
+cat toronto
+#1560442928
+vi 123
+#1560442971
+cat 123
+#1560442995
+sort -n 123 >321
+#1560443000
+cat 321
+#1560443316
+sort 123 >321
+#1560443322
+cat 321
+#1560443635
+sort -n 123 >321
+#1560443637
+cat 321
+#1560448027
+echo toronto >cities
+#1560448059
+cat 123
+#1560448064
+sort -n 123 >321
+#1560448069
+echo toronto >cities
+#1560448076
+cat 321
+#1560448090
+cat cities
+#1560460514
+~gayan.gamage/submit 144w5/SKK_home
+#1560460522
+cd w05
+#1560460524
+~gayan.gamage/submit 144w5/SKK_home
+#1560460532
+cd home
+#1560460534
+ls
+#1560460543
+~gayan.gamage/submit 144w5/SKK_home
+#1560476627
+cat toronto >cities
+#1560476633
+cat cities
+#1560476644
+ls
+#1560476666
+cat toronto
+#1560476701
+rm I* tor* cit*
+#1560476702
+ls
+#1560523526
+cat 123
+#1560523535
+cat < 123
+#1560541137
+~gayan.gamage/submit 144w5/SKK_home
+#1560541144
+cd w05
+#1560541148
+cd home
+#1560541163
+cat emp_athome.c
+#1560541276
+~gayan.gamage/submit 144w5/SKK_home
+#1560547440
+tr "a-z" "A-Z"
+#1560547830
+ls
+#1560547836
+cat cars
+#1560547980
+scp cars tzhao16@matrix:.
+#1560553744
+ls -l
+#1560553777
+rm *1*
+#1560553793
+ls
+#1560560552
+ls [!1]*
+#1560560581
+ls *1*
+#1560560586
+ls
+#1560560625
+ls *0*
+#1560560662
+ls [!a]*
+#1560560676
+ls *[!a]*
+#1560560701
+ls  --help
+#1560560751
+ls *[a]*
+#1560560938
+ls
+#1560560955
+ls -l *[!a]*
+#1560560992
+ls
+#1560561050
+mkdir test
+#1560561055
+cd test
+#1560561056
+ls
+#1560561080
+touch file file1 file2 file3 file4 file5
+#1560561088
+ls -l
+#1560561095
+umask
+#1560561117
+ls
+#1560561143
+ls file[!1-4]
+#1560561178
+ls *[!1-2]*
+#1560561225
+ls file[1-4]
+#1560561235
+ls *[1-2]*
+#1560561251
+ls *[!1-2]*
+#1560561259
+ls *[!1]*
+#1560561269
+ls *[!1]
+#1560561281
+ls *[!1]*
+#1560734427
+~uli101/assign2
+#1560734606
+ls -l
+#1560734627
+ln cars cars2
+#1560734630
+ls -l
+#1560734725
+ls
+#1560734784
+ls -i
+#1560734959
+rm cars2
+#1560734964
+ls -i
+#1560735003
+cat cars
+#1560735271
+ln -s cars cars2
+#1560735274
+ls -l
+#1560735432
+rm cars2
+#1560735435
+ls -l
+#1560735694
+ls -i
+#1560735700
+ls -l
+#1560735802
+ ls -l ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1560787622
+cd w5/home
+#1560787630
+cd w05/home
+#1560787634
+cat 11
+#1560787650
+gcc 11 -o w1
+#1560787741
+gcc 11.c  -o w1
+#1560787763
+vi 11.c
+#1560787829
+gcc 11.c  -o w1
+#1560787831
+w1
+#1560788992
+w
+#1560865919
+ls -l
+#1560865922
+ls -i
+#1560865960
+vi test
+#1560869009
+vi cars
+#1560869983
+cat cars
+#1560869985
+vi cars
+#1560883931
+touch 1.a 5.a 6.a 6.ab A.txt a.txt
+#1560883932
+ls
+#1560883958
+mdir mock
+#1560883965
+mkdir mock
+#1560883969
+cd mock
+#1560883971
+ls
+#1560883996
+cp ../*.* .
+#1560883998
+ls
+#1560884004
+cd ..
+#1560884008
+ls
+#1560884016
+rm *.*
+#1560884017
+ls
+#1560884022
+cd mock
+#1560884024
+ls
+#1560884055
+ls ?[a-z]?
+#1560884287
+ls ??[a-z]
+#1560884348
+ls *a*
+#1560885153
+ls
+#1560885168
+mkdir green
+#1560885172
+ls -l
+#1560885194
+chmod rwxr-x--- green
+#1560885219
+chmod drwxr-x--- green
+#1560885278
+chmod rwxr-x--- ~/mock/green
+#1560885292
+chomod --help
+#1560885304
+chmod --help
+#1560885360
+ls -l
+#1560885405
+chmod u-x g-rx o-x green
+#1560885425
+chmod u -x g -rx o -x green
+#1560893594
+cd mock
+#1560893595
+ls
+#1560893598
+chmod u -x g -rx o -x green
+#1560893619
+chmod u-x g-rx o-x green
+#1560893629
+chmod u-x,g-rx,o-x green
+#1560892649
+ls
+#1560892654
+cd mock
+#1560892655
+ls
+#1560892942
+ls -l
+#1560892996
+chmod u-x g-rx o-x green
+#1560893010
+chmod 777 green
+#1560893014
+ls -l
+#1560893059
+chmod u=rw g= o=r green
+#1560893109
+ls -l
+#1560893224
+chmod u=rw g=r o=r green
+#1560893238
+ls -l
+#1560893284
+chmod u+x g-rwx o-wx green
+#1560893321
+chmod u=rw, g=, o=r, green
+#1560893359
+chmod u=r, g=, o=r, green
+#1560893369
+ls -l
+#1560893458
+chmod u-x, g-rwx, o-wx, green
+#1560897688
+cd mock
+#1560897696
+chmod 777 green
+#1560897700
+chmod u-x, g-rwx, o-wx, green
+#1560897721
+ls -l
+#1560897760
+chmod u+x,g-rwx o-wx green
+#1560897790
+chmod u-x,g-rwx,o-wx,green
+#1560897802
+chmod 777 green
+#1560897806
+ls -l
+#1560897824
+chmod u-x green
+#1560897838
+chmod g-rwx green
+#1560897855
+chmod o-wx green
+#1560897859
+ls -l
+#1560897883
+chmod u-x g-rwx o-wx,green
+#1560897889
+chmod 777 green
+#1560899017
+chmod u-x,g-rwx,o-wx green
+#1560899030
+ls -l
+#1560899472
+chmod 777 green
+#1560899475
+ls -l
+#1560899481
+chmod u-x,g-rwx,o-wx green
+#1560899563
+ls -l
+#1560899603
+chmod u-x, g-rwx, o-wx green
+#1560899620
+chmod u-x,g-rwx,o-wx green
+#1560899671
+ls -l
+#1560902829
+chmod 777 green
+#1560906018
+ls -l
+#1560906053
+find '1' numbers
+#1560906073
+find -c1  numbers
+#1560906088
+find -c 1  numbers
+#1560907406
+grep 1 numbers
+#1560907424
+grep -i 1 numbers
+#1560907436
+grep -in 1 numbers
+#1560907461
+cat -n numlers
+#1560907467
+cat numlers
+#1560907475
+cat -n numbers
+#1560907487
+cat -nc numbers
+#1560907503
+cat -nv numbers
+#1560907528
+grep -inv 1 numbers
+#1560907549
+grep -invc 1 numbers
+#1560907560
+grep -inc 1 numbers
+#1560907567
+grep -in 1 numbers
+#1560907595
+grep -nc 1 numbers
+#1560908503
+chmod  u=rwx,g=rx,o-r green
+#1560908510
+ls -l
+#1560908519
+chmod 777 green
+#1560908522
+ls -l
+#1560908528
+chmod  u=rwx,g=rx,o-r green
+#1560908538
+ls -l
+#1560908560
+chmod  u=rwx,g=rx,o= green
+#1560908563
+ls -l
+#1560908575
+chmod 777 green
+#1560908578
+ls -l
+#1560908587
+chmod  u=rwx,g=rx green
+#1560908590
+ls -l
+#1560908600
+chmod  u=rwx,g=rx,o= green
+#1560908601
+ls -l
+#1560909563
+vi numbers
+#1560910135
+paste  numbers numbers numbers numbers > mypaste
+#1560910140
+vi mypaste
+#1560910206
+cat mypaste
+#1560910230
+grep -f 1,3 mypaste
+#1560910247
+grep -f1 3 mypaste
+#1560910256
+grep -f1  mypaste
+#1560910288
+cat -f1 mypaste
+#1560910303
+cut -f1 mypaste
+#1560910311
+cut -f1,3 mypaste
+#1560910485
+cut -f1,3 mypaste | sort -f2
+#1560911061
+sort --help
+#1560911147
+cut -f1,3 mypaste | sort -t2
+#1560911170
+cat mypaste
+#1560911326
+cut -f1,3 mypaste | sort -t2 > out.txt  &2>>err.txt
+#1560911355
+cut -f1,3 mypaste | sort -t2 > out.txt
+#1560911373
+ls -l
+#1560911398
+cut -f1,3 mypaste | sort -t2 > out.txt  &2>err.txt
+#1560911412
+rm out.txt
+#1560911424
+ls -l
+#1560911433
+rm err.txt
+#1560911436
+ls -l
+#1560911445
+cut -f1,3 mypaste | sort -t2 > out.txt  &2>err.txt
+#1560911449
+ls -l
+#1560911466
+cat out.txt
+#1560911504
+cut -f1,3 mypaste | sort -t2 2 >err-1t.txt  &1.out-1.txt
+#1560911521
+cut -f1,3 mypaste | sort -t2 2 >err1.txt  &1.out1.txt
+#1560911542
+cut -f1,3 mypaste | sort -t2 2 >err1.txt  &1>out1.txt
+#1560911583
+ls -l
+#1560911599
+rm err*
+#1560911606
+rm out*
+#1560911610
+ls -l
+#1560911627
+cut -f1,3 mypaste | sort -t2 2 >err1.txt  &>out1.txt
+#1560911633
+ls -l
+#1560911651
+cat out1.txt
+#1560911682
+ls -l
+#1560911694
+cat out1.txt
+#1560911714
+cut -f1,3 mypaste | sort -t2 > out.txt  &2>err.txt
+#1560911718
+ls
+#1560911723
+ls-l
+#1560911728
+ls -l
+#1560911735
+cat out.txt
+#1560911761
+cut -f1,3 mypaste | sort -t2 > out.txt & 2>err.txt
+#1560911781
+| sort -t2 > out.txt & 2>err.txt
+#1560911858
+cut -f1,3 mypaste | sort -t2 > out.txt & 2>err.txt
+#1560911866
+cut -f1,3 mypaste | sort -t2 1 > out.txt & 2>err.txt
+#1560911891
+cut -f1,3 mypaste | sort -t2  > out.txt & 2>err.txt
+#1560911986
+cat out.txt
+#1560912705
+type w05
+#1560912712
+file w05
+#1560912716
+ls -s
+#1560912728
+type green
+#1560912735
+dir green
+#1560912741
+ls -l
+#1560912750
+file green
+#1560912762
+dir --help
+#1560912800
+dir numbers
+#1560912959
+man --help
+#1560913007
+man chat
+#1560913014
+man ls
+#1560913028
+man -k ls
+#1560913037
+man -s ls
+#1560913056
+man -f ls
+#1560913185
+copy
+#1560913599
+ls 0s
+#1560913600
+ls
+#1560913611
+head 4 numbers
+#1560913726
+sort --help
+#1560913854
+cat numbers
+#1560913864
+cat mypaste
+#1560913875
+sort -n
+#1560913895
+sort -n mypaste
+#1560913908
+cat mypaste
+#1560913944
+sort -k3 mypaste
+#1560913957
+sort -nk3 mypaste
+#1560913980
+sort -nt3 mypaste
+#1560914161
+vi mypaste
+#1560914621
+cut -f1,3 mypaste | sort -t2 > out.txt & 2>err.txt
+#1560914623
+vi mypaste
+#1560914662
+cut -f1,3 mypaste | sort -t2  2>err.txt
+#1560914694
+ls -l
+#1560899512
+cd moock
+#1560899516
+ls
+#1560899521
+cd mock
+#1560899524
+ls -l
+#1560899534
+chmod 777 green
+#1560899537
+ls -l
+#1560899552
+chmod u-x, g-rwx, o-wx green
+#1560899572
+ls -l
+#1560899614
+chmod u-x,g-rwx,o-wx green
+#1560899631
+ls -l
+#1560899635
+chmod 777 green
+#1560899638
+chmod u-x,g-rwx,o-wx green
+#1560899675
+chmod u=x,g=rwx,o=wx green
+#1560899696
+ls -l
+#1560899728
+chmod 777 green
+#1560899744
+ls -l
+#1560899749
+chmod u=x,g=rwx,o=wx green
+#1560899752
+ls -l
+#1560899796
+chmod u=x,g=rwx,o=wx green
+#1560899799
+ls -l
+#1560899811
+chmod u-x,g-rwx,o-wx green
+#1560899818
+ls -l
+#1560899837
+chmod 777 green
+#1560899846
+chmod u-x,g-rwx,o-wx green
+#1560899856
+ls -l
+#1560902864
+chmod 777 green
+#1560902869
+chmod u-x,g-rwx,o-wx green
+#1560902877
+ls -l
+#1560902890
+chmod u=x,g=rwx,o=wx green
+#1560902891
+ls -l
+#1560903435
+chmod 777 green
+#1560903436
+ls -l
+#1560903441
+chmod u=x,g=rwx,o=wx green
+#1560903447
+chmod u-x,g-rwx,o-wx green
+#1560903450
+ls -l
+#1560903453
+chmod u=x,g=rwx,o=wx green
+#1560903455
+ls -l
+#1560903462
+chmod u=x,g=rwx,o=wx green
+#1560903465
+ls -l
+#1560903487
+chmod u-x,g-rwx,o-wx green
+#1560903490
+ls -l
+#1560903508
+chmod u+x,g+rwx,o+wx green
+#1560903514
+ls -l
+#1560903518
+chmod u-x,g-rwx,o-wx green
+#1560903524
+chmod u+x,g+rwx,o+wx green
+#1560903527
+ls -l
+#1560903532
+chmod u+x,g+rwx,o+wx green
+#1560903535
+ls -l
+#1560903539
+chmod u-x,g-rwx,o-wx green
+#1560903540
+ls -l
+#1560903543
+chmod u+x,g+rwx,o+wx green
+#1560903546
+ls -l
+#1560903597
+ls ?[a-z]?
+#1560903629
+ls ??[a-z]
+#1560903648
+ls *a*
+#1560903744
+for {i in (1..12)}
+#1560903782
+for i in (1..12)
+#1560903811
+for i in {1..12}; echo $RANDOM>numbers
+#1560903918
+for i in {1..12};do echo $RANDOM>numbers; for i in {1..12};do echo $RANDOM>numbers
+#1560903941
+for i in {1..12}; do  echo $RANDOM; done>numbers
+#1560903981
+cat numbers
+#1560904077
+vi numbers
+#1560908465
+cat numbers
+#1560911923
+ls -l
+#1560911927
+ cut -f1,3 mypaste | sort -t2  > out.txt & 2>err.txt
+#1560911975
+ cut -f1,3 mypaste | sort -t2  >> out.txt & 2>>err.txt
+#1560944488
+cp --help
+#1560945040
+cd mock
+#1560945049
+vi numbers
+#1560950625
+grep 1 numbers
+#1560950639
+grep "1"  numbers
+#1560950650
+grep '1'  numbers
+#1560950668
+grep '1'  mypaste
+#1560950681
+grep '1' -f1  mypaste
+#1560950707
+sort '1' -f1  mypaste
+#1560950715
+sort  -f1  mypaste
+#1560950731
+sort  -k1  mypaste
+#1560950738
+sort  -d1  mypaste
+#1560950744
+sort  -t1  mypaste
+#1560950776
+vi mypaste
+#1560950865
+sort mypaste | grep 1>> someFruits.txt 2> log
+#1560950878
+ls --l
+#1560950881
+ls -l
+#1560950905
+cat log
+#1560950929
+sort mypaste | grep "1" 1>> someFruits.txt 2> log
+#1560950935
+ls -l
+#1560950961
+sort mypaste | grep "1" 1>> someFruits.txt & 2> log
+#1560950967
+ls -l
+#1560950985
+sort mypaste | grep "1" 1> someFruits.txt & 2> log
+#1560950990
+ls -l
+#1560951128
+ cut -d -f1,3 mypaste   | sort_-t2  >out.txt   2>err.txt
+#1560951152
+ cut -d, -f1,3 mypaste   | sort_-t2  >out.txt   2>err.txt
+#1560951162
+ls -l
+#1560951186
+cat err.txt
+#1560951225
+cut -d, -f1,3 mypaste   | sort -t2  >out.txt   2>err.txt
+#1560951228
+ls -l
+#1560951249
+cut -d  -f1,3 mypaste   | sort -t2  >out.txt   2>err.txt
+#1560951272
+ cut -d, -f1,3 mypaste | sort -k2  >out.txt  & 2>err.txt
+#1560951282
+ cut -d, -f1,3 mypaste | sort -k2  >out.txt   2>err.txt
+#1560951292
+ls -l
+#1560951306
+cat out.txt
+#1560951529
+cal >current_date
+#1560951538
+cat current_date
+#1560951558
+date current_date
+#1560951573
+time
+#1560951576
+date
+#1560951592
+date > current_date
+#1560951597
+cat current_date
+#1560955488
+grep 1 -n numbers
+#1560955496
+grep -n 1  numbers
+#1560955505
+cd mock
+#1560955508
+ls -;
+#1560955512
+ls -l
+#1560955521
+grep 1 -n numbers
+#1560955527
+grep -n 1  numbers
+#1560955542
+grep -nc 1  numbers
+#1560955548
+grep -n 1  numbers
+#1560955560
+grep -c 1  numbers
+#1560955602
+cat mypaste
+#1560955649
+cut 2-3 -c4-5 mypaste
+#1560955676
+cut 2-3 -f1-2 mypaste
+#1560955684
+cut 2-3 -f3-2 mypaste
+#1560955691
+cut 2-3 -f3-4 mypaste
+#1560955770
+sort -n maypaste
+#1560955778
+sort -n mypaste
+#1560955794
+sort  mypaste
+#1560955814
+sort  -nk2 mypaste
+#1560955826
+vi mypaste
+#1560955899
+sort  -nk2 mypaste
+#1560955925
+cat mypaste
+#1560955954
+wc -l mypaste
+#1560955966
+wc -lw mypaste
+#1560955977
+wc -lwcm mypaste
+#1560956063
+grep 1 -invc mypaste
+#1560956080
+grep 1 -ivc mypaste
+#1560956085
+grep 1 -iv mypaste
+#1560956092
+grep 1 -inv mypaste
+#1560956239
+grep 1 -ic mypaste
+#1560956257
+vi mypaste
+#1560956294
+grep o' -ic mypaste
+grep o' -ic mypaste
+#1560956317
+grep o' -ic mypaste
+grep o' -ic mypaste
+#1560956324
+grep o' -ic mypaste
+grep o' -ic mypaste
+#1560956341
+ grep "o'" -ic mypaste
+#1560956397
+grep o' -ic mypaste
+grep o' -ic mypaste
+#1560956411
+vi mypaste
+#1560956516
+cat mypaste
+#1560956547
+Sort  mypaste |grep -i  Jones >> PHONES 
+#1560956558
+sort  mypaste |grep -i  Jones >> PHONES 
+#1560956582
+cat PHONES
+#1560956604
+grep -i jones mypaste
+#1560956620
+sort  mypaste |grep -i  "Jones" >> PHONES 
+#1560956625
+cat PHONES
+#1560956639
+grep -i  "Jones" >> PHONES 
+#1560956673
+grep -i  "Jones" mypaste>> PHONES 
+#1560956682
+grep -i  "Jones" mypaste > PHONES 
+#1560956691
+cat PHONES
+#1560956879
+cut 3-5 mypaste
+#1560956908
+cut 3-5 -c3-20 mypaste
+#1560957584
+pwd
+#1560957590
+touch HOMEWORK1/maths.txt HOMEWORK1/ science.txt 
+#1560957628
+touch -r HOMEWORK1/maths.txt HOMEWORK1/ science.txt
+#1560957634
+ls -l
+#1560957666
+mkdir HOMEWORK1
+#1560957669
+touch -r HOMEWORK1/maths.txt HOMEWORK1/ science.txt
+#1560957688
+ls -l
+#1560957719
+ls -l HOMEWORK1
+#1560957733
+cd HOMEWORK1
+#1560957735
+LS
+#1560957747
+touch 1 2
+#1560957749
+ls
+#1560957759
+cd ..
+#1560957770
+touch -r HOMEWORK1/maths.txt HOMEWORK1/science.txt
+#1560957778
+touch HOMEWORK1/maths.txt HOMEWORK1/science.txt
+#1560957795
+rm -r HOMEWORK1
+#1560957796
+LS
+#1560957798
+ls
+#1560957835
+rm science.txt
+#1560957837
+ls
+#1560957842
+touch HOMEWORK1/maths.txt HOMEWORK1/science.txt
+#1560957971
+cd ~
+#1560957974
+pwd
+#1560958098
+cd mock
+#1560958109
+mkdir HOMEWORK1
+#1560958112
+LS
+#1560958114
+ls
+#1560958118
+touch HOMEWORK1/maths.txt HOMEWORK1/science.txt
+#1560958145
+mv HOMEWORK1/* ~
+#1560958151
+cd ~
+#1560958153
+ls
+#1560966798
+pwd
+#1560966815
+cd ~hzheng62
+#1560966856
+cd/
+#1560966858
+ls
+#1560966865
+ cd cd\
+#1560966879
+ cd \
+#1560966885
+cd\
+#1560966894
+cd mock
+#1560966907
+cd ~hzheng62
+#1560966910
+pwd
+#1560967090
+cp --help
+#1560967716
+pwd
+#1560967721
+cd..
+#1560967727
+pwd
+#1560967746
+cd
+#1560967751
+pwd
+#1560967764
+cd..
+#1560967767
+cd \
+#1560967773
+pwd
+#1560967783
+cd ~
+#1560967786
+pwd
+#1560968177
+man -f ls
+#1560968188
+man -s ls
+#1560968208
+man -s chat
+#1560968225
+man -k chat
+#1560968233
+man -f chat
+#1560968241
+man chat
+#1560968317
+man --help
+#1560968471
+copy --help
+#1560968481
+man copy
+#1560968647
+ls
+#1560968657
+ls -l
+#1560968668
+cd mock
+#1560968671
+ls -l
+#1560968676
+cd
+#1560968709
+b)chmod 777 ~/mock
+#1560968724
+chmod 777 ~/mock
+#1560968728
+ls -l
+#1560968741
+ls -l mock
+#1560968755
+chmod 777 ~/mock/*
+#1560968758
+ls -l mock
+#1560975068
+grep e | tail 2>&1 > file2.txt
+#1560975105
+4.grep e | tail 2>&1 > file2.t
+#1560976652
+sl
+#1560976654
+ls
+#1560976658
+cd mock
+#1560976660
+ls
+#1560976673
+cat mypaste
+#1560976713
+grep [oO]' mypaste
+#1560976751
+grep -c [oO]' mypaste
+
+
+#1560976759
+grep -c [oO]' mypaste
+
+
+
+
+#1560976805
+ grep -c "[oO]'" mypaste
+#1560976823
+ grep  "[oO]'" mypaste
+#1560976854
+ grep -i "o'" mypaste
+#1560977291
+tree
+#1560977296
+ls
+#1560977329
+ls -l
+#1560977349
+pwd
+#1560977386
+ls -l HOMEWORK1
+#1560977445
+touch HOMEWORK1/1 HOMEWORK1/2 
+#1560977448
+ls -l HOMEWORK1
+#1560977515
+mv ~/mock/HOMEWORK1/* ~
+#1560977518
+CD
+#1560977522
+LS
+#1560977524
+ls
+#1560977540
+ls -l HOMEWORK1
+#1560977549
+cd
+#1560977552
+ls
+#1560978323
+pwd
+#1560978330
+rm 1 2
+#1560978331
+ls
+#1560978339
+mkdir  -p POD_RACER/Manuals POD_RACER/parts/fusion
+#1560978343
+ls
+#1560978346
+tree
+#1560991222
+ls
+#1560991228
+rm 111
+#1560991241
+rm .gitconfig
+#1560991246
+ls -a
+#1560991255
+exit
+#1560991275
+quit
+#1560991278
+bye
+#1561031182
+ls -ld
+#1561031191
+ls
+#1561031202
+ls -ld mock
+#1561031270
+ls -A
+#1561031283
+ls
+#1561031287
+ls -ls
+#1561031293
+ls -a
+#1561031951
+cd
+#1561031954
+pwd
+#1561031957
+cd mock
+#1561031962
+pwd
+#1561031966
+cd ~
+#1561031968
+pwd
+#1561031970
+cd /
+#1561031972
+pwd
+#1561032152
+cd
+#1561032154
+pwd
+#1561032160
+ls -s
+#1561032163
+ls -l
+#1561032171
+file 1
+#1561032177
+file mock
+#1561032182
+file test
+#1561032190
+file w05
+#1561033590
+find --help
+#1561043370
+cd mock
+#1561043376
+ls
+#1561043384
+cat mypaste
+#1561043451
+grep ^7[^1-6]*
+#1561043464
+grep ^7[^1-6]* mypaste
+#1561043492
+grep ^7[^1-2]* mypaste
+#1561043515
+grep ^1[^1-6]* mypaste
+#1561043552
+grep ^1[^1-6]*$6 mypaste
+#1561043568
+grep ^1[^1-6]*6$ mypaste
+#1561043582
+grep 6$ mypaste
+#1561043601
+grep ^1*6$ mypaste
+#1561043613
+grep ^2*6$ mypaste
+#1561043645
+grep ^2 mypaste
+#1561043828
+exit
+#1561051882
+cd mock
+#1561051883
+ls
+#1561052328
+ls -l
+#1561052504
+ls -a
+#1561052513
+ls -l
+#1561052515
+ls
+#1561052824
+echo 12.7 | grep *\.*
+#1561052875
+echo 12.7 
+#1561051785
+ls
+#1561074534
+echo *
+#1561074548
+ls
+#1561074562
+echo .*
+#1561074584
+echo \*
+#1561075586
+ls | more
+#1561342064
+cd A1ms1
+#1561342069
+pwd
+#1561342071
+ls
+#1561342082
+cdA1ms2
+#1561342093
+cd A1ms2
+#1561342101
+ls
+#1561342119
+gcc a1ms2.c -o ws
+#1561342203
+ls
+#1561342206
+ws
+#1561342439
+gcc a1ms2.c -o ws
+#1561342442
+ws
+#1561342711
+gcc a1ms2.c -o ws
+#1561342729
+ws < data.txt
+#1561342886
+gcc a1ms2.c -o ws
+#1561342893
+ws < data.txt
+#1561343356
+gcc a1ms2.c -o ws
+#1561343359
+ws < data.txt
+#1561344440
+gcc a1ms2.c -o ws
+#1561344443
+ws < data.txt
+#1561344764
+cd A1ms2
+#1561344768
+ws < data.txt
+#1561344936
+gcc -Wall -o ms2 a1ms2.c
+#1561344949
+ms2 < data.txt
+#1561345224
+gcc -Wall -o ms2 a1ms2.c
+#1561345229
+ms2 < data.txt
+#1561345883
+gcc -Wall -o ms2 a1ms2.c
+#1561345887
+ms2 < data.txt
+#1561346835
+gcc -Wall -o ms2 a1ms2.c
+#1561346839
+ms2 < data.txt
+#1561347637
+cd A1ms2
+#1561347643
+gcc -Wall -o ms2 a1ms2.c
+#1561347647
+ms2 < data.txt
+#1561348696
+gcc -Wall -o ms2 a1ms2.c
+#1561348709
+gcc a1ms2.c -o ws
+#1561348713
+ms2 < data.txt
+#1561348728
+ws < data.txt
+#1561350134
+gcc a1ms2.c -o ws
+#1561350138
+ws < data.txt
+#1561350144
+gcc -Wall -o ms2 a1ms2.c
+#1561350150
+ms2 < data.txt
+#1561352607
+cd .../A1ms4
+#1561352619
+cd ../A1ms4
+#1561352643
+gcc -Wall -o ms2 a1ms4.c
+#1561352708
+gcc a1ms4.c -o ws
+#1561353143
+gcc -Wall -o ms2 a1ms4.c contact.c
+#1561353159
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561353224
+ms2 < data.txt
+#1561353265
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561353267
+ms2 < data.txt
+#1561353690
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561353694
+ms2 < data.txt
+#1561383473
+cd A1ms4
+#1561383476
+ms2 < data.txt
+#1561383481
+ls
+#1561409104
+cd A1ms4
+#1561409112
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561409118
+ms2 < data.txt
+#1561409189
+clear
+#1561409192
+ms2 < data.txt
+#1561669793
+cd A1ms4
+#1561669800
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561669806
+ms2 < data.txt
+#1561683589
+cd A1ms4
+#1561683591
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561683595
+ms2 < data.txt
+#1561683979
+gcc -Wall -o ms2 a1ms4.c contacts.c
+#1561683982
+ms2 < data.txt
+#1561685948
+cd ../A2ms2
+#1561685949
+ls
+#1561685968
+gcc -Wall -o ms2 a1ms4.c contacts.c contactHelpers.c
+#1561685991
+gcc -Wall -o ms2 a2ms2.c contacts.c contactHelpers.c
+#1561686052
+ms2
+#1561686309
+gcc -Wall -o ms2 a2ms2.c contacts.c contactHelpers.c
+#1561686312
+ms2
+#1561686473
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561686840
+gcc -Wall -o -c ms2 contacts.c contactHelpers.c a2ms2.c
+#1561687152
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561687157
+ms2
+#1561699217
+ls
+#1561699221
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561699235
+ms2 < data.txt
+#1561699360
+ms2
+#1561700019
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561700027
+ms2<da
+#1561700121
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561700141
+ms2 < da
+#1561700225
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561700227
+ms2 < da
+#1561700240
+ls
+#1561700246
+cat da
+#1561700255
+ms2
+#1561700337
+ms2 < da
+#1561700381
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561700392
+ms2 < data.txt
+#1561700753
+vi data.txt
+#1561700816
+ms2 < data.txt
+#1561701068
+vi data.txt
+#1561701095
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561701415
+vi data.txt
+#1561701462
+ms2 < data.txt
+#1561722522
+cd A1ms4
+#1561722524
+ls
+#1561722546
+cat data.txt
+#1561722583
+ms2 < data.txt
+#1561722608
+vi data.txt
+#1561722658
+ms2 < data.txt
+#1561722711
+~gayan.gamage/submit 144w5/SKK_home < data.txt
+#1561722736
+cd ../A2ms2
+#1561722754
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561722760
+ms2 < data.txt
+#1561723855
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561723858
+ms2 < data.txt
+#1561724295
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561724297
+ms2 < data.txt
+#1561724352
+vi data.txt
+#1561724374
+ms2 < data.txt
+#1561731891
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561731893
+ms2 < data.txt
+#1561734370
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561734421
+ms2 < data.txt
+#1561734568
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561734575
+ms2 < data.txt
+#1561738254
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1561738256
+ms2 < data.txt
+#1561738267
+clear
+#1561738271
+ms2 < data.txt
+#1561748205
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561748224
+cd ../A2ms4
+#1561748228
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561748231
+ms
+#1561748235
+ms2
+#1561748250
+vi data.txt
+#1561748896
+vi data1.txt
+#1561749580
+vi data.txt
+#1561749604
+vi dataSort.txt
+#1561749638
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561749654
+ms2 < data.txt
+#1561750547
+cd A2ms4
+#1561750549
+ls
+#1561750554
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561750650
+ms2 
+#1561781614
+cd A2ms4
+#1561781618
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561781808
+ms2 < data.txt
+#1561782011
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561782014
+ms2 < data.txt
+#1561782040
+clear
+#1561782049
+ms2 < data.txt
+#1561782113
+89999999999999999999999999999
+#1561782122
+h8977777777777777777777777777777777777777777777777770
+#1561782127
+u78099999999999999999999999999999999999999999999999
+#1561782134
+ms2 < data.txt
+#1561782459
+ls
+#1561782469
+ms2 < datasort..txt
+#1561782478
+ms2 < datasort.txt
+#1561782489
+ms2 < dataSort.txt
+#1561782548
+vi  data.txt
+#1561782897
+vi  dataSort.txt
+#1561782921
+ms2 < data.txt
+#1561783505
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561783508
+ms2 < data.txt
+#1561821264
+exit
+#1561820145
+cd A2ms4
+#1561820904
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561820977
+ms2 < data.txt
+#1561821653
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561821655
+ms2 < data.txt
+#1561944929
+cd A1ms2
+#1561944930
+ls
+#1561944971
+gcc -Wall -o ms2 a1ms2.c
+#1561944978
+ms2 < data.txt
+#1561945004
+vi data.txt
+#1561945025
+ms2 < data.txt
+#1561945037
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms4.c
+#1561945043
+ls
+#1561945606
+cd ../A1ms4
+#1561945607
+ls
+#1561945633
+gcc -Wall -o ms2 contacts.c  a1ms4.c
+#1561945641
+vi data.txt
+#1561945674
+ms2 < data.txt
+#1561945782
+vi data.txt
+#1561945872
+gcc -Wall -o ms2 contacts.c  a1ms4.c
+#1561945877
+ms2 < data.txt
+#1561947818
+vi reflect.txt
+#1561953569
+gcc -Wall -o ms2 contacts.c  a1ms4.c
+#1561953574
+ms2 < data.txt
+#1561990357
+cd A1ms2
+#1561990363
+vi reflect.txt
+#1561990940
+ms2 < data.txt
+#1561990959
+cd ../A1ms4
+#1561990962
+ms2 < data.txt
+#1561990971
+cd ../A2ms4
+#1561990974
+ms2 < data.txt
+#1561991005
+vi reflect.txt
+#1561991039
+cd ../A2ms2
+#1561991041
+vi reflect.txt
+#1561991050
+ms2 < data.txt
+#1561991083
+cd ../A1ms4
+#1561991086
+vi reflect.txt
+#1561991097
+ms2 < data.txt
+#1562008797
+vi reflect.txt
+#1562008958
+number=11
+#1562008982
+echo $number number
+#1562008990
+echo *
+#1562009001
+echo .*
+#1562009010
+echo .
+#1562009017
+cd
+#1562009022
+echo .*
+#1562009037
+echo .
+#1562009040
+echo .*
+#1562009048
+echo *
+#1562009092
+/pod
+#1562009101
+/cares
+#1562010793
+cd ../A2ms4
+#1562010799
+ls
+#1562010817
+cd A2ms4
+#1562010833
+ms2 < data.txt
+#1562010884
+ms2 < data.txt >output
+#1562010895
+ls
+#1562010907
+more output
+#1562010968
+vi output
+#1562014296
+ls
+#1562014574
+ms2
+#1562016067
+gcc -Wall -o ms2 contacts.c  a1ms4.c contactHelpers.c
+#1562016078
+gcc -Wall -o ms2 contacts.c  a2ms4.c contactHelpers.c
+#1562016089
+ms2 < data.txt >output
+#1562016096
+ms2 < data.txt
+#1562016532
+gcc -Wall -o ms2 contacts.c  a2ms4.c contactHelpers.c
+#1562016535
+ms2 < data.txt
+#1562017469
+gcc -Wall -o ms2 contacts.c  a2ms4.c contactHelpers.c
+#1562017472
+ms2 < data.txt
+#1562017988
+ms2 < data.txt | tee output
+#1562017997
+cd A2ms4
+#1562018000
+ms2 < data.txt | tee output
+#1562018106
+gcc -Wall -o ms2 contacts.c  a2ms4.c contactHelpers.c
+#1562018112
+ms2 < data.txt | tee output
+#1562018311
+cat data.txt | ms2 | tee output
+#1562018588
+cat data.txt|tee | ms2 | tee output
+#1562018615
+cat data.txt | tee 1 
+#1562018649
+cat data.txt|tee 1 | ms2 | tee output
+#1562018686
+cat data.txt | ms2 | tee output
+#1562018697
+ms2 < data.txt | tee output
+#1562018730
+cat data.txt | ms2 | tee output
+#1562018856
+file data.txt
+#1562018869
+read data.txt
+#1562018906
+cat data.txt | ms2 | tee output.txt
+#1562074466
+cd A2ms2
+#1562074474
+vi reflect.txt
+#1562074540
+cat reflect.txt
+#1562076253
+ls -i
+#1562076493
+ls -i .*
+#1562076506
+ls
+#1562076514
+ ln 1 ln1
+#1562076520
+ls -il
+#1562076543
+ls
+#1562076572
+1
+#1562076633
+rm 1
+#1562076635
+ls
+#1562076644
+rm ln1
+#1562076646
+ls
+#1562076658
+mkdir me
+#1562076660
+cd me
+#1562076668
+touch f1 f2 f3
+#1562076953
+ln f1 ln1
+#1562076955
+ls
+#1562076959
+rm f1
+#1562076968
+touch f1
+#1562076973
+ls -li
+#1562079030
+pid
+#1562079525
+ps
+#1562079544
+date
+#1562097807
+~nour.hossain/submit 144a1ms2/SAA_ms2
+#1562097820
+cd a1ms2
+#1562097827
+ls
+#1562097839
+cd A1ms2
+#1562097847
+cd ls
+#1562097981
+~nour.hossain/submit 144a1ms2/SAA_ms2
+#1562098030
+gcc -Wall -o ms2 a1ms2.c
+#1562098167
+~nour.hossain/submit 144a1ms2/SAA_ms2
+#1562098192
+~md-nour.hossain/submit 144a1ms2/SAA_ms2
+#1562098246
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562099506
+~md-nour.hossain/submit 144a1ms2/SAA_ms2
+#1562099511
+gcc -Wall -o ms2 a1ms2.c
+#1562099513
+ls
+#1562099520
+~md-nour.hossain/submit 144a1ms2/SAA_ms2
+#1562099532
+ms2 < data.txt
+#1562101775
+~md-nour.hossain/submit 144a1ms2/SAA_ms2
+#1562101813
+~md-nour.hossain/submit 144a1ms2/Skk_ms2
+#1562176297
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562177120
+cd A1ms2
+#1562177121
+lsn
+#1562177124
+ls
+#1562177322
+gcc -Wall -o ms2 a1ms2.c
+#1562177331
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562177957
+~md-nour.hossain/submit 144a1ms2/SKK_ms
+#1562178188
+cd A1ms4
+#1562178200
+cd ..\A1ms4
+#1562178225
+cd ../A1ms4
+#1562178363
+gcc -Wall -o ms4 a1ms4.c contacts.c
+#1562178389
+~md-nour.hossain/submit 144a1ms4/SKK_ms4
+#1562179070
+cd ../A1ms2
+#1562179080
+gcc -Wall -o ms2 a1ms2.c
+#1562179129
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562181058
+exit
+#1562196587
+cd A1ms2
+#1562196588
+ls
+#1562196601
+cat reflect.txt
+#1562196620
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562206666
+ls
+#1562206764
+~uli101/assign2
+#1562208410
+mail hzheng62@myseneca.ca
+#1562208498
+mail 745130658@qq.com
+#1562208553
+ls
+#1562209611
+cd mock
+#1562209612
+ls
+#1562255684
+mkdir -p ./animals/canine/description
+#1562255704
+mkdir -p ./animals/felines/description
+#1562255705
+tree
+#1562255775
+cd animal/canine
+#1562255785
+ls
+#1562255798
+cd animals/canine
+#1562255811
+mkdir dogs fox wolf
+#1562255813
+ls
+#1562255823
+cd ../felines
+#1562255970
+touch cat description jaguar lion
+#1562255979
+ls
+#1562255991
+rm description
+#1562256026
+rmdir description
+#1562256027
+ls
+#1562256033
+touch cat description jaguar lion
+#1562256036
+ls
+#1562256048
+cd ../
+#1562256049
+ls
+#1562256058
+cd canine
+#1562256060
+ls
+#1562256069
+rmdir *
+#1562256070
+ls
+#1562256095
+touch dogs description fox wolf
+#1562256097
+ls
+#1562256162
+echo "This is the family of dogs" > description
+#1562256193
+cd ../canine
+#1562256194
+ls
+#1562256221
+cd ../
+#1562256222
+ls
+#1562256226
+tree
+#1562256263
+echo "This is the family of dogs" > canine/description
+#1562256279
+echo "This is the family of dogs" > felines/description
+#1562256333
+cd felines
+#1562256334
+ls
+#1562256356
+ln ../canine canine
+#1562256419
+ln ../canine/description description_canine
+#1562256501
+cd felines
+#1562256503
+ls
+#1562256512
+ls -l
+#1562256580
+ls -il
+#1562256603
+ls ../canine
+#1562256611
+ls ../canine -li
+#1562256732
+ln -s ../canine/dogs ../dogs_canine
+#1562256769
+ln -s ../felines/cat ../cat_felines
+#1562256780
+ls ..e -li
+#1562256784
+ls .. -li
+#1562257057
+cd canine
+#1562257059
+ls
+#1562257158
+echo "This is a cat." > cat
+#1562257164
+cd ..
+#1562257176
+cd canine
+#1562257201
+echo "This is a dog." > dogs
+#1562257205
+ls
+#1562257215
+cat description
+#1562257225
+cat dogs
+#1562257343
+ls
+#1562257347
+cd 
+#1562257354
+cd animals
+#1562257360
+dir
+#1562257372
+ls-ls
+#1562257376
+ls -li
+#1562257410
+cd canine
+#1562257424
+mkdir dogs fox wolf
+#1562257452
+rm dogs fox wolf
+#1562257456
+mkdir dogs fox wolf
+#1562257465
+cd ../felines
+#1562257483
+rm cat jaguar lion
+#1562257491
+ls
+#1562257506
+mkdir cat jaguar lion
+#1562257542
+echo "This is a dog." > ../canine/dogs/dog
+#1562257569
+echo "This is a cat." > ../felines/cat/cat
+#1562257584
+cat ../felines/cat/cat
+#1562257595
+ cat ../canine/dogs/dog
+#1562257698
+ls
+#1562257703
+cd ..
+#1562257704
+ls
+#1562257727
+cd cat_felines
+#1562257751
+rm c*_*
+#1562257754
+rm *_*
+#1562257756
+ls
+#1562257767
+ ln -s ../canine/dogs ../dogs_canine
+#1562257792
+ ln -s ../ln -s ../felines/cat ../cat_felines
+#1562257794
+ln -s ../felines/cat ../cat_felines
+#1562257797
+ls
+#1562257813
+ln -s ../felines/cat cat_felines
+#1562257825
+ ln -s ../canine/dogs dogs_canine
+#1562257827
+ls
+#1562257833
+cd ..
+#1562257834
+ls
+#1562257844
+rm *_*
+#1562257858
+ls
+#1562258205
+cd animals
+#1562258206
+ls
+#1562258230
+ls -li cat_felines 
+#1562258552
+echo hello | wc -c
+#1562258593
+cd animals
+#1562258597
+ls
+#1562258601
+tree
+#1562258687
+ls ..
+#1562258702
+cd animals
+#1562258706
+ls
+#1562259033
+
+#1562259134
+sort .
+#1562259156
+sort ./*
+#1562259189
+ls * | sort
+#1562259208
+ls | sort
+#1562259336
+ls cd
+#1562259337
+ls
+#1562259342
+cd
+#1562259345
+pwd
+#1562259348
+ls
+#1562259358
+ls *
+#1562259365
+ls
+#1562259375
+help ls
+#1562259859
+~uli101/assign2
+#1562259996
+ls
+#1562260006
+cat vi
+#1562260016
+cd vi
+#1562260020
+cd Vi
+#1562260026
+ls VI
+#1562260092
+vim 6vimtutor
+#1562260122
+vim VI/6vimtutor
+#1562260619
+~uli101/assign1
+#1562260855
+cal 6 1989
+#1562291174
+ls
+#1562291706
+cd animals
+#1562291707
+ls
+#1562291714
+ls -li
+#1562291724
+tree
+#1562291762
+ls
+#1562291775
+rm *_*
+#1562291777
+ls
+#1562291781
+tree
+#1562293035
+ls
+#1562293055
+cd felines
+#1562293056
+ls
+#1562293067
+rm *_*
+#1562293073
+cd ..
+#1562293078
+tree
+#1562293104
+ls
+#1562293109
+cd canine
+#1562293111
+ls
+#1562293121
+cd ../felines
+#1562293122
+ls
+#1562293472
+cd
+#1562293475
+ls
+#1562294113
+cd A1ms2
+#1562294115
+ls
+#1562294605
+gcc -Wall -o ms2 a1ms2.c
+#1562294611
+cd A1ms2
+#1562294616
+gcc -Wall -o ms2 a1ms2.c
+#1562294659
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562295133
+gcc -Wall -o ms2 a1ms2.c
+#1562295139
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562296155
+ 144a1ms2/SKK_ms2~md-nour.hossain/submit 144a1ms2/SKK_ms2~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562296175
+gcc -Wall -o ms2 a1ms2.c
+#1562296191
+ls
+#1562296198
+ ls
+#1562296205
+gcc -Wall -o ms2 a1ms2.c
+#1562293465
+cd
+#1562293486
+ls
+#1562296355
+ls
+#1562297068
+gcc -Wall -o ms2 a1ms2.c
+#1562297120
+ls
+#1562297141
+cd A1ms2
+#1562297147
+gcc -Wall -o ms2 a1ms2.c
+#1562297158
+ms2 < data.txt
+#1562297565
+ ssh hzheng62@matrix.senecac.on.ca
+#1562361357
+cd VI
+#1562361362
+ls
+#1562361369
+vi 6vimtutor
+#1562360059
+ls
+#1562360076
+echo '1*'
+#1562360086
+echo "1*
+"
+#1562360098
+echo 1*
+#1562360112
+echo *2*
+#1562360204
+echo [a-z]*
+#1562360233
+echo my name [a-z]*
+#1562360274
+sort *
+#1562360285
+sort ./
+#1562360301
+sort ./*
+#1562360321
+help sort
+#1562360336
+help
+#1562360355
+help help
+#1562360392
+man sort
+#1562360469
+
+#1562360483
+man sort
+#1562360810
+sort -f ./
+#1562360820
+sort -f ~
+#1562360880
+ls | sort
+#1562361289
+~uli101/assign2
+#1562422274
+id
+#1562426725
+ls -l
+#1562426732
+ls -li
+#1562426830
+tree
+#1562426893
+ls -li
+#1562426917
+cd cd sample_dir
+#1562426927
+cd sample_dir
+#1562426938
+tree
+#1562419069
+ls | sort
+#1562419085
+ls | sort -cr
+#1562419105
+ls | sort -v
+#1562419110
+ls | sort -r
+#1562419143
+ls | sort -rn
+#1562419154
+cat 222
+#1562419161
+cat 2222
+#1562419186
+ls -l
+#1562419193
+vim 2222
+#1562419233
+cat 2222
+#1562419245
+sort 2222
+#1562419255
+sort 2222 -n
+#1562419266
+sort 2222 -v
+#1562419272
+sort 2222 -c
+#1562419277
+sort 2222
+#1562419324
+sort --help
+#1562421659
+~uli101/assign2
+#1562422574
+id
+#1562422605
+~uli101/assign2
+#1562427099
+ls -l
+#1562427121
+~uli101/assign2
+#1562464338
+gcc -Wall -o 1 1.c
+#1562464373
+mv 1.h contacts.h
+#1562464377
+gcc -Wall -o 1 1.c
+#1562464872
+1
+#1562465280
+1 < data.txt
+#1562465420
+gcc -Wall -o 1 1.c
+#1562466050
+clear
+#1562466053
+gcc -Wall -o 1 1.c
+#1562467223
+clear
+#1562467231
+gcc -Wall -o 1 1.c
+#1562467304
+cat 1.c
+#1562467325
+gcc -Wall -o 1 1.c
+#1562470397
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562470623
+1 < data.txt
+#1562470931
+1 
+#1562471216
+gcc -Wall -o 1 1.c
+#1562471238
+1 
+#1562471375
+cd A1ms2
+#1562471378
+ms2
+#1562471696
+cd A1ms2
+#1562471698
+cd ..
+#1562471705
+gcc -Wall -o 1 1.c
+#1562472576
+1 
+#1562472843
+~md-nour.hossain/submit 144a1ms2/SKK_ms2
+#1562624120
+ls
+#1562624126
+ls -li
+#1562624178
+ln VI vi-ln
+#1562624207
+ln VI vi-ln -s
+#1562624227
+ls -li
+#1562630052
+pw
+#1562630055
+ps
+#1562630163
+ps -u hzheng62
+#1562630557
+id
+#1562634478
+ps -u hzheng62
+#1562634480
+id
+#1562634485
+ps
+#1562632017
+~uli101/assign2
+#1562637330
+ ~uli101/2019b/cars
+#1562637609
+~uli101/assign2
+#1562639839
+he Review Exercise can only be done when the other sections have
+#1562639839
+been completed.
+#1562639843
+hat the highlighted lines indicate the incomplete sections of
+#1562639845
+this part of the Assignment.hat the highlighted lines indicate the incomplete sections of
+#1562639690
+~uli101/assign2
+#1562700851
+~md-nour.hossain/submit 144a1ms4/SKK_ms4
+#1562700889
+cd A1ms4
+#1562700892
+~md-nour.hossain/submit 144a1ms4/SKK_ms4
+#1562782321
+ps
+#1562782468
+ps U hzheng62
+#1562782504
+tip
+#1562782506
+top
+#1562782663
+jobs
+#1562782679
+cd A2ms4
+#1562782682
+dir
+#1562782693
+ls
+#1562782731
+ms2&
+#1562782740
+ms2
+#1562782746
+ms2 &
+#1562782914
+ms2
+#1562782923
+s
+#1562782978
+chmod u+x ms2
+#1562782981
+ls -l
+#1562782992
+ms2 &
+#1562783014
+bg ms2
+#1562783022
+jobs
+#1562783029
+ps
+#1562783041
+ms2 &
+#1562783066
+jobs
+#1562783080
+kill ms2
+#1562783099
+pkill ms2
+#1562783104
+ps[A
+#1562783115
+pkill ms2
+#1562783144
+ps
+#1562783153
+kill 24621
+#1562783156
+ps
+#1562783188
+ms2 &
+#1562783192
+ps
+#1562783197
+top
+#1562783307
+fg ms2
+#1562783327
+jobs
+#1562783333
+ps
+#1562783393
+fg 24745
+#1562783406
+jobs
+#1562783416
+fg %1
+#1562783431
+fg %2
+#1562783435
+fg %3
+#1562783458
+jobs
+#1562783504
+~uli/assign2
+#1562783513
+~uli101/assign2
+#1562787057
+rm
+#1562787117
+~uli101/assign2
+#1562788682
+ls ~uli101/2019b/sample_dir3/linked_directories/sample_files
+#1562788724
+j ls
+#1562788730
+ls
+#1562789054
+uli101/assign2
+#1562789069
+~uli101/assign2
+#1562788906
+~uli101/assign2
+#1562789005
+heng62@mtrx-node01pd
+#1562790240
+command not found
+#1562790240
+[hzheng62@mtrx-node01pd ~]$
+#1562790247
+1pd
+#1562790556
+ps
+#1562790637
+ps f -f
+#1562790727
+ppid
+#1562790729
+pid
+#1562790787
+pstree
+#1562790807
+pstree -A
+#1562790830
+pstree -A hzheng62
+#1562790882
+pstree hzheng62
+#1562791045
+pstree
+#1562791066
+pstree hzheng62
+#1562791070
+ps
+#1562791074
+ps -f f
+#1562791086
+ps
+#1562791157
+jobs
+#1562791190
+cd A1ms2
+#1562791192
+as2
+#1562791199
+ls
+#1562791205
+ms2 &
+#1562791220
+jobs
+#1562791225
+ps
+#1562791233
+ps f -f
+#1562791243
+pstree hzheng62
+#1562791256
+jobs
+#1562792716
+cd ~
+#1562792719
+ls
+#1562792745
+tail -f cars
+#1562792827
+tail -f cars &
+#1562794142
+cd test
+#1562794145
+uli
+#1562794152
+jobs
+#1562794163
+kill %3
+#1562794174
+jobs
+#1562794183
+kill %3
+#1562794188
+kill %32
+#1562794195
+kill %2
+#1562794207
+jobs
+#1562794227
+kill %3
+#1562794233
+b
+#1562794237
+fg uli
+#1562794255
+uli
+#1562794261
+jobs
+#1562800019
+cd test
+#1562800021
+ls
+#1562800023
+dir
+#1562800037
+uli &
+#1562800054
+jaob
+#1562800057
+jobs
+#1562800194
+cd test
+#1562800196
+uli
+#1562800209
+uli1&
+#1562800254
+cd test
+#1562800258
+uli1&
+#1562800318
+job
+#1562800684
+ls
+#1562800686
+cd test
+#1562800694
+uli&
+#1562800742
+cd test
+#1562800744
+ls
+#1562800749
+uli
+#1562800757
+jobs
+#1562800768
+kill %1
+#1562800774
+jobs
+#1562800781
+ps
+#1562800791
+ps -f f
+#1562800800
+pstree
+#1562800814
+tail -f cars
+#1562800820
+cd ..
+#1562800827
+tail -f cars
+#1562800844
+jobs
+#1562800869
+bg %1
+#1562800928
+ps
+#1562800941
+tail -f cars &
+#1562800978
+jobs
+#1562801009
+fg %2
+#1562801058
+jobs
+#1562801087
+bg %2
+#1562801090
+jobs
+#1562801120
+kill %3
+#1562801122
+jobs
+#1562801246
+kill -1 %1
+#1562801249
+jobs
+#1562801334
+test/uli
+#1562801339
+jobs
+#1562801350
+kill %2 %3
+#1562801355
+jobs
+#1562801382
+tail -f cars &
+#1562801386
+jobs
+#1562801414
+test/uli &
+#1562801418
+jobs
+#1562801455
+test/uli
+#1562801460
+jobs
+#1562801470
+bg %1
+#1562801474
+jobs
+#1562801479
+ss
+#1562800502
+~uli101/assign2
+#1562860780
+cp ~nmmisener/ULI101Spring/cars.csv .
+#1562860782
+ls
+#1562860794
+cat cars.csv
+#1562860845
+vi cars.csv
+#1562866742
+ls
+#1562866758
+ln cars cars2
+#1562866767
+ls -li
+#1562866798
+rm cars2
+#1562866806
+rm li-ln
+#1562866819
+rm vi-ln
+#1562866826
+ls -li
+#1562979606
+echo ???
+#1562979615
+echo sjadhfajgl
+#1562979639
+.*
+#1562979662
+qwert=1
+#1562979671
+echo $qwert
+#1562979678
+echo $qwert*
+#1562979692
+echo w*
+#1562979955
+l
+#1562980117
+ls -l w0
+#1562980128
+echo \$qwert
+#1562980137
+echo $qwert
+#1562982115
+sort -f 
+#1562982199
+sort -f ./*
+#1562982220
+sort -f *
+#1562982275
+ls | sort -n
+#1562982297
+sort -fn cars
+#1562982375
+grep fiat
+#1562982392
+grep fiat cars
+#1562982431
+grep fiat cars -nvc
+#1562982452
+grep chevy cars -nvc
+#1562982489
+grep -nc chevy cars
+#1562982498
+grep -n chevy cars
+#1562982511
+grep -n-c chevy cars
+#1562982529
+grep -nci chevy cars
+#1562982536
+grep -ni chevy cars
+#1562982645
+ls >unsort.txt | sort
+#1562982665
+ls | tee unsort.txt | sort
+#1562982669
+ls
+#1562982698
+rm unsort.txt
+#1562982725
+rm unsort.txt > sort
+#1562982742
+ls >unsort.txt >  sort
+#1562982754
+ls
+#1562982782
+ls >unsort.txt |cat unsort.txt |  sort
+#1562982791
+ls
+#1562982798
+rm unsort.txt
+#1562982799
+ls
+#1562984009
+grep chevy cars
+#1562984029
+grep -n 79 cars
+#1562984048
+grep -n "79" cars
+#1562984061
+grep -n \79\ cars
+#1562984071
+grep -n \79  cars
+#1562984077
+grep -n 79  cars
+#1562984206
+grep -n ……79  cars
+#1562984232
+grep -n … ^79  cars
+#1562984246
+grep -n �^79  cars
+#1562984265
+grep -n �^chevy  cars
+#1562984283
+grep -n chevy  cars
+#1562984293
+grep -n ^chevy  cars
+#1562984317
+grep -n ^c  cars
+#1562984325
+grep -n ^p  cars
+#1562984960
+sort --help
+#1562985042
+sort w*
+#1562985047
+ls
+#1562985057
+cd test
+#1562985058
+ls
+#1562985067
+sort *
+#1562985080
+ls
+#1562985088
+sort f*
+#1562985105
+sort *
+#1562985133
+ls
+#1562985143
+cat hello.c
+#1562985171
+uli
+#1562985189
+ls
+#1562985194
+uli1
+#1562985207
+fg %1
+#1562985237
+ps
+#1562985244
+fg %1
+#1562985248
+uli1
+#1562985252
+ps
+#1562985260
+pid
+#1562985264
+jobs
+#1562985283
+bg %1
+#1562985300
+jajobs
+#1562980213
+~uli101/assign3
+#1562978814
+~uli101/assign3
+#1563284884
+cd A2ms2
+#1563284890
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563285747
+cd ..\A2ms4
+#1563285755
+cd ..
+#1563285756
+ls
+#1563285763
+cd A2ms4
+#1563285768
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563285776
+ls
+#1563285808
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563285919
+cd ..\A2ms2
+#1563285929
+cd ..
+#1563285934
+cd A2ms2
+#1563285944
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563286342
+clear
+#1563286368
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563290653
+clear
+#1563290656
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563290700
+ms2
+#1563291132
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563299257
+cd A2ms2
+#1563299258
+ls
+#1563299262
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563299304
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563300314
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563300317
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563300693
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563300697
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563300999
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563301001
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563301315
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563301318
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563303669
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563303672
+cd ..
+#1563303677
+cd A2ms4
+#1563303678
+ls
+#1563303688
+cat reflect
+#1563303691
+cat reflect.txt
+#1563304350
+�cd A2ms4
+#1563304353
+ls
+#1563304360
+cd A2ms4
+#1563304365
+ls
+#1563304411
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563304413
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563305123
+clear
+#1563305378
+cd ..
+#1563305383
+cd A2ms2
+#1563305443
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563305557
+vi a2ms2
+#1563305606
+kill %1
+#1563305625
+vim a2ms2.c
+#1563305677
+ls
+#1563305680
+ps
+#1563305688
+pid
+#1563305695
+jobs
+#1563305703
+kill %1
+#1563305711
+jobs
+#1563305780
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563321748
+cd A2ms4
+#1563321760
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563321767
+ls
+#1563321833
+ms4 < data.txt
+#1563416242
+fg
+#1563416247
+exit
+#1563408793
+ls
+#1563408807
+ls 
+#1563408857
+cat cars.csv
+#1563409012
+grep plym cars
+#1563409035
+grep p..m cars
+#1563409053
+grep "p..m" cars
+#1563409065
+grep 'p..m' cars
+#1563409083
+grep '5...' cars
+#1563409099
+grep 5... cars
+#1563409171
+grep ^5... cars
+#1563409202
+grep "^5..." cars
+#1563409226
+grep "^f" cars
+#1563409262
+grep "5..." cars
+#1563409346
+grep "^f".. cars
+#1563409376
+grep "^f"..d cars
+#1563409443
+grep " [0-9][0-9][0-9]$" cars
+#1563409559
+grep ' [0-9][0-9][0-9]\$' cars
+#1563409575
+grep [0-9][0-9][0-9]$ cars
+#1563409600
+grep "[0-9][0-9][0-9]$" cars
+#1563409622
+grep " [0-9][0-9][0-9]$" cars
+#1563409634
+grep  [0-9][0-9][0-9]$ cars
+#1563410518
+egrep "[0-9]{5}" cars
+#1563410564
+egrep " [0-9]{3,4}$" cars
+#1563410650
+"^[^ ]+ +[^ ]+ +65" cars
+#1563410663
+egrep "^[^ ]+ +[^ ]+ +65" cars
+#1563410770
+egrep "ch?e" cars
+#1563410838
+egrep "^([^ ]+ +){2}65" cars
+#1563410872
+egrep "ford|chevy" cars
+#1563410893
+egrep "(ford|chevy) +[^ ]+ +65" cars
+#1563410994
+egrep [+-]?([0-9]+[.]?[0-9]*|[.][0-9]+)([eE][+-]?[0-9]+)? cars
+#1563411275
+egrep [+-]?([0-9]+[.]?[0-9]*|[.][0-9]+) cars
+#1563411298
+egrep [+-]([eE][+-]?[0-9]+)? cars
+#1563411329
+egrep [+-](([eE][+-]?[0-9]+)? cars
+#1563411341
+egrep [+-]([eE][+-]?[0-9]+)? cars
+#1563411751
+grep -v 'chevy' cars
+#1563411760
+grep -ic 'chevy' cars
+#1563411772
+grep -i 'chevy' cars
+#1563411782
+grep -n 'chevy' cars
+#1563416204
+vim cars
+#1563416210
+fg
+#1563416217
+ls 
+#1563416223
+fg
+#1563416506
+vim cars
+#1563416517
+fg
+#1563416960
+vi cars
+#1563416966
+fg
+#1563416981
+vi cars
+#1563416990
+fg
+#1563417222
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563417233
+cd AA2ms4
+#1563417238
+cd A2ms4
+#1563417242
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563417247
+ms4
+#1563417990
+set
+#1563418305
+cd ..
+#1563418327
+egrep \\s+ cars
+#1563418351
+egrep ^y\\s+ cars
+#1563418362
+egrep ^[y]\\s+ cars
+#1563418371
+egrep ^[f]\\s+ cars
+#1563418379
+egrep ^f\\s+ cars
+#1563418389
+egrep ^f cars
+#1563418402
+egrep ^[f] cars
+#1563418415
+egrep ^[^f] cars
+#1563418958
+cat read.example
+#1563418981
+vi read.example
+#1563419065
+read.example
+#1563419086
+#! read.example
+#1563419119
+#!read.example
+#1563419138
+chmod +
+#1563419141
+ls -l
+#1563419159
+chmod u+x read.example 
+#1563419162
+ls -l
+#1563419172
+#!read.example
+#1563419177
+read.example
+#1563419205
+vi read.example 
+#1563419430
+read.example
+#1563419441
+read.example 1 2 3 4 
+#1563465945
+vi gues
+#1563465957
+vi guess
+#1563466581
+chmod u +x guess
+#1563466588
+chmod u+x guess
+#1563466590
+guess
+#1563466602
+fg
+#1563466662
+guess
+#1563466701
+fg
+#1563466821
+guess
+#1563466837
+fg
+#1563467216
+guess
+#1563467228
+fg
+#1563467239
+vi guess
+#1563467268
+guess
+#1563467277
+fg
+#1563467563
+guess
+#1563467592
+vi guess
+#1563467726
+guess
+#1563467744
+fg
+#1563467973
+vi guess
+#1563468031
+guess
+#1563468038
+vi guess
+#1563474580
+vi -r guess
+#1563474605
+vi guess
+#1563474658
+guess
+#1563467778
+guess
+#1563467843
+guess
+#1563478960
+vi guess
+#1563479014
+guess dsafsa
+#1563479031
+vi guess
+#1563492885
+guess qwert
+#1563504277
+�$0
+#1563504285
+echo $0
+#1563504292
+echo $#
+#1563504296
+echo $1
+#1563504302
+echo $@
+#1563504311
+echo $$
+#1563504320
+echo $?
+#1563504363
+guess qwert
+#1563504373
+echo $#
+#1563504381
+s=fdgdfg
+#1563504386
+echo s
+#1563504391
+echo $s
+#1563504400
+$0
+#1563504412
+echo $0
+#1563504415
+echo $1
+#1563504425
+echo $#
+#1563504735
+guess qwert
+#1563537234
+LS .a
+#1563537238
+ls -a
+#1563537267
+rm *sw*
+#1563537282
+rm .*.sw*
+#1563537288
+ls -a
+#1563540244
+ls -i
+#1563540248
+ls -l
+#1563543656
+vim regex
+#1563543691
+ls
+#1563543702
+vim regex
+#1563543707
+ls
+#1563543720
+vim regex
+#1563543728
+ls
+#1563543781
+chmod u+x regex
+#1563543783
+ls
+#1563543794
+read.example
+#1563543819
+cat read.example
+#1563543834
+cat read.example q w e
+#1563543850
+read.example q w e
+#1563547862
+grep car* regex
+#1563547877
+grep "car*" regex
+#1563547890
+grep "car*" regex guess
+#1563547911
+grep "c*" regex guess
+#1563547926
+grep "c*r" regex guess
+#1563547944
+grep "ca*r" regex guess
+#1563547984
+grep "*r" regex guess
+#1563547992
+grep ".*r" regex guess
+#1563548007
+grep "c*r" regex guess
+#1563548027
+grep 'c*r' regex guess
+#1563548068
+grep /c*r/ regex guess
+#1563548083
+grep 'c*r' regex guess
+#1563548103
+grep "c*r" regex guess
+#1563548125
+grep "of.*ice" regex guess
+#1563548136
+grep "of.*e" regex guess
+#1563548225
+grep "of.*ice" regex guess
+#1563548243
+grep "of.*" regex guess
+#1563548259
+egrep "of.*" regex guess
+#1563548269
+egrep "of.*ice" regex guess
+#1563548514
+grep "car*" regex
+#1563548592
+grep "^car*" regex
+#1563548659
+grep "car*" regex
+#1563548674
+grep "^[c]ar*" regex
+#1563548748
+grep "car.*" regex
+#1563548769
+grep "ca.*" regex
+#1563548819
+grep "car*" regex
+#1563548885
+grep "car." regex
+#1563549011
+grep "car*" regex
+#1563549680
+grep 'car*' regex
+#1563549792
+grep car* regex
+#1563549798
+grep car regex
+#1563570459
+grep car* regex
+#1563570464
+grep 'car*' regex
+#1563570474
+grep car* regex
+#1563570480
+grep "car*" regex
+#1563570491
+grep "car." regex
+#1563570506
+grep "ca.*" regex
+#1563570569
+grep "[0-9][0-9][0-9][0-9][0-9]" cars
+#1563570587
+grep [0-9][0-9][0-9][0-9][0-9] cars
+#1563570602
+grep [0-9][0-9][0-9][0-9][0-9]. cars
+#1563570610
+grep [0-9][0-9][0-9][0-9][0-9].* cars
+#1563570623
+grep [0-9][0-9][0-9][0-9].* cars
+#1563570629
+grep [0-9][0-9][0-9][0-9] cars
+#1563570637
+grep [0-9][0-9][0-9][0-9]. cars
+#1563570661
+grep [0-9][0-9][0-9][0-9]* cars
+#1563571315
+guess
+#1563571331
+guess ghjk
+#1563591090
+ls -a
+#1563591108
+cat .bashrc
+#1563591286
+ps1
+#1563591293
+PS1
+#1563591295
+pwd
+#1563591298
+home
+#1563591303
+$pw1
+#1563591326
+echo $pw1
+#1563591332
+echo $pwd
+#1563591340
+echo pwd
+#1563591348
+echo HOME
+#1563591354
+echo $HOME
+#1563591361
+echo $PWD
+#1563591365
+echo $PW1
+#1563591372
+echo $PATH
+#1563591380
+echo $HOST
+#1563591387
+echo $USER
+#1563591393
+echo $SHELL
+#1563591887
+readonly
+#1563591891
+read
+#1563591917
+read BASHPID
+#1563628704
+echo "a = $a" # a = 0
+#1563628714
+echo "a = $a"  a = 0
+#1563628734
+ a = 0
+#1563628756
+echo "a = $a" 
+#1563628782
+ a = 0
+#1563628827
+a=0
+#1563628835
+a =0
+#1563628841
+a= 0
+#1563628847
+a=0
+#1563628853
+echo "a = $a" 
+#1563628883
+echo "a = $a" # a=0
+#1563628889
+a=
+#1563628892
+echo "a = $a" # a=0
+#1563628899
+echo "a = $a"  a=0
+#1563628908
+echo "a = $a" # a=0
+#1563628928
+echo a=0
+#1563628935
+echo "a = $a" # a=0
+#1563628951
+echo "a=$a" # a=0
+#1563628970
+a=2
+#1563628973
+echo "a=$a" # a=0
+#1563628981
+a=0
+#1563628984
+echo "a=$a" # a=0
+#1563628998
+echo "a=$a"  a=0
+#1563629005
+a=2
+#1563629010
+echo "a=$a"  a=0
+#1563629022
+echo "a=$a"  a=2312
+#1563629330
+echo "a=$a"  a = 2312
+#1563629365
+grep ca* cars
+#1563629376
+grep {ca}* cars
+#1563629383
+grep {ca*} cars
+#1563629395
+grep 'ca*' cars
+#1563629426
+grep "ca*" cars
+#1563629449
+grep [ca*]" cars
+#1563629458
+grep [ca*] cars
+#1563629480
+grep [ca] cars
+#1563629889
+a=wer
+#1563630069
+grep 'ca*' cars
+#1563630080
+grep "'ca*" cars
+#1563630087
+grep "ca*" cars
+#1563630097
+echo "a=$a"  a=2312
+#1563630110
+echo 'a=$a'  a=2312
+#1563630715
+heyyou=homeecho "$heyyou" # We get home
+#1563630727
+heyyou=home echo "$heyyou" # We get home
+#1563630748
+heyyou=home
+#1563630758
+echo "$heyyou" # We get home
+#1563630782
+heyyou=home echo; "$heyyou" # We get home
+#1563630797
+heyyou=home;echo "$heyyou" # We get home
+#1563630810
+heyyou=home;echo we got "$heyyou" # We get home
+#1563630921
+echo a\n\{
+#1563630929
+echo a\n{
+#1563630940
+echo "a\n{"
+#1563630957
+echo 'a\n{'
+#1563630972
+echo '$a\n{'
+#1563630978
+a=2131
+#1563630983
+echo '$a\n{'
+#1563630992
+echo "$a\n{"
+#1563631175
+:
+#1563631191
+$?
+#1563631197
+?
+#1563631948
+~+
+#1563631954
+~ +
+#1563631968
+~
+#1563631975
+pwd
+#1563632036
+:
+#1563632046
+?
+#1563632049
+$?
+#1563632053
+$ ?
+#1563632056
+$
+#1563632160
+$?
+#1563632167
+pwd
+#1563632171
+$?
+#1563632182
+$$
+#1563632755
+vi a
+#1563632776
+$$
+#1563632779
+pid
+#1563632782
+PID
+#1563632788
+PSID
+#1563632797
+PID
+#1563632808
+$$
+#1563632820
+$?
+#1563632834
+PS
+#1563632835
+ps
+#1563632857
+$$
+#1563632862
+$?
+#1563632866
+fg
+#1563632895
+vim a
+#1563632902
+fg
+#1563632907
+vim a
+#1563632986
+ls
+#1563632993
+vim a
+#1563633001
+ls
+#1563633008
+vim a
+#1563633030
+cat a
+#1563633034
+rm a
+#1563633037
+ls
+#1563634815
+$#
+#1563634819
+a=0
+#1563634822
+$#
+#1563635952
+f [ "$?" != 0 ]thenecho "Executes error"exit 1fi
+#1563635972
+if [ "$?" != 0 ]thenecho "Executes error"exit 1fi
+#1563635989
+if [ "$?" != 0 ]then echo "Executes error"exit 1fi
+#1563636033
+:
+#1563636057
+:>f.
+#1563636106
+ls
+#1563636115
+cat f.
+#1563636125
+rm f.
+#1563636341
+$#
+#1563636357
+echo $#
+#1563636384
+echo S$?
+#1563636405
+echo $@
+#1563636411
+echo "$@"
+#1563636418
+echo "$*"
+#1563636425
+q=1
+#1563636430
+echo "$*"
+#1563636432
+q=1
+#1563636434
+echo "$*"
+#1563636445
+echo $#
+#1563636467
+vi a
+#1563636481
+echo $?
+#1563636489
+echo $#
+#1563636499
+echo $$
+#1563636551
+ls
+#1563636565
+guess q w e r 4&
+#1563636580
+ps
+#1563636587
+job
+#1563636590
+jobs
+#1563636603
+guess q w e r &
+#1563636690
+vi a&
+#1563636708
+echo $#
+#1563636723
+echo $$
+#1563636729
+echo $?
+#1563636736
+fg
+#1563636749
+jobs
+#1563636753
+ps
+#1563636773
+kill %1
+#1563636777
+ps
+#1563636780
+jobs
+#1563636789
+kill %4
+#1563636793
+jobs
+#1563636794
+ps
+#1563636842
+fg
+#1563636855
+ps
+#1563637117
+guess admin
+#1563637150
+fg
+#1563637305
+guess admin
+#1563637441
+which
+#1563637451
+which bash
+#1563637485
+guess admin
+#1563637561
+guess admadf
+#1563638788
+clear
+#1563638799
+guess admadf
+#1563639391
+ls
+#1563639447
+mv 1.txt 1
+#1563639449
+ls
+#1563639454
+ls -l
+#1563639463
+chmod u+x 1
+#1563639470
+1 q w rj
+#1563639764
+guess admadf
+#1563639889
+guess
+#1563639913
+guess admadf
+#1563650156
+echo $$
+#1563650163
+ps
+#1563650172
+echo $#
+#1563650182
+echo $?
+#1563650186
+echo $!
+#1563650195
+echo $@
+#1563650201
+echo $*
+#1563650205
+echo "$*"
+#1563662729
+1
+#1563662740
+1 2 3 4 1
+#1563662958
+ps
+#1563662987
+1 2 3 4 1&
+#1563662995
+ps
+#1563663044
+1 2 3 4 1&
+#1563663133
+ps
+#1563663148
+1 2 3 4 1&
+#1563663215
+ps
+#1563663270
+1 2 3 4 1&
+#1563663352
+ps
+#1563664348
+1 2 3 4 1&
+#1563664570
+1 2 3 4 1
+#1563664594
+1 2 3 4 1&
+#1563664599
+ps
+#1563664602
+fg
+#1563664622
+1 2 3 4 1&
+#1563665306
+1 2 3 4 1
+#1563665319
+cat 1
+#1563665410
+1 2 3 4 1
+#1563665481
+1 2 3 4 
+#1563665720
+1 2 3 4 1
+#1563666661
+cat 1
+#1563666675
+vi 1
+#1563666756
+cat 1
+#1563666761
+1 2 3 4 1
+#1563672064
+cat 1
+#1563672438
+1 2 3 4 1
+#1563672717
+ls -l
+#1563672735
+chmod u+x 1
+#1563672738
+ls -l
+#1563672744
+1 2 3 4 1
+#1563675267
+cat 1
+#1563675274
+1 2 3 4 1
+#1563677438
+uptime
+#1563677863
+1 2 3 4 1
+#1563685884
+1 3 2  4 1
+#1563714492
+cat 1
+#1563714534
+1 3 2  4 1
+#1563739512
+vim 1
+#1563741262
+1 3 2  4 1
+#1563741718
+1 1 2 4 1
+#1563742038
+1 6 5 4 1
+#1563746816
+cd A2ms4
+#1563746820
+ms4
+#1563747365
+~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563747397
+ms4
+#1563768476
+ls
+#1563768649
+cd A2ms2
+#1563768660
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563768672
+~md-nour.hossain/submit 144a2ms2/SKK_ms2
+#1563771577
+USERS=`who | wc -l` 
+#1563771585
+echo "Logged in user are $USERS"  
+#1563771605
+man wc
+#1563771640
+who
+#1563771663
+uptime
+#1563771679
+echo pID=$$
+#1563771685
+echo pID=$!
+#1563771689
+ps
+#1563771723
+cd 
+#1563771724
+ls
+#1563771726
+1
+#1563832476
+cd A2ms4
+#1563832533
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563832543
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563832552
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563832556
+ms4
+#1563832615
+1
+#1563832618
+ms4
+#1563832741
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563833537
+expr 9 + 8 - 7 \* 6 / 5 + \( 4 - 3 \) \* 2
+#1563833634
+expr 9 > 8
+#1563833652
+echo expr 9>8
+#1563833663
+echo expr 9 > 8
+#1563833677
+echo $(expr 9 > 8)
+#1563833706
+echo $[expr 9 > 8]
+#1563833718
+echo `expr 9 > 8 `
+#1563833745
+echo $(9 > 8)
+#1563833753
+echo $(9- 8)
+#1563833763
+echo $(expr 9 - 8)
+#1563833956
+echo $(( 9 - 8))
+#1563833965
+echo $((9-8))
+#1563833973
+echo $[9-8]
+#1563833989
+echo `expr 9 - 8`
+#1563834060
+bc
+#1563834132
+dc
+#1563834270
+echo "s(2/3*a(1))"|bc -l
+#1563834393
+scale=5;9+8-7*6/5^2
+#1563834397
+bc
+#1563834456
+bc -l
+#1563834475
+bc -lqi
+#1563834691
+dc
+#1563835142
+bc --help
+#1563835147
+man bc
+#1563835362
+ awk 'BEGIN{a=(3+2)*2;print a}'
+#1563835370
+man bc
+#1563835735
+The Bessel function of integer order n of x.
+#1563835746
+bc -l
+#1563835850
+echo for (i=0;i<=3;i++){ print i}|bc -l
+#1563835867
+echo "for (i=0;i<=3;i++){ print i}"|bc -l
+#1563835898
+echo "for (i=0;i<=3;i++){ print 4*a(1)*i}"|bc -l
+#1563835943
+echo "for (i=0;i<=3;i++){ print "4*a(1)*i   }"|bc -l
+#1563835966
+echo "for (i=0;i<=3;i++){ print "4*a(1)*i  " }" | bc -l
+#1563835992
+echo "for (i=0;i<=3;i++){ print 4*a(1)*i   }" | bc -l
+#1563836004
+echo "for (i=0;i<=3;i++){ print 4*a(1)*i\n   }" | bc -l
+#1563836021
+echo "for (i=0;i<=3;i++){ print 4*a(1)*i"\n"   }" | bc -l
+#1563836039
+echo "for (i=0;i<=3;i++){ print 4*a(1)*i }" | bc -l
+#1563836109
+man bc
+#1563836187
+echo j(2,3)|bc
+#1563836201
+echo "j(2,3)"|bc
+#1563836212
+echo "j(2,3)"|bc -l
+#1563836235
+echo "j(2,8)"|bc -l
+#1563836242
+echo "j(8,8)"|bc -l
+#1563836250
+echo "j(8,2)"|bc -l
+#1563836282
+if --help; 
+#1563889622
+1
+#1563889709
+ls /bin/bash
+#1563908632
+cd A2ms4
+#1563908651
+gcc -Wall -o ms2 contacts.c contactHelpers.c a2ms2.c
+#1563908687
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563908695
+~md-nour.hossain/submit 144a2ms4/SKK_ms4
+#1563908730
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563911111
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563911114
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563911416
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563911419
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563914068
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563914097
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563915699
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563915705
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563921242
+cd A2ms4
+#1563921247
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563921264
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort < data.txt
+#1563921499
+ms4<dataSort.txt
+#1563922306
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563922320
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort < dataSort.txt
+#1563922331
+ms4<dataSort.txt
+#1563922911
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563924121
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1563924127
+ ~md-nour.hossain/submit 144a2ms4Sort/SKK_ms4Sort
+#1563927974
+ms4<dataSort.txt
+#1564059027
+gcc o 1c 1.c
+#1564059031
+ls
+#1564059043
+gcc -o 1c 1.c
+#1564059047
+1c
+#1564071530
+1
+#1564071607
+1 3 4 5 6
+#1564072418
+vim 
+#1564074642
+~uli101/assign3
+#1564078412
+1c
+#1564078472
+cat 1.c
+#1564079882
+1c
+#1564106625
+mkdir scripts
+#1564106627
+ls
+#1564106700
+cat ~uli101/2019b/phonebook
+#1564106754
+cp ~uli101/2019b/phonebook scripts
+#1564106761
+cd scripts
+#1564106762
+ls
+#1564106832
+ln -s ~uli101/2019b/phonebook pb
+#1564106834
+ls
+#1564106841
+ls -l
+#1564106862
+cat pb
+#1564106880
+grep -i chery1 pb
+#1564106950
+grep -i cheryl pb
+#1564107004
+touch phone
+#1564107201
+cd ..
+#1564107204
+phone
+#1564107211
+ls
+#1564107265
+phone
+#1564107275
+cd scripts
+#1564107277
+ls
+#1564107280
+phone
+#1564107284
+cd ..
+#1564107294
+phone
+#1564107329
+PATH="$PATH:~/scripts
+"
+#1564107340
+PATH="$PATH:~/scripts"
+#1564107347
+phone
+#1564107403
+phone cheryl
+#1564107411
+phone joel
+#1564108222
+phone3
+#1564108495
+phone3 cheryl
+#1564108510
+phone3 joel
+#1564108618
+phone4 xyz
+#1564108934
+phone4 joel
+#1564108996
+phone4 xyz
+#1564109227
+phone4 joel
+#1564109334
+phone4 xyz
+#1564109463
+phone4 joel
+#1564109487
+phone4
+#1564109591
+phone4 joel
+#1564109598
+phone4 xyz
+#1564109634
+phone4 joel
+#1564109682
+phone4 xyz
+#1564109690
+phone4 joel
+#1564109803
+phone4 xyz
+#1564109864
+phone4 joel
+#1564109913
+phone4
+#1564109940
+phone4 joel
+#1564109945
+phone4 xyz
+#1564109951
+phone4
+#1564109979
+phone4 xyz
+#1564109983
+phone4 joel
+#1564110051
+phone4 xyz
+#1564110088
+phone4 joel
+#1564110101
+phone4 xyz
+#1564110120
+phone4 joel
+#1564110145
+phone4 xyz
+#1564110162
+phone4 joel
+#1564110180
+phone4 xyz
+#1564110200
+phone4 joel
+#1564110300
+PATH="$PATH:~/scripts"
+#1564110394
+phone4 xyz
+#1564110403
+phone4 asfasg
+#1564110756
+phone4 xyz
+#1564110758
+phone4 asfasg
+#1564110764
+phone4 joel
+#1564110780
+ls -l scripts
+#1564110811
+chmod 777 scripts/*
+#1564110821
+ls -l scripts
+#1564110850
+phone4 joel
+#1564110895
+ls
+#1564111331
+m
+#1564111334
+phone4 joel
+#1564111342
+phone4 xyz
+#1564111394
+phone4 joel
+#1564111501
+phone4 xyz
+#1564111556
+phone4 joel
+#1564111602
+phone4 xyz
+#1564111904
+phone4 joel
+#1564111991
+phone4 xyz
+#1564112173
+vim .bashrc
+#1564112332
+ls '*
+
+#1564112346
+ls .*
+#1564112366
+ls .bashrc
+#1564112399
+bash
+#1564112453
+vim .bashrc
+#1564096947
+~uli101/assign3
+#1564112718
+cd scripts
+#1564112727
+touch add add2
+#1564112728
+ls
+#1564112731
+ls -s
+#1564112735
+ls -l
+#1564112751
+chmod u+x add add2
+#1564112754
+ls -l
+#1564112794
+chmod 0644 phone* 
+#1564112797
+ls -l
+#1564112833
+chmod 0500 phone* 
+#1564112837
+ls -l
+#1564112852
+chmod 0700 phone* 
+#1564112854
+ls -l
+#1564096598
+~uli101/assign2
+#1564096670
+~uli101/assign3
+#1564099380
+Mr. Smith
+#1564099380
+Jenn Bewlite
+#1564099380
+Ms Carmichael
+#1564099380
+Dr Ivan James
+#1564099380
+Mrs Holly Alva Beswol
+#1564099380
+Mrs James Sheepwool
+#1564099380
+Mr. Hitchcock
+#1564099380
+Miss Jennifer Olgovie
+#1564099380
+Melissa (Missy) Smith
+#1564099380
+JoJo Smythe
+#1564099380
+Dr Smooth
+#1564099380
+Mr. John Waterson
+#1564099380
+Sara Oooosterinnk
+#1564099380
+Ms Ella Moloska
+#1564099380
+James Ngenda
+#1564099380
+Dr and Mr Wilson
+#1564099392
+~uli101/assign3
+#1564099833
+grep -i smith names
+#1564099851
+grep smith names
+#1564099875
+grep Smith names
+#1564103945
+set
+#1564103955
+ENV
+#1564103958
+env
+#1564103966
+env|more
+#1564104677
+ctiy = afd
+#1564104684
+ctiy= afd
+#1564104697
+ctiy=afd
+#1564104701
+ctiy=afd 
+#1564104706
+ctiy=afd sdaf
+#1564105408
+set
+#1564105411
+env
+#1564105438
+unset
+#1564107058
+ph
+#1564107064
+cd scripts
+#1564107066
+ls
+#1564107069
+phone
+#1564107086
+chmod u+d phone
+#1564107100
+chmod u+x phone
+#1564107103
+phone
+#1564107172
+PATH="$PATH:~/scripts"
+#1564107180
+cd ..
+#1564107193
+phone
+#1564107251
+export PATH
+#1564107775
+phone2 cheryl
+#1564107790
+chmod u+x phone2
+#1564107802
+chmod u+x scripts/phone2
+#1564107811
+phone2 cheryl
+#1564107833
+phone2 joel
+#1564107947
+phone2
+#1564108130
+touch /scripts/phone3 scripts/phone4
+#1564108148
+touch scripts/phone3 scripts/phone4
+#1564108170
+chmod u+x scripts/phone3 scripts/phone4
+#1564112534
+vim .bashrc
+#1564112590
+bash
+#1564113154
+add 1 2 3 4
+#1564113741
+add 6 9 -4 7
+#1564113804
+add 4 -3 12 9
+#1564114110
+add2 4 -3 12 9
+#1564114690
+add2 4
+#1564114695
+add2 -4
+#1564114703
+add2 百花村
+#1564114717
+add 4 -3 12 9
+#1564114722
+add2 百花村
+#1564114729
+add2 百wqgdfs
+#1564114784
+add2 百花村
+#1564114793
+add2 -3
+#1564114802
+add2 -3a
+#1564114808
+add2 -31
+#1564114816
+add2 0
+#1564114871
+add2 -31
+#1564114878
+add2 -3a
+#1564114887
+add2 百wqgdfs
+#1564114892
+add2 �3
+#1564114900
+add2  3
+#1564114909
+add 2
+#1564114919
+add -2
+#1564114924
+add -0
+#1564114928
+add 0
+#1564114936
+add2 0
+#1564114941
+add2 -1
+#1564114949
+add2 +1
+#1564114957
+add2 1
+#1564115286
+add2 +1
+#1564115292
+add2 0
+#1564115296
+add2 1q
+#1564115325
+add2 0
+#1564115331
+add2 +1
+#1564115343
+add2 -2
+#1564115350
+add2 -5
+#1564115353
+add2 4
+#1564115360
+add2 0
+#1564115367
+add2 adf
+#1564115371
+add2 0a
+#1564115378
+add2 0aga
+#1564115389
+add2 +23
+#1564115736
+add2 0aga
+#1564115740
+add2 +23
+#1564115773
+add2 0aga
+#1564115777
+add2 +23
+#1564115784
+add2 0a
+#1564115790
+add2 0
+#1564115796
+add2 -6
+#1564115810
+add2 5
+#1564116266
+add2 4 -3 12 9
+#1564116311
+add2 4 -3 twelve nine
+#1564117216
+phone
+#1564117228
+phone4
+#1564117246
+phone4 cheryl
+#1564117255
+phone4 
+#1564117263
+phone4 xya
+#1564117347
+phone4 cheryl
+#1564117386
+phone4 xya
+#1564117390
+phone4 cheryl
+#1564117452
+phone4 xya
+#1564117466
+phone4 cheryl
+#1564117476
+phone4 xya
+#1564117493
+phone4 cheryl
+#1564117508
+phone4 xya
+#1564117526
+phone4 cheryl
+#1564117527
+phone4 xya
+#1564117558
+phone4 cheryl
+#1564117745
+1
+#1564117971
+phone4 
+#1564113141
+bash
+#1564152522
+cd scripts
+#1564152540
+touch oldfiles ildfiles2
+#1564152581
+chmod u+x oldfiles ildfiles2
+#1564152609
+mv ildfiles2 oldfiles2
+#1564152610
+ls
+#1564152616
+ls -l
+#1564152628
+cd ..
+#1564152697
+oldfiles
+#1564153444
+cd scripts
+#1564153460
+touch file.old
+#1564153655
+touch file1
+#1564153838
+cd files
+#1564153853
+touch file.old file
+#1564153855
+ls
+#1564154973
+rm *
+#1564154974
+ls
+#1564155001
+touch file1 file2.old file3old file4.old
+#1564155006
+ls
+#1564153406
+
+#1564153478
+oldfiles scripts
+#1564153868
+oldfiles scripts/files
+#1564153967
+oldfiles scripts/files/
+#1564152489
+~uli101/assign3
+#1564177888
+cd scripts
+#1564177890
+ls
+#1564177898
+cd files
+#1564177900
+ls
+#1564178390
+rm *
+#1564178416
+touch file1 file2.old file3old file4.old
+#1564178444
+ls
+#1564178558
+rm *
+#1564178562
+touch file1 file2.old file3old file4.old
+#1564178566
+ls
+#1564178659
+cd ..
+#1564178719
+mkdir testdir
+#1564178725
+touch file1 file2.old file3old file4.old
+#1564178733
+cd tastdir
+#1564178741
+cd testdir
+#1564178743
+ls
+#1564178815
+ls -l
+#1564178826
+touch file1 file2.old file3old file4.old
+#1564178827
+ls
+#1564178833
+ls -l
+#1564179163
+touch file1 file2.old file3old file4.old
+#1564179182
+rm *
+#1564179185
+touch file1 file2.old file3old file4.old
+#1564179273
+ls
+#1564175217
+oldfiles scripts/files/
+#1564175455
+oldfiles scripts/files
+#1564175482
+q=scripts/files
+#1564175491
+a=file2.old
+#1564175502
+echo $q$a
+#1564175511
+q=scripts/files/
+#1564175513
+echo $q$a
+#1564175563
+oldfiles scripts/files/
+#1564176132
+cat oldfiles
+#1564176143
+cat scripts/oldfiles
+#1564176183
+cat oldfiles
+#1564176192
+oldfiles scripts/files/
+#1564177552
+oldfiles scripts/files/ -x
+#1564177590
+sh -x oldfiles scripts/files/
+#1564177799
+oldfiles scripts/files/
+#1564178870
+oldfiles testdir
+#1564179305
+oldfiles2 testdir
+#1564184464
+sed's/[0-9][0-9]*/*** & ***/' cars
+#1564184484
+sed 's/[0-9][0-9]*/*** & ***/' cars
+#1564194186
+awk '{print $1,$2}' cars
+#1564362339
+oldfiles2
+#1564363813
+ls .*
+#1564363912
+cat .bashrc
+#1564365539
+which bash
+#1564367334
+非走不可Business Letter Template Download & Print in Minutes! Word & Excel Compatible. Professionally Formatted. Save Money on Legal Fees. Save Your Precious Time. Free Customer Services. Attorney-Drafted Document. Over 250,000 Customers. Types: Forms, Proposals, Policies, Checklists, Letters, 
+#1564369908
+adfsadf mock/
+#1564369913
+ls
+#1564369929
+awk cars
+#1564369953
+awk {print} cars
+#1564370496
+awk -F':' {print $6} cars
+#1564370519
+awk -F':'' {print $6}' cars
+#1564370533
+awk -F':'' {print $2}' cars
+#1564370563
+awk -F':' '{print $2}' cars
+#1564370581
+awk  '{print $2}' cars
+#1564370602
+awk -F, '{print $2}' cars
+#1564370624
+awk -F: {print $2} cars
+#1564370635
+awk -F: '{print $2}' cars
+#1564370649
+awk  '{print $2}' cars
+#1564370654
+awk -F: '{print $2}' cars
+#1564370665
+awk -F, '{print $2}' cars
+#1564370710
+awk  {print $2} cars
+#1564370721
+awk   { print $2 } cars
+#1564370825
+awk {print} cars
+#1564370839
+awk cars
+#1564370893
+awk '$2 ~ /[0-9]/' cars
+#1564370916
+awk -F, '$2 ~ /[0-9]/' cars
+#1564370983
+cd A2ms4
+#1564370988
+ms4
+#1564372935
+~uli101/assign3
+#1564409157
+ls
+#1564409160
+cat cars
+#1564409235
+awk '$1!=[cC]hevy' cars 
+#1564409245
+awk '$1! = [cC]hevy' cars 
+#1564409254
+awk '$1 != [cC]hevy' cars 
+#1564409268
+awk '$1 != /[cC]hevy/' cars 
+#1564409314
+awk '$1 != [cC]hevy' cars 
+#1564409327
+awk '$1 != /[cC]hevy/' cars 
+#1564409353
+awk '$3<70' cars 
+#1564409359
+awk '$3 < 70' cars 
+#1564409406
+awk '$5 < 10000' cars 
+#1564409490
+awk '$5 < 10000 && $1 != /chevy/ && $1 != /Chevy/'  cars 
+#1564409822
+awk '$5 < 10000 && $1 ~  /chevy/ && $1 ~ /Chevy/'  cars 
+#1564409848
+awk '$5 < 10000 && $1 !~  /chevy/ && $1 !~ /Chevy/'  cars 
+#1564410454
+awk '$5 < 10000 && $1 !~  /chevy/ && $1 !~ /Chevy/'  cars | sort -nk 5 | tr [a-z] [A-Z]
+#1564410609
+awk '$5 < 10000 && $1 !~  /chevy/ && $1 !~ /Chevy/'  cars | sort -nk 5 | tr "[a-z]" "[A-Z]"
+#1564410618
+awk '$5 < 10000 && $1 !~  /chevy/ && $1 !~ /Chevy/'  cars | sort -nk 5 | tr "[a-z]" '[A-Z]'
+#1564410630
+awk '$5 < 10000 && $1 !~  /chevy/ && $1 !~ /Chevy/'  cars | sort -nk 5 | tr [a-z] '[A-Z]'
+#1564410977
+awk '$3>74 && $3<84"
+cars
+#1564410991
+awk '$3>74 && $3<84" cars
+#1564411009
+awk '$3>74 && $3<84' cars
+#1564411200
+awk '$3>74 && $3<84 {print $1}' cars
+#1564411839
+sed '5' p
+#1564411855
+sed '5 p' inventory
+#1564411876
+sed -n '5 p' inventory
+#1564412390
+sed 's/Jam/Marmalade/ p' inventory
+#1564412741
+sed '%s/Jam/Marmalade/g p' inventory
+#1564412839
+sed 's/Jam/Marmalade/g p' inventory
+#1564412848
+sed '1,4s/Jam/Marmalade/g p' inventory
+#1564412859
+sed '1,4 s/Jam/Marmalade/g p' inventory
+#1564412870
+sed '1,2 s/Jam/Marmalade/g p' inventory
+#1564412887
+sed '1,2 s/Jam/Marmalade/ p' inventory
+#1564412898
+sed -n  '1,2 s/Jam/Marmalade/ p' inventory
+#1564412907
+sed -n  '1,4 s/Jam/Marmalade/ p' inventory
+#1564413060
+sed 's/Jam/Mamalade/' inventory
+#1564413074
+cat inventory
+#1564413092
+sed '2 s/Jam/Mamalade/' inventory
+#1564413120
+sed '1-3 s/Jam/Mamalade/' inventory
+#1564413128
+sed '1,3 s/Jam/Mamalade/' inventory
+#1564413543
+awk '{print $1 $2}' inventory
+#1564413566
+awk -F, '{print $1 $2}' inventory
+#1564413574
+awk -F, '{print $1,$2}' inventory
+#1564413587
+awk -F, '{print $1,,$$2}' inventory
+#1564413598
+awk -F, '{print $1,  $ $2}' inventory
+#1564413612
+awk -F, '{print $1  $ $2}' inventory
+#1564413635
+awk -F, '{print $1 $ $2}' inventory
+#1564413642
+awk -F, '{print $1 $2}' inventory
+#1564413702
+awk -F, '{print $1 "    $"$2}' inventory
+#1564413743
+awk -F, '{print $1 "    $ " $2}' inventory
+#1564413749
+awk -F, '{print $1, "    $ " $2}' inventory
+#1564413763
+awk -F, '{print $1, "$ " $2}' inventory
+#1564413773
+awk -F, '{print $1  "$ " $2}' inventory
+#1564413927
+ awk '$2<100 {print}' inventory
+#1564413963
+ awk '$2<100' inventory
+#1564413968
+ awk '$2 < 100' inventory
+#1564413974
+cat inventory
+#1564414001
+ awk -F,'$2 < 100' inventory
+#1564414025
+ awk -F,'$2 100 {print}' inventory
+#1564414047
+ awk -F,'$2<100' inventory
+#1564414061
+ awk -F, '$2<100' inventory
+#1564415238
+sed '/[0-9]{5}/ d' cars
+#1564415261
+sed '/[0-9]{5}$/ d' cars
+#1564415296
+sed '/[0-9][0-9][0-9][0-9][0-9]$/ d'
+#1564415305
+sed '/[0-9][0-9][0-9][0-9][0-9]$/ d' cars
+#1564415337
+cat cars
+#1564415495
+sort -nvk 5
+#1564415501
+sort -nrk 5
+#1564415510
+sort -nrk 5 cars
+#1564415516
+sort -nk 5 cars
+#1564425239
+grep -iv chevy cars | grep [0-9]{5}
+#1564425265
+grep -iv chevy cars | grep [0-9]{5}$
+#1564425409
+grep -iv chevy cars | grep [0-9][0-9][0-9][0-9][0-9]$
+#1564425420
+cat cars
+#1564425461
+grep -iv chevy cars | sed -n '[0-9][0-9][0-9][0-9][0-9]$ p'
+#1564425474
+grep -iv chevy cars | sed -n '/[0-9][0-9][0-9][0-9][0-9]$/ p'
+#1564425486
+grep -iv chevy cars | sed  '/[0-9][0-9][0-9][0-9][0-9]$/ p'
+#1564425495
+grep -iv chevy cars | sed -n '/[0-9][0-9][0-9][0-9][0-9]$/ p'
+#1564435091
+grep o.*l names
+#1564435098
+grep o.*?l names
+#1564435109
+grep o\.*l names
+#1564435116
+grep o\\.*l names
+#1564435138
+grep "o\\.*l" names
+#1564435146
+grep "o\.*l" names
+#1564424801
+~uli101/assign3
+#1564430387
+cat name
+#1564430390
+ls
+#1564430399
+cat names
+#1564430417
+grep -i joj
+#1564430427
+grep -i joj names
+#1564430468
+sed '/[jJ]ojo/ q' names
+#1564430498
+sed '/[jJ]o/ q' names
+#1564430523
+sed '/[jJ]oJo/ q' names
+#1564430774
+grep "smith" names
+#1564430780
+grep "Smith" names
+#1564430792
+grep Smith names
+#1564431065
+grep "M[rs]" names
+#1564431182
+grep Sm.th names
+#1564431190
+grep Sm..th names
+#1564431200
+grep 'Sm..th' names
+#1564431212
+grep "Sm..th" names
+#1564431219
+grep "Sm.th" names
+#1564431225
+grep Sm.th names
+#1564431232
+grep Sm\.th names
+#1564431261
+grep "Sm\.th" names
+#1564431273
+grep Sm\.th names
+#1564431283
+grep Sm.th names
+#1564431295
+grep "Sm.th" names
+#1564433864
+grep Sm\\.th names
+#1564433872
+grep Sm.th names
+#1564434850
+cat names
+#1564434878
+grep "o.*l" names
+#1564434885
+grep "o.*?l" names
+#1564434904
+grep o.*?l names
+#1564434914
+grep "o.*l" names
+#1564434921
+grep "o\.*l" names
+#1564434928
+grep "o\\.*l" names
+#1564434935
+grep "o\\.l" names
+#1564434953
+grep "o\\.*l" names
+#1564434979
+grep "o\.*l" names
+#1564434992
+grep "o\..*l" names
+#1564435002
+grep "o.\\*l" names
+#1564435011
+grep "o\\*l" names
+#1564435017
+grep "o\\.*l" names
+#1564435512
+grep "wo*l" names
+#1564436113
+grep "Straw " inventory
+#1564436156
+sed -n '/Straw / p' inventory
+#1564436183
+awk '/Straw /' inventory
+#1564436214
+sed -n '/Straw / ' inventory
+#1564436221
+sed -n '/Straw /p ' inventory
+#1564436228
+sed -n '/Straw / p ' inventory
+#1564436244
+sed '/Straw / q ' inventory
+#1564436251
+sed '/Straw / d ' inventory
+#1564436375
+awk -F, '$1 !~ /Straw /' inventory
+#1564436386
+awk -F, '$1 != /Straw /' inventory
+#1564436398
+awk -F, '$1!=/Straw /' inventory
+#1564436440
+awk -F, '$1!=/Straw.*/' inventory
+#1564436454
+awk -F, '$1 != /Straw.*/' inventory
+#1564436576
+awk -F, '$1 !~ /Straw /' inventory
+#1564436581
+awk -F, '$1 ~ /Straw /' inventory
+#1564436589
+awk -F, '$1~/Straw /' inventory
+#1564436599
+awk -F, '$1!~/Straw /' inventory
+#1564436637
+awk '/Straw /' inventory
+#1564436798
+awk '$1!~/Straw /' inventory
+#1564436809
+awk -F, '$1!~/Straw /' inventory
+#1564436831
+awk -F, '$1~/Straw /' inventory
+#1564436838
+awk  '$1~/Straw /' inventory
+#1564436843
+awk -F, '$1~/Straw /' inventory
+#1564436934
+grep "o.\\*l" names
+#1564442088
+�env | less
+#1564442114
+env | more
+#1564442127
+�env | less
+#1564442163
+less
+#1564442174
+less names
+#1564442182
+more names
+#1564442991
+echo $PATH
+#1564457451
+ls
+#1564457465
+cd scripts
+#1564457499
+ls
+#1564457535
+cat phonbook
+#1564457545
+cat phonebookd
+#1564457549
+cat phonebook
+#1564457577
+grep -i cheryl phonebook
+#1564457649
+touch phone phone2 phone3 pphone4
+#1564457652
+ls -l
+#1564457670
+mv pphone4 phone4
+#1564457672
+ls -l
+#1564457786
+cd ..
+#1564457790
+phone
+#1564457801
+cd script
+#1564457804
+cd scripts
+#1564457842
+chmod u+x phone phone4 phone2 phone3
+#1564457846
+cd ..
+#1564457852
+phone
+#1564457977
+phone cheryl
+#1564457984
+phone joel
+#1564490630
+ls
+#1564490651
+cat names
+#1564490680
+awk '/JoJo/' names
+#1564490697
+awk 'NR=3' names
+#1564490705
+awk 'NR==3' names
+#1564490732
+awk 'NR==2,NR==3' names
+#1564490891
+awk 'NR==2,NR==3 {print $1,$2}' names
+#1564490905
+awk '{print $1,$2}' names
+#1564490919
+awk -F, '{print $1,$2}' names
+#1564490930
+awk -F, '{print $2}' names
+#1564490937
+awk '{print $1$2}' names
+#1564490945
+awk '{print $1 $2}' names
+#1564490951
+awk '{print $1. $2}' names
+#1564490959
+awk '{print $1./ $2}' names
+#1564490971
+awk '{print $1.| $2}' names
+#1564490983
+awk '{print $1@ $2}' names
+#1564490992
+awk '{print $1  $$2}' names
+#1564491011
+awk '{print $1  \$$2}' names
+#1564491080
+awk '{print $1  "$"$2}' names
+#1564491088
+awk '{print $1  "$" $2}' names
+#1564491094
+awk '{print $1 , "$" $2}' names
+#1564491111
+awk '{print $1  "    " $2}' names
+#1564491124
+awk '{print $1  "@@@@@@@    " $2}' names
+#1564491136
+awk '{print $1  "    " $2}' names
+#1564491164
+awk '$1=/JoJo/' names
+#1564491188
+awk '$1==/JoJo/' names
+#1564491196
+awk '$1!=/JoJo/' names
+#1564491206
+awk '$1=/JoJo/' names
+#1564491215
+awk '$1=JoJo' names
+#1564491223
+awk '$1="JoJo"' names
+#1564491259
+awk '$1~"JoJo"' names
+#1564491276
+awk '$1~/JoJo/' names
+#1564491928
+awk --help
+#1564492645
+phone
+#1564493004
+phone JoJO
+#1564493389
+sh -v phone dsf
+#1564493713
+file names
+#1564493744
+file names inventory cars
+#1564663796
+ls
+#1564663831
+grep -i "s*" ~
+#1564663847
+grep -i "s*" ~/*
+#1564663860
+awk 'NR==2,NR==3 {print $1,$2}' names
+#1564663892
+grep -i "s*" ~/* > /dev/null
+#1564663908
+grep -i "s*" ~/*>/dev/null
+#1564663916
+grep -i "s*" ~/* > /dev/null
+#1564663928
+grep -i "s*" ~/* >/dev/null
+#1564663945
+grep -i "s*" ~/* &> /dev/null
+#1564663958
+$?
+#1564663970
+echo $?
+#1564663975
+grep -i "s*" ~/* &> /dev/null
+#1564663978
+echo $?
+#1564663990
+ls
+#1564664008
+grep -i "s*" cars &> /dev/null
+#1564664015
+echo $?
+#1564664023
+grep -i "s*" cars > /dev/null
+#1564664032
+echo $?
+#1564664039
+grep -i "s*" cars
+#1564664049
+grep -in "s*" cars
+#1564664055
+grep -inc "s*" cars
+#1564664062
+grep -ic "s*" cars
+#1564664068
+grep -icv "s*" cars
+#1564664080
+grep -iv "s*" cars
+#1564664092
+grep -v "s*" cars
+#1564664106
+grep -cv "s*" cars
+#1564664112
+grep -cv "s" cars
+#1564664124
+grep -v "s" cars
+#1564664137
+grep -v "s" cars >/del/null
+#1564664146
+grep -v "s" cars >/dev/null
+#1564664155
+echo $?
+#1564675946
+~uli101/assign3
+#1564676286
+ls /*
+#1564676290
+ls .
+#1564676302
+cat
+#1564676311
+ls /.*
+#1564676322
+ls .
+#1564676336
+echo .*
+#1564676363
+ls \.*
+#1564676371
+ls \.*
+#1564676380
+ls 
+#1564676387
+cat .*
+#1564676392
+xterm-256color
+#1564676403
+echo .*
+#1564676416
+cat .bashhrc
+#1564676424
+cat .bashrc
+#1564676456
+cat .bash_profile
+#1564676555
+cat .bashrc
+#1564677652
+sed -n '/[0-9]..*$/ p' cars
+#1564677663
+cat cars
+#1564677762
+sed -n '/[0-9].*$/ p' cars
+#1564677808
+sed -n '/[0-9][0-9]/ p' cars
+#1564677832
+sed -n '/[0-9][0-9][0-9][0-9][0-9]/ p' cars
+#1564677847
+sed -n '/[0-9][0-9][0-9][0-9][0-9].*/ p' cars
+#1564677855
+sed -n '/[0-9][0-9][0-9][0-9][0-9]..*/ p' cars
+#1564677879
+sed -n '/[0-9][0-9][0-9][0-9][0-9]]\..*/ p' cars
+#1564678288
+sed '/[0-9][0-9]*/***  & *****/' cars
+#1564678321
+sed 's/[0-9][0-9]*/***  & *****/' cars
+#1564679558
+cd scripts
+#1564679560
+ls
+#1564679566
+cat phone
+#1564679669
+phone
+#1564679761
+cd ..
+#1564679765
+phone
+#1564679769
+ls
+#1564679791
+phone asdf
+#1564679801
+$?
+#1564679817
+echo $?
+#1564679823
+phone asdf
+#1564679826
+echo $?
+#1564679859
+phone asdf
+#1564679883
+exit() --help
+#1564679889
+exit() ---help
+#1564679894
+exit() -help
+#1564680047
+phone asdf
+#1564680054
+echo $?
+#1564680140
+exit 0
+#1564680195
+phone asdf
+#1564680201
+echo $?
+#1564803769
+cd A2ms4
+#1564803772
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1564804741
+cd A2ms4
+#1564804746
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1564804813
+cd A2ms4
+#1564804816
+gcc -Wall -o ms4 contacts.c contactHelpers.c a2ms4.c
+#1565099707
+PATH="/"
+#1565099714
+PATH='/'
+#1565099727
+PATH=/
+#1565099742
+echo $PATH
+#1565099748
+PATH='/'
+#1565099750
+echo $PATH
+#1565099756
+PATH="/"
+#1565099759
+echo $PATH
+#1565100391
+PATH=~/A2ms4
+#1565100394
+echo $PATH
+#1565100401
+PATH="/"
+#1565100402
+echo $PATH
+#1565101283
+ls
+#1565101289
+ls -li
+#1565101298
+cd ~
+#1565101310
+ps
+#1565101312
+pwd
+#1565101315
+ls
+#1565101326
+exit
+#1565101344
+ls
+#1565101385
+mkdir -p d1/d2 d1/d3
+#1565101386
+ls
+#1565101390
+cd d1
+#1565101391
+ls
+#1565101453
+cd..
+#1565101455
+ls
+#1565101469
+rm -r d1
+#1565101471
+ls
+#1565101839
+mkdir d1
+#1565101846
+cd d1
+#1565265917
+ls
+#1565265925
+awk cars
+#1565265955
+awk '{print}' cars 
+#1565265970
+awk '' cars 
+#1565265979
+awk ' ' cars 
+#1565265990
+echo $?
+#1565266463
+awk '{print "$"$3}' cars
+#1565266479
+awk '{print "$" $3}' cars
+#1565266511
+awk '$3=65 {print "$" $3}' cars
+#1565266545
+awk '$3~"65" {print "$" $3}' cars
+#1565266571
+awk '$3~"65" ' cars
+#1565266578
+awk '$3="65" ' cars
+#1565266599
+awk '$3=="65" ' cars
+#1565266610
+awk '$3==65 ' cars
+#1565266617
+awk '$3==65' cars
+#1565266624
+awk '$3=65' cars
+#1565266640
+awk '$3~65' cars
+#1565266668
+awk '$3~84' cars
+#1565266719
+awk '$1~plym' cars
+#1565266727
+awk '$1~"plym"' cars
+#1565266738
+awk '$1="plym"' cars
+#1565266745
+awk '$1=="plym"' cars
+#1565266760
+awk '$1==/plym/' cars
+#1565266774
+awk '$1~/plym/' cars
+#1565266787
+awk '$1~/^p/' cars
+#1565266804
+awk '$1~/^f/' cars
+#1565266815
+awk '$1==/^f/' cars
+#1565266832
+awk '$1==f' cars
+#1565266846
+awk '$1==ford' cars
+#1565266871
+awk '$1 == ford' cars
+#1565266881
+awk '$1=="ford"' cars
+#1565266996
+ls
+#1565267003
+cat inventory
+#1565267084
+awk -F, '{print $1, $3}' inventory
+#1565267092
+awk '{print $1, $3}' inventory
+#1565267097
+awk -F, '{print $1, $3}' inventory
+#1565267111
+awk -F, '{print $1, $2}' inventory
+#1565267121
+awk  '{print $1, $2}' inventory
+#1565267542
+awk -F: '{print $1, $2}' inventory
+#1565267550
+awk -F: '{print $1}' inventory
+#1565267561
+awk -F"," '{print $1}' inventory
+#1565267575
+awk -F"," '{print $1,$2}' inventory
+#1565267637
+awk -F"," 'NF==1937 {print $1,$2}' inventory
+#1565267677
+awk -F"," 'NR==7 {print $1,$2}' inventory
+#1565267706
+awk -F"," 'NF==1 {print $1,$2}' inventory
+#1565269085
+awk -F"," '$2==1937 {print $1,$2}' inventory
+#1565269106
+awk -F, '$2==1937 {print $1,$2}' inventory
+#1565269221
+awk -F, '$2==1937' inventory
+#1565269237
+awk -F, '$2==1937 {print $1 $2}' inventory
+#1565269243
+awk -F, '$2==1937 {print $1$2}' inventory
+#1565269286
+awk  '$2==1937 {print $1 $2}' inventory
+#1565269295
+awk -F, '$2==1937 {print $1$2}' inventory
+#1565270772
+echo $NF
+#1565270777
+echo $NR
+#1565280301
+echo books | grep books
+#1565280314
+echo books | grep bo?
+#1565280320
+echo books | grep bo?ks
+#1565280328
+echo books | grep bo*ks
+#1565280332
+echo books | grep bo.*ks
+#1565280345
+echo books | grep bo.*
+#1565280371
+echo books | grep o.*
+#1565280375
+echo books | grep o*
+#1565280378
+echo books | grep o
+#1565280472
+echo books | grep "o.*"
+#1565280481
+echo books | grep "o.?*"
+#1565280492
+echo books | grep "o.?"
+#1565280510
+echo books | grep "o.*"
+#1565280513
+echo books | grep "o.?*"
+#1565280517
+echo books | grep "o.?"
+#1565280526
+echo books | grep o.?
+#1565280533
+echo books | grep /o.?/
+#1565280538
+echo books | grep o.
+#1565280704
+echo books | grep -E o.?
+#1565280711
+echo books | egrep o.?
+#1565281368
+echo boo88**ks | egrep o.?
+#1565281384
+echo bo?.o88**ks | egrep o.?
+#1565281397
+echo bo?.o88**ks | egrep o?
+#1565281429
+ls
+#1565281450
+sed -n '5 p' cars
+#1565281468
+sed -n '5 /83/ p' cars
+#1565281481
+sed -n '5 \83\ p' cars
+#1565281490
+sed -n ' /83/ p' cars
+#1565281497
+sed -n '/83/ p' cars
+#1565281844
+echo bo?.o88**ks | egrep o? k
+#1565281852
+echo bo?.o88**ks | egrep "o? k"
+#1565281858
+echo bo?.o88** ks | egrep "o? k"
+#1565281882
+echo "bo?.o88** ks" | egrep "o? k"
+#1565281898
+echo "bo?.o88** ks" | egrep "o.* k"
+#1565281911
+echo "bo?.o88** ks" | egrep "o* k"
+#1565281922
+echo "bo?.o88** ks" | egrep "oo* k"
+#1565281928
+echo "bo?.o88** ks" | egrep "o.* k"
+#1565282021
+echo "boo?.o88** ks" | egrep "o.* k"
+#1565282028
+echo "boo?.o88** ks" | egrep "oo* k"
+#1565282042
+echo "boo?.o88*oo ks" | egrep "oo* k"
+#1565282046
+echo "boo?.o88*oo ks" | egrep "o* k"
+#1565282065
+move --help
+#1565282076
+copy --help
+#1565282104
+ln --help
+#1565282111
+link --help
+#1565282414
+cut -c3-5 cars
+#1565282422
+cat cars
+#1565282440
+cut -f3-5 cars
+#1565282445
+cut -f3,5 cars
+#1565282454
+cut -d -f3,5 cars
+#1565282462
+cut -d' '  -f3,5 cars
+#1565282501
+cut -d'\t'  -f3,5 cars
+#1565282509
+cut -d'    '  -f3,5 cars
+#1565282524
+cut -d\t  -f3,5 cars
+#1565282553
+cut -d \t  -f3,5 cars
+#1565282564
+cut -d"\t"  -f3,5 cars
+#1565282572
+cut -d\t  -f3,5 cars
+#1565282580
+cut -d\tab  -f3,5 cars
+#1565282588
+cut -d\t  -f3,5 cars
+#1565282608
+cut -d,  -f3,5 inventory
+#1565282621
+cat inventory
+#1565282633
+cut -d,  -f1,3 inventory
+#1565282662
+cut   -f1,3 inventory
+#1565282668
+cut   -f1 inventory
+#1565282682
+cut -d  -f1 inventory
+#1565282690
+cut -d" "  -f1 inventory
+#1565282698
+cut -d","  -f1 inventory
+#1565282715
+cut -d";"  -f1 inventory
+#1565283094
+cut -d","  -f1-2 inventory
+#1565283098
+cut -d","  -f3-2 inventory
+#1565283104
+cut -d","  -f2-3 inventory
+#1565283115
+cut -d"," 3-7 -f2-3 inventory
+#1565283148
+cut 3-5 -d","  -f2-3 inventory
+#1565283207
+cut  -d","  -f2-3 inventory cars
+#1565283220
+cut  -d","  -f2-3,4 inventory cars
+#1565283890
+echo '1*'
+#1565283973
+echo echo ls
+#1565284066
+echo [a-z]?*
+#1565309696
+sort --help
+#1565310084
+grep -i ",.....$" cars
+#1565310100
+cat cars
+#1565310139
+grep -i ".....$" cars
+#1565310202
+grep -i ".$" cars
+#1565312084
+cut --help
+#1565312136
+cut -f3,5 cars
+#1565312149
+cut -f3 cars
+#1565312171
+cut -d -f3 cars
+#1565312181
+cut --help
+#1565312317
+cat cars
+#1565312413
+grep -i ",.....$" cars 2 > sortedExpcars.txt
+#1565312437
+grep -i ",.....$" cars 2>sortedExpcars.txt
+#1565312453
+cat sortesExpcars.txt
+#1565312468
+cat sortedExpcars.txt
+#1565312476
+ls
+#1565312498
+grep -i ",.....$" cars 2>&1 sortedExpcars.txt
+#1565312502
+cat sortedExpcars.txt
+#1565312510
+grep -i ",.....$" cars
+#1565312676
+grep -i ",.....$" cars 2>&1 sortedExpcars.txt
+#1565312761
+grep -i ",.....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313021
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313026
+cat sortedExpcars.txt
+#1565313053
+grep -i ".....$" cars 
+#1565313065
+grep -i ".....$" cars |sed 's/,/ /g' 
+#1565313075
+cat sortedExpcars.txt
+#1565313105
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk 4 
+#1565313112
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 
+#1565313269
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2
+#1565313289
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313294
+cat sortedExpcars.txt
+#1565313330
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  1> sortedExpcars.txt
+#1565313333
+cat sortedExpcars.txt
+#1565313343
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2> sortedExpcars.txt
+#1565313345
+cat sortedExpcars.txt
+#1565313355
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313360
+cat sortedExpcars.txt
+#1565313549
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1
+#1565313804
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 >sortedExpcars.txt
+#1565313808
+cat sortedExpcars.txt
+#1565313834
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313840
+cat sortedExpcars.txt
+#1565313870
+rm sortedExpcars.txt
+#1565313873
+ls
+#1565313879
+cat sortedExpcars.txt
+#1565313883
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 sortedExpcars.txt
+#1565313904
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1,2  2>&1 >sortedExpcars.txt
+#1565313907
+cat sortedExpcars.txt
+#1565313939
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f1
+#1565313943
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f2
+#1565313949
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d '' -f5
+#1565313963
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d'' -f5
+#1565313984
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -f5
+#1565313998
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -f1
+#1565314026
+grep -i ".....$" inventory |sed 's/,/ /g' | sort -nrk4 | cut -f1
+#1565314100
+grep -i ".....$" inventory |sed 's/,/ /g' | sort -nrk4 | cut -d"" -f1
+#1565314111
+grep -i ".....$" inventory |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f1
+#1565314182
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d' ' -f1,2 2>&1>error.txt
+#1565314190
+cat error.txt
+#1565314209
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d' ' -f1-2 2>&1>error.txt
+#1565314212
+cat error.txt
+#1565314220
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d' ' -f1 2>&1>error.txt
+#1565314229
+cat error.txt
+#1565314255
+cat inventory
+#1565314291
+cat error.txt
+#1565314304
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f1 2>&1>error.txt
+#1565314307
+cat error.txt
+#1565314332
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 
+#1565314361
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f1
+#1565314383
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f2
+#1565314398
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f3
+#1565314446
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f5-10
+#1565314767
+grep -i ".....$" cars |sed 's/    /“ ”| sort -nrk4 | cut -d" " -f5-10
+#1565327225
+grep -i ".....$" cars |sed 's/,/ /g' | sort -nrk4 | cut -d" " -f5-10
+#1565327275
+grep -i ".....$" cars |sed 's/    /" "/g' | sort -nrk4 | cut -d" " -f1
+#1565327282
+cat cars
+#1565327298
+grep -i ".....$" cars |sed 's/    /" "/g'
+#1565327317
+grep -i ".....$" cars |sed 's/    / /g'
+#1565327351
+sed 's/    / /g' cars
+#1565327392
+sed 's/  */ /g' cars
+#1565327459
+sed 's/  */ /g' cars | sort -nrk4 | cut -d" " -f1,5
+#1565327492
+sed 's/  */ /g' cars | sort -nrk5 | cut -d" " -f1,5
+#1565327515
+cat cars
+#1565327543
+sed 's/  */,/g' cars | sort -nrk5 | cut -d"," -f1,5
+#1565327585
+sed 's/  */,/g' cars | sort -nrk5
+#1565327619
+sort --help
+#1565327721
+sed 's/  */,/g' cars | sort -t"," -nrk5
+#1565327739
+sed 's/  */,/g' cars | sort -t"," -nrk4
+#1565327757
+sed 's/  */,/g' cars | sort -t -nrk4
+#1565327768
+sed 's/  */,/g' cars | sort -t, -nrk4
+#1565327778
+sed 's/  */,/g' cars | sort -t, -nrk5
+#1565327867
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1, $2}'
+#1565327880
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1 $2}'
+#1565327896
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1, $5}'
+#1565327918
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1,","$5}'
+#1565327930
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'
+#1565327972
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'|cut -d, f1
+#1565327987
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'|cut -d"," f1
+#1565327996
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'|cut -d"," -f1
+#1565328002
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'|cut -d, -f1
+#1565328025
+sed 's/  */,/g' cars | sort -t, -nrk5 | awk -F, '{print $1","$5}'|cut -d, -f1-2
+#1565370874
+ls -l
+#1565388419
+phone4
+#1565388504
+phone4 hgjk
+#1565388795
+ls
+#1565388811
+cat names
+#1565388823
+phone4 Smith
+#1565388929
+phone4 andrew
+#1565389020
+phone4 Smith
+#1565389102
+phone4 Smith brian
+#1565389118
+phone4 
+#1565389138
+phone4 asdf
+#1565389154
+phone4 Smith
+#1565449648
+~uli101/assign3
+#1565451053
+ echo 0 | grep "^[-+]?[0-9][0-9]*"
+#1565451065
+ echo 123 | grep "^[-+]?[0-9][0-9]*"
+#1565451086
+ echo 123 | grep "^[-+]?[0-9][0-9]*" �>1
+#1565451091
+ echo 123 | grep "^[-+]?[0-9][0-9]*" �>1
+#1565451099
+ echo 123 | grep "^[-+]?[0-9][0-9]*" >1
+#1565451116
+ echo 123 | grep "[0-9][0-9]*" >1
+#1565451121
+ echo 123 | grep "[0-9][0-9]*"
+#1565451141
+ echo 123 | grep "[-+]?[0-9][0-9]*"
+#1565451232
+ echo 123 | grep -E "^[-+]?[0-9][0-9]*" >1
+#1565451240
+ echo 123 | grep -E "[-+]?[0-9][0-9]*" >1
+#1565451255
+ echo -123 | grep -E "[-+]?[0-9][0-9]*" >1
+#1565451304
+ echo -123 |egrep  "[-+]?[0-9][0-9]*" >1
+#1565451320
+ echo -123 |egrep  "[-+][0-9][0-9]*" >1
+#1565451332
+ echo -12 |egrep  "[-+][0-9][0-9]*" >1
+#1565451338
+ echo -1 |egrep  "[-+][0-9][0-9]*" >1
+#1565451360
+ echo -12 |egrep  "[0-9][0-9]*"
+#1565451372
+ echo -12 |egrep  "^[0-9][0-9]*"
+#1565451382
+ echo -12 |egrep  "[^0-9][0-9]*"
+#1565451400
+ echo -12 |egrep  "[0-9]?[0-9]*"
+#1565451411
+ echo 02 |egrep  "[0-9]?[0-9]*"
+#1565451419
+ echo 2 |egrep  "[0-9]?[0-9]*"
+#1565451427
+ echo 2 |egrep  "[0-9]?"
+#1565451432
+ echo 2 |grep  "[0-9]?"
+#1565451438
+ echo 2 |grep -E "[0-9]?"
+#1565451453
+ echo 2 |grep -E "[+-]?"
+#1565451459
+ echo -2 |grep -E "[+-]?"
+#1565451474
+ echo -2 |grep -E "[+-]?[0-9]"
+#1565451481
+ echo -2213 |grep -E "[+-]?[0-9]"
+#1565451498
+ echo +0 |grep -E "[+-]?[0-9]"
+#1565451504
+ echo -0 |grep -E "[+-]?[0-9]"
+#1565451528
+ echo + |grep -E "[+-]?[0-9]"
+#1565451535
+ echo 1 |grep -E "[+-]?[0-9]"
+#1565451544
+ echo - |grep -E "[+-]?[0-9]"
+#1565451559
+ echo -2fghdf |grep -E "[+-]?[0-9]"
+#1565451572
+ echo -24543626-=+f |grep -E "[+-]?[0-9]"
+#1565451582
+ echo -24543626-=+f435235 |grep -E "[+-]?[0-9]"
+#1565451592
+ echo -24543626-=+f435235 |grep  "[0-9]"
+#1565451628
+ echo -24543626-=+f435235 |grep -E "[+-]?[0-9][0-9]*$"
+#1565451642
+ echo -24543626-=+f435235 |grep -E "^[+-]?[0-9][0-9]*$"
+#1565451661
+ echo -24543626-=+f435235 |grep -E "^[+-]?[0-9][0-9]*"
+#1565451777
+ echo -24543626-=+f435235 |grep -E "[+-]?[0-9][0-9]*"
+#1565452008
+ echo -24543626-=+f435235 |grep -E "[^+-0-9]"
+#1565452022
+ echo -24543626-=+f435235 |grep -E "[^0-9+-]"
+#1565452046
+ echo -24543626-=+f435235 |grep -E "[^0-9+]"
+#1565452069
+ echo -24543626-=+f435235 |grep -E "[^0-9+-]"
+#1565452121
+ echo -24543626-=+f435235 |grep  "[^0-9+-]"
+#1565452138
+ echo -24543626-=+f435235 |grep  "[0-9+-]"
+#1565452147
+ echo -24543626-=+f435235 |grep -v "[0-9+-]"
+#1565452155
+ echo -24543626-=+f435235 |grep  "[0-9+-]"
+#1565452162
+ echo -24543626-=+f435235 |grep  "[^0-9+-]"
+#1565468211
+西�sftp ?
+#1565468221
+� sftp ?
+#1565468230
+sftp ?
+#1565468250
+sftp 
+#1565469061
+$$
+#1565468368
+sftp
+#1565468374
+sftp ?
+#1565468397
+sftp @matrix.senecac.on.ca
+#1565468411
+sftp hzheng62@matrix.senecac.on.ca
+#1565541272
+cat cars
+#1565541329
+sed 's/[0-9][0-9]*/*** & ***/' cars
+#1565541396
+sed 's/[0-9][0-9]*/*** & ***/g' cars
+#1565548413
+ls
+#1565548418
+echo 1
+#1565548424
+echo d1
+#1565548429
+echo dadfja
+#1565548440
+echo error
+#1565548447
+echo error.*
+#1565548463
+echo "error.*"
+#1565548473
+echo 'error.*'
+#1565548678
+tr --help
+#1565548971
+sort *
+#1565549012
+ls | sort
+#1565549023
+ls * | sort
+#1565549038
+ls
+#1565549042
+ls *
+#1565549048
+ls
+#1565549082
+cat cars
+#1565551278
+VI:
+#1565551278
+1basics  2moving  3cutpaste  4inserting  5tricks  6vimtutor
+#1565551280
+VI:
+#1565551280
+1basics  2moving  3cutpaste  4inserting  5tricks  6vimtutor
+#1565551281
+VI:
+#1565551281
+1basics  2moving  3cutpaste  4inserting  5tricks  6vimtutor
+#1565551281
+VI:
+#1565551281
+1basics  2moving  3cutpaste  4inserting  5tricks  6vimtutor
+#1565610753
+cat cars
+#1565610808
+grep "e" cars | tail 2>&1 > file2.txt
+#1565610827
+cat file2.txt
+#1565610852
+rm
+#1565610864
+rm file2.txt
+#1565610870
+cat file2.txt
+#1565610882
+cat cars
+#1565610898
+grep "e"  | tail 2>&1 > file2.txt
+#1565611031
+tail 2>&1 > file2.txt cars 
+#1565611042
+rm file2.txt
+#1565611054
+tail 2>&1 > 2t cars 
+#1565611059
+cat 2t
+#1565611112
+cat cars | tail 2>&1 > 2t 
+#1565611115
+cat 2t
+#1565611120
+rm 2t
+#1565611128
+cat 2t
+#1565611132
+cat cars | tail 2>&1 > 2t 
+#1565611134
+cat 2t
+#1565611151
+cat cars | tail 2 2>&1 > 2t 
+#1565611164
+cat cars | tail -2 2>&1 > 2t 
+#1565611169
+cat 2t
+#1565611195
+rm 2t
+#1565611218
+cat cars | tail -2 2>&1 
+#1565611228
+cat cars | tail -2 
+#1565611238
+cat cars | tail -2 2>&1 > 2t 
+#1565611288
+wc -w cars 2>> log.txt
+#1565611300
+wc -w cars 2>>log.txt
+#1565611370
+cat log.txt
+#1565623288
+cat cars
+#1565623300
+cat inventory
+#1565623346
+grep '[^pe]berry' inventory
+#1565623492
+awk -F, '{print $1,$2}' inventory
+#1565623747
+phone2
+#1565623920
+phone2 line1 line2
+#1565645735
+ls -la
+#1565645799
+ls -la | grep \.
+#1565645811
+grep '[^pe]berry' inventory
+#1565645827
+ls -la | grep "."
+#1565645843
+ls -la | grep ^\.
+#1565645944
+ls -la | grep ^.
+#1565646075
+ls -d .*
+#1565646085
+l .
+#1565646089
+ls .
+#1565646132
+ls  .*
+#1565646139
+ls -d .*
+#1565646345
+ls | cat
+#1565646366
+cat *
+#1565646470
+ls -a .
+#1565646910
+phone4 line1 line2
+#1565646923
+phone2 line1 line2
+#1565647059
+cat phone2
+#1565647062
+phone2 line1 line2
+#1565658278
+vi
+#1565907978
+ls
+#1565908631
+vi
+#1565908657
+ls
+#1565909251
+lls
+#1565909253
+ls
+#1565909472
+cars
+#1565909475
+cat cars
+#1565909489
+more cars
+#1565909506
+man |more
+#1565909513
+man | more
+#1565909519
+man ls | more
+#1565909531
+  ls
+#1565909643
+ls -d *.
+#1565909655
+ls -d .*
+#1565913003
+ls -l
+#1565913008
+ls -al
+#1565913018
+ls -d .*
+#1565925322
+vi
+#1565975567
+ls
+#1565973808
+ls
+#1565973782
+ls
+#1565973786
+ls
+#1567085169
+git
+#1567085174
+git
+#1567085894
+ls -ah
+#1567085904
+ls .*
+#1567085926
+ls -la .*
+#1567085936
+ls -la .
+#1567085949
+ls -l .
+#1567085956
+ls -la .
+#1567085963
+ls -a .
+#1567085972
+ls -a .*
+#1567085979
+ls -a \.*
+#1567085992
+ls -l
+#1567085998
+ls -la
+#1567086003
+ls -a
+#1567086011
+ls -ah
+#1567086036
+ls -d
+#1567086043
+ls -d .*
+#1567086065
+ls -d
+#1567086073
+ls -d .*
+#1567086176
+ls -F
+#1567086185
+ls -R
+#1567086193
+ls -A
+#1567086227
+ls -a
+#1567086235
+ls -A
+#1567086361
+ls -h
+#1567086368
+ls
+#1567560039
+Trump appeared to be referring to Liu's statement on Monday, in which the vice-premier said that China would “resolutely oppose the escalation of the trade war, which is not beneficial to the US or China.”
+
+
+#1567560113
+ls -a
+#1567560017
+Trump appeared to be referring to Liu's statement on Monday, in which the vice-premier said that China would “resolutely oppose the escalation of the trade war, which is not beneficial to the US or China.”
+
+
+#1567558061
+git config user.name
+#1567558075
+git config user.email
+#1567558160
+git --global config user.email optionabc@gmail.com
+#1567558186
+git --global config user.name optionabc
+#1567558207
+git  config user.name optionabc
+#1567558226
+git config user.email optionabc@gmail.com
+#1567558244
+git config --global user.name optionabc
+#1567558431
+git@github.com:philipabc/CPA_Term2.git
+#1567558499
+ls -h
+#1567558506
+git@github.com:philipabc/CPA_Term2.git
+#1567558517
+git  config user.name optionabc
+#1567558528
+git config --global user.name optionabc
+#1567558966
+gti ls-files
+#1567558970
+gti ls
+#1567558976
+git ls
+#1567558982
+git ls-files
+#1567559005
+git ls-tree HEAD
+#1567559021
+git config --global user.name optionabc
+#1567559023
+git ls-tree HEAD
+#1567559026
+git ls-files
+#1567559051
+git stash list
+#1567559057
+ls
+#1567559073
+ls la .*
+#1567559081
+ls
+#1567559090
+ls -d *.
+#1567559097
+ls -d .*
+#1568082183
+ls
+#1568082202
+cd w1_at_home
+#1568082203
+ls
+#1568082397
+g++ -std=c++11 -Wall -o w1 seneGraph tools graph
+#1568082446
+g++ seneGraph tools graph
+#1568082475
+g++ seneGraph.cpp tools.cpp graph.cpp -o w1
+#1568082509
+g++ seneGraph.cpp tools.cpp graph.cpp -o w1 -std=c++11
+#1568082516
+g++ seneGraph.cpp tools.cpp graph.cpp -o w1 -std=c++11 -Wall
+#1568082548
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568082555
+w1
+#1568082580
+ g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568082624
+w1
+#1568083055
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568083723
+cd..
+#1568083725
+ls
+#1568083731
+cd w1_DIY
+#1568083743
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568083834
+w1diy
+#1568084053
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568084103
+w1diy
+#1568084241
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568084248
+ls
+#1568084256
+cd w1_DIY
+#1568084261
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568084269
+w1diy
+#1568084436
+cd w1_in_lab
+#1568084440
+cd ..
+#1568084443
+cd w1_in_lab
+#1568084444
+ls
+#1568084464
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568084467
+w1
+#1568127425
+ls
+#1568127431
+cd w1_DIY
+#1568127442
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568128504
+[hzheng62@mtrx-node01pd w1_DIY]$ g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568128504
+PhoneDir.cpp: In function 'void phoneDir(const char*, const char*)':
+#1568128504
+PhoneDir.cpp:36:26: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+#1568128504
+     while (option = menu())
+#1568128504
+                          ^
+#1568128808
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568128817
+cd w1_DIY
+#1568128839
+w1diy
+#1568129421
+ls
+#1568129426
+cd ..
+#1568129427
+ls
+#1568129435
+cd w1_in_lab
+#1568129437
+ls
+#1568129470
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568129479
+w1
+#1568129526
+~Fardad.Soleimanloo/submit 244/NAA/WS01/in_lab -due
+#1568129577
+~Fardad.Soleimanloo/submit 244/NAA/WS01/in_lab -w1
+#1568129585
+~Fardad.Soleimanloo/submit 244/NAA/WS01/in_lab w1
+#1568129637
+w1
+#1568129691
+~Fardad.Soleimanloo/submit 244/NAA/WS01/in_lab -due
+#1568129734
+~Fardad.Soleimanloo/submit 244/NAA/WS01/in_lab
+#1568129895
+~fardad.soleimanloo/submit 244/NAA/WS01/in_lab
+#1568129952
+ls
+#1568129968
+cat graph.cpp
+#1568130251
+cd..
+#1568130254
+ls
+#1568130264
+cd w1_at_home
+#1568130281
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568130310
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home
+#1568130332
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home
+#1568130387
+cd..
+#1568130389
+ls
+#1568130407
+cd w1_DIY
+#1568130425
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568130447
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568130597
+cat erroes.txt
+#1568130607
+ls
+#1568130617
+cat errors.txt
+#1568130785
+cat PhoneApp_prof.cpp
+#1568132340
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568132349
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568132619
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568132628
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568132730
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568132733
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568133309
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568133319
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568136768
+ls
+#1568137969
+cat File.cPp
+#1568137981
+cat File.cpp
+#1568146541
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146549
+ls
+#1568146554
+_DIY
+#1568146562
+cd w1_DIY
+#1568146573
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146606
+cat PhoneDir.cpp
+#1568146638
+g++ -std=c++14 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146647
+g++ -std=c++13 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146656
+g++ -std=c++17 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146662
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568146683
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568146721
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568147364
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568147574
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568147577
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568149983
+cd w1_DIY
+#1568149987
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568149993
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568247635
+cd w1_at_home
+#1568247637
+ls
+#1568247678
+g++ -std=c++11 -Wall -o w1 seneGraph.cpp tools.cpp graph.cpp
+#1568247683
+we
+#1568247685
+w1
+#1568247714
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home
+#1568247970
+cd w1_at_home
+#1568247973
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home
+#1568247988
+cd..
+#1568247995
+cd w1_DIY
+#1568248006
+g++ -std=c++11 -Wall -o w1diy PhoneApp.cpp PhoneDir.cpp Contact.cpp File.cpp Tools.cpp
+#1568248022
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY
+#1568248050
+cd
+#1568248058
+cd w1_in_lab
+#1568248072
+~fardad.soleimanloo/submit 244/NAA/WS01/in_lab
+#1568248091
+cd ..
+#1568248101
+cd w1_at_home
+#1568248110
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home
+#1568404680
+ls
+#1568404700
+cd web222
+#1568404703
+ls
+#1568405320
+for file in `ls`; do   echo $file; done
+#1568412538
+ls 
+#1568412552
+ls log.txt 
+#1568436062
+~fardad.soleimanloo/submit 244/NAA/WS01/DIY -due
+#1568436314
+~fardad.soleimanloo/submit 244/NAA/WS01/in_lab -due
+#1568436333
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home -due
+#1568599840
+cd w2_in_lab
+#1568599845
+g++ -std=c++11 -Wall -o w2diy subjectTester.cpp utils.cpp Subject.cpp
+#1568599855
+w2diy
+#1568600084
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568674723
+name=67
+#1568674731
+$name
+#1568674747
+echo name
+#1568674754
+echo $name
+#1568674763
+echo `name'
+#1568674770
+echo `name`
+#1568674789
+e `name+5`
+#1568674813
+echo `$name+5`
+#1568674844
+s='$name+5`
+#1568674957
+s=`$name+5`
+#1568674971
+s=76+5
+#1568674978
+echo s
+#1568674986
+echo $s
+#1568675049
+s=$name+5
+#1568675054
+echo $s
+#1568676266
+s=$($name+5)
+#1568676277
+s=$(($name+5))
+#1568676283
+$s
+#1568676294
+echo $s
+#1568676313
+s=$ [$name+5]
+#1568676320
+s=$[$name+5]
+#1568676324
+echo $s
+#1568676344
+s=${$name+5}
+#1568676455
+num=`expr $name + $s` 
+#1568676464
+echo $num
+#1568676714
+s=[[$name+5]]
+#1568676719
+echo $s
+#1568676730
+s=[[ $name+5 ]]
+#1568676771
+s=$(($name+5))
+#1568676839
+echo $s
+#1568677278
+s=$[[$name+5]]
+#1568677283
+s=$(($name+5))
+#1568677338
+echo $s
+#1568677354
+num=`expr $name + $s` 
+#1568677371
+echo $num
+#1568677403
+num=`$name + $s` 
+#1568677606
+s=1
+#1568677608
+w=2
+#1568677628
+a=$[$s+$w]
+#1568677641
+echo $a
+#1568677658
+a=
+#1568677660
+echo $a
+#1568677675
+a=$[[$s+$w]]
+#1568677723
+a=`$s+$w`
+#1568677732
+a=`expr $s+$w`
+#1568677737
+echo $a
+#1568677753
+a=`expr $($s+$w)`
+#1568677814
+a=`expr $s+$w`
+#1568677820
+echo $a
+#1568677851
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home -due
+#1568677857
+g++ -std=c++11 -Wall -o w2diy subjectTester.cpp utils.cpp Subject.cpp
+#1568677870
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home -due
+#1568677899
+g++ -std=c++11 -Wall -o w2diy subjectTester.cpp utils.cpp Subject.cpp
+#1568677916
+a=`expr $s+$w`
+#1568677926
+a=`expr $($s+$w)`
+#1568677931
+a=`expr $s+$w`
+#1568677939
+a=$[[$s+$w]]
+#1568677964
+a=$(($s+$w))
+#1568677972
+s=2
+#1568677975
+w=3
+#1568677978
+a=$(($s+$w))
+#1568677986
+echo $a
+#1568677997
+a=$[$s+$w]
+#1568678000
+echo $a
+#1568678016
+a=`expr $s+$w`
+#1568678019
+echo $a
+#1568678034
+a=`expr $($s+$w)`
+#1568678044
+a=`expr $(($s+$w))`
+#1568678048
+echo $a
+#1568678068
+g++ -std=c++11 -Wall -o w2diy subjectTester.cpp utils.cpp Subject.cpp
+#1568678077
+~fardad.soleimanloo/submit 244/NAA/WS01/at_home -due
+#1568678096
+~fardad.soleimanloo/submit 244/NAA/WS02/at_home -due
+#1568678111
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab -due
+#1568678134
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568678144
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568680850
+cd w2_in_lab
+#1568680856
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568680863
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568680867
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568680870
+w2
+#1568687042
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568687094
+w2
+#1568687155
+cd..
+#1568687166
+cd w2_at_home
+#1568687233
+g++ -std=c++11 -Wall -o w subjectTester.cpp utils.cpp Subject.cpp School
+#1568687246
+g++ -std=c++11 -Wall -o w subjectTester.cpp utils.cpp Subject.cpp School.cpp
+#1568687323
+g++ -std=c++11 -Wall -o w schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568687329
+w
+#1568687385
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568687388
+w2
+#1568688580
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568688726
+cd w2_at_home
+#1568688729
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568688735
+w2
+#1568688860
+cd..
+#1568688880
+cd w2_in_lab
+#1568688895
+g++ -std=c++11 -Wall -o w subjectTester.cpp utils.cpp Subject.cpp School.cpp
+#1568688909
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp
+#1568688917
+g++ -std=c++11 -Wall -o w subjectTester.cpp utils.cpp Subject.cpp
+#1568688933
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568688936
+w2
+#1568688954
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568688970
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568688979
+cd..
+#1568688991
+cd w2_at_home
+#1568688996
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568689335
+cd w2_at_home
+#1568689346
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568689357
+cd..
+#1568689368
+cd w2_in_lab
+#1568689375
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568689379
+cd..
+#1568689384
+cd w2_at_home
+#1568689391
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568731728
+~fardad.soleimanloo/submit 244/NAA/WS02/attendance 
+#1568732005
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568732013
+cd..
+#1568732046
+~fardad.soleimanloo/submit 244/NAA/WS02/attendance
+#1568731312
+cd w2_in_lab
+#1568731319
+g++ -std=c++11 -Wall -o w2 subjectTester.cpp utils.cpp Subject.cpp
+#1568731326
+w2
+#1568732279
+~fardad.soleimanloo/submit 244/NAA/WS02/attendance 
+#1568732356
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568732370
+cd w2_in_lab
+#1568732372
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1568732557
+~fardad.soleimanloo/submit 244/NAA/WS02/attendance 
+#1568733581
+cd..
+#1568733589
+cd w2_at_home
+#1568733601
+g++ -std=c++11 -Wall -o w2 schoolTester.cpp utils.cpp Subject.cpp School.cpp
+#1568733619
+~fardad.soleimanloo/submit 244/NAA/WS02/at_home
+#1568766226
+cd w2_DIY
+#1568766243
+g++ -std=c++11 -Wall -o w2 parking.cpp utils.cpp ParkingLot.cpp ParkingSpot.cpp
+#1568766391
+clear
+#1568766394
+g++ -std=c++11 -Wall -o w2 parking.cpp utils.cpp ParkingLot.cpp ParkingSpot.cpp
+#1568766487
+~fardad.soleimanloo/submit 244/NAA/WS02/DIY
+#1568766752
+g++ -std=c++11 -Wall -o w2 parking.cpp utils.cpp ParkingLot.cpp ParkingSpot.cpp
+#1568766757
+~fardad.soleimanloo/submit 244/NAA/WS02/DIY
+#1568770316
+g++ -std=c++11 -Wall -o w2 parking.cpp utils.cpp ParkingLot.cpp ParkingSpot.cpp
+#1568770319
+~fardad.soleimanloo/submit 244/NAA/WS02/DIY
+#1568813287
+cd w2_DIY
+#1568813290
+~fardad.soleimanloo/submit 244/NAA/WS02/DIY
+#1568944196
+GET /course/web222 HTTP/1.1 
+#1568944456
+Host: ict.senecacollege.ca 
+#1568944459
+node
+#1568938109
+~fardad.soleimanloo/submit 244/NAA/WS02/at_home -due
+#1568938313
+cd w2_at_home
+#1568938334
+~fardad.soleimanloo/submit 244/NAA/WS02/at_home
+#1568939295
+cd ..
+#1568943945
+curl https://ict.senecacollege.ca/course/web222?q=course/web222
+#1568943992
+curl --include  https://ict.senecacollege.ca/course/web222?q=course/web222
+#1568944177
+GET /course/web222 HTTP/1.1 
+#1568944062
+curl --include https://ict.senecacollege.ca/course/web222?q=course/web222
+#1568944488
+node
+#1568944492
+node.jx
+#1568944495
+node.js
+#1569126023
+cd w3_in_lab
+#1569126026
+ls
+#1569126034
+cd w3_lab
+#1569126087
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569126092
+w2
+#1569126138
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569160361
+cd w3_lab
+#1569160364
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569160370
+w2
+#1569161571
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569161574
+w2
+#1569169091
+cd w3_lab
+#1569169094
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569169184
+w2
+#1569169509
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569169514
+w2
+#1569176599
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569176603
+w2
+#1569336697
+~fardad.soleimanloo/submit 244/NAA/WS03/attendance
+#1569338061
+cd w3_lab
+#1569338066
+g++ -std=c++11 -Wall -o w2 Mark.cpp markTester.cpp
+#1569338072
+w2
+#1569338731
+~fardad.soleimanloo/submit 244/NAA/WS03/in_lab
+#1569342363
+cd w3_lab
+#1569342366
+~fardad.soleimanloo/submit 244/NAA/WS03/in_lab
+#1569397114
+cd w3_lab
+#1569397124
+cd w3_diy
+#1569397126
+LS
+#1569397145
+pwd
+#1569397146
+ls
+#1569397155
+cd w3_DIY
+#1569397168
+~fardad.soleimanloo/submit 244/NAA/WS03/DIY
+#1569397248
+cd w3_DIY
+#1569397250
+~fardad.soleimanloo/submit 244/NAA/WS03/DIY
+#1569401870
+cd w3_DIY
+#1569401872
+~fardad.soleimanloo/submit 244/NAA/WS03/DIY
+#1569427120
+cd w3_DIY
+#1569427122
+~fardad.soleimanloo/submit 244/NAA/WS03/DIY
+#1569895998
+cd w4_lab
+#1569896000
+ls
+#1569896022
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569896027
+w
+#1569896041
+ws
+#1569899974
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569901541
+ws
+#1569903374
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569903378
+ws
+#1569903630
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569930907
+cd w4_lab
+#1569930915
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569930923
+ws
+#1569931067
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569931179
+ws
+#1569932097
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569932101
+ws
+#1569942721
+cd w4_lab
+#1569942723
+g++ -std=c++11 -Wall -o ws FlowerTester.cpp utils.cpp Flower.cpp
+#1569942742
+~fardad.soleimanloo/submit 244/NAA/WS04/attendance
+#1569942758
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569945311
+~fardad.soleimanloo/submit 244/NAA/WS04/due
+#1569945320
+~fardad.soleimanloo/submit 244/NAA/WS04/-due
+#1569945372
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab -due
+#1569945524
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569946065
+~fardad.soleimanloo/submit 244/NAA/WS04/attendance
+#1569947138
+cd w4_lab
+#1569947141
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569950853
+cd w4_lab
+#1569950856
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569953094
+cd w4_lab
+#1569953323
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569954195
+cat flower.cpp
+#1569954199
+ls
+#1569954209
+cat Flower.cpp
+#1569954226
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569956084
+cd
+#1569956087
+ls
+#1569956095
+cd w2_home
+#1569956103
+cd w4_home
+#1569956107
+
+#1569956119
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1569963719
+cd
+#1569963732
+cd w4_lab
+#1569963739
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1569967017
+cd
+#1569967022
+cd w4_home
+#1569967028
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1569979030
+cd w4_home
+#1569979032
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1569984901
+cd w4_lab
+#1569984910
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1570066138
+cd w4_lab
+#1570066150
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1570159590
+cd w4_home
+#1570159734
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1570161597
+~fardad.soleimanloo/submit 244/NAA/WS04/in_lab
+#1570161617
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home -due
+#1570238274
+cd w4_home
+#1570238282
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1570480553
+cd w4_home
+#1570480556
+~fardad.soleimanloo/submit 244/NAA/WS04/at_home
+#1570547308
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570547392
+cd w5_lab
+#1570547396
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570546390
+~fardad.soleimanloo/submit 244/NAA/WS05/attendance
+#1570556604
+cd w5_lab
+#1570556653
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570556718
+cd w5_lab
+#1570556720
+ls
+#1570556874
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570556928
+g++ -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotTester.cpp
+#1570557649
+chmod
+#1570557661
+ls
+#1570557695
+echo *
+#1570557710
+echo "dafasdf"
+#1570557718
+echo
+#1570557730
+echo errors.txt
+#1570557747
+echo *out*.txt
+#1570564699
+chmod u+o
+#1570564710
+chmod --help
+#1570564728
+ls
+#1570564740
+touch 1.txt
+#1570564788
+chmod u+x 1.txt
+#1570564813
+cd w5_lab
+#1570564824
+g++ -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotTester.cpp
+#1570564837
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570564851
+ls
+#1570565192
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570575397
+cat robot.cpp
+#1570575404
+ls
+#1570575419
+cat Robot.cpp
+#1570581516
+~fardad.soleimanloo/submit 244/NAA/WS05/in_lab
+#1570584480
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570584493
+cd 
+#1570584499
+cd w5_home
+#1570584502
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570584517
+cat errors.txt
+#1570584962
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570585016
+cat errors.txt
+#1570585188
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570585195
+cat errors.txt
+#1570585611
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570585616
+cat errors.txt
+#1570585821
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570585825
+cat errors.txt
+#1570586025
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570586031
+cat errors.txt
+#1570586141
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570586792
+cd w5_home
+#1570586794
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570607960
+cd w5_DIY
+#1570607995
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570614436
+cd
+#1570614457
+cd w5_home
+#1570614495
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home
+#1570632748
+cd w5_DIY
+#1570632751
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570657070
+cd w5_DIY
+#1570657077
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570657107
+y
+#1570657114
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570657419
+ls
+#1570657424
+ws
+#1570658206
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570658469
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570658473
+ws
+#1570658526
+valgrind --tool=memcheck --leak-check=full ws
+#1570658881
+g++  -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570658885
+valgrind --tool=memcheck --leak-check=full ws
+#1570659001
+g++  -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570659006
+valgrind --tool=memcheck --leak-check=full ws
+#1570659063
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570659066
+valgrind --tool=memcheck --leak-check=full ws
+#1570659308
+valgrind --tool=memcheck --leak-check=full ws --leak-check=full --show-leak-kinds=all
+#1570659336
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570665847
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570665852
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666002
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570666036
+g++  -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666042
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666119
+~fardad.soleimanloo/submit 244/NAA/WS05/
+#1570666136
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666143
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666159
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666170
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666179
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666235
+g++  -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666238
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666267
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666270
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666670
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws  --main-stacksize= flag
+#1570666695
+valgrind  ws --tool=memcheck --leak-check=full  --show-leak-kinds=all  --main-stacksize= flag
+#1570666775
+valgrind  ws --tool=memcheck --leak-check=full --show-leak-kinds=all --main-stacksize= flag
+#1570666805
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570666839
+valgrind  ws
+#1570666847
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666852
+valgrind  ws
+#1570666858
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666908
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570666928
+valgrind ws
+#1570666946
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570666949
+valgrind ws
+#1570667028
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570667031
+valgrind ws
+#1570667277
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570667285
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570667289
+valgrind ws
+#1570667300
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570805712
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY -due
+#1570805745
+~fardad.soleimanloo/submit 244/NAA/WS05/at_home -due
+#1570805773
+valgrind ws
+#1570830320
+cd w5_DIY
+#1570830419
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570832897
+cd w5_DIY
+#1570832901
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570835972
+cd
+#1570835973
+ls
+#1570835986
+cd w5_DIY
+#1570835988
+ls
+#1570836000
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1570836577
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570836600
+valgrind --tool=memcheck --leak-check=full  --show-leak-kinds=all ws
+#1570836617
+valgrind  ws
+#1570836666
+valgrind --tool=memcheck --leak-check=full -v --show-leak-kinds=all ws
+#1570836740
+valgrind -v ws
+#1570849813
+ls
+#1570849825
+valgrind  ws
+#1570849842
+cd w5_DIY
+#1570849847
+valgrind  ws
+#1570849862
+valgrind --tool=memcheck --leak-check=full -v --show-leak-kinds=all ws
+#1570849869
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1570849874
+valgrind  ws
+#1570849999
+node try1
+#1570850366
+npm install
+#1570850393
+npm install nod
+#1570850398
+npm
+#1570850935
+exit
+#1571843926
+netstats -a
+#1571843947
+netstat -a
+#1571865793
+cd pythonCS
+#1571865834
+python PythonServerApp.py
+#1571865559
+python
+#1571865778
+cd pythonCS
+#1571865877
+python PythonClientApplication1.py
+#1572360894
+~fardad.soleimanloo/submit 244/NAA/WS05/DIY
+#1572360921
+~fardad.soleimanloo/submit 244/NAA/WS05.5/attendance
+#1572479386
+npm
+#1572479395
+netstat -a
+#1572479420
+npm install node.js
+#1572479423
+npm install node
+#1572479446
+valgrind
+#1572479460
+cd w5_DIY
+#1572479461
+ls
+#1572479468
+valgrind ws
+#1572479506
+valgrind --tool=memcheck --leak-check=full -v --show-leak-kinds=all ws
+#1572652083
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1572654208
+cd w5_DIY
+#1572654210
+ls
+#1572654214
+ws
+#1572654228
+valgrind ws
+#1572657935
+cd w5_DIY
+#1572657937
+ls
+#1572657940
+ws
+#1572657950
+valgrind ws
+#1572660697
+cd w5_DIY
+#1572660700
+ls
+#1572660714
+g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp 
+#1572660780
+valgrind ws
+#1572671164
+ls
+#1572671169
+cd in_lab
+#1572671184
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572671193
+ls
+#1572671228
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572671232
+ls
+#1572680910
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572680917
+cd in_lab
+#1572680919
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572680933
+valgrind ws
+#1572680954
+valgrind w1
+#1572681423
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572681443
+valgrind w1
+#1572683328
+cd in_lab
+#1572683331
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572683335
+valgrind w1
+#1572702264
+cd in_lab
+#1572702267
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572702270
+valgrind w1
+#1572702518
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572702521
+valgrind w1
+#1572702743
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572702746
+valgrind w1
+#1572703467
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572703469
+valgrind w1
+#1572703535
+valgrind w1 -v --leak-check=full
+#1572703565
+valgrind  -v --leak-check=full w1
+#1572704098
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572704101
+valgrind  -v --leak-check=full w1
+#1572704147
+valgrind  -v  w1
+#1572704162
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572704165
+valgrind  -v  w1
+#1572704173
+valgrind   w1
+#1572704187
+valgrind  -v  w1
+#1572704198
+valgrind  -v --leak-check=full w1
+#1572704628
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572704633
+valgrind  -v --leak-check=full w1
+#1572704796
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572704800
+valgrind  -v --leak-check=full w1
+#1572705380
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572705383
+valgrind  -v --leak-check=full w1
+#1572705422
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572705427
+valgrind  -v --leak-check=full w1
+#1572705965
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572705969
+valgrind  -v --leak-check=full w1
+#1572705992
+valgrind w1
+#1572706704
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572706707
+valgrind  -v --leak-check=full w1
+#1572710484
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572710487
+valgrind  -v --leak-check=full w1
+#1572713307
+cd ..
+#1572713334
+cd at_home
+#1572713342
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572713347
+valgrind  -v --leak-check=full w1
+#1572713880
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1572713885
+valgrind  -v --leak-check=full w1
+#1572714096
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1572714099
+valgrind  -v --leak-check=full w1
+#1572714414
+cd in_lab
+#1572714422
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572714425
+valgrind  -v --leak-check=full w1
+#1572714440
+cd in_lab
+#1572714445
+cd..
+#1572714447
+cd in_lab
+#1572714455
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572714459
+valgrind  -v --leak-check=full w1
+#1572714972
+cd..
+#1572714983
+cd at_home
+#1572714992
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1572715003
+valgrind  -v --leak-check=full w1
+#1572715094
+cd..
+#1572715100
+cd in_lab
+#1572715107
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572715112
+valgrind  -v --leak-check=full w1
+#1572726222
+cd at_home
+#1572726228
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1572726346
+LS
+#1572726349
+ls
+#1572726358
+cd at_home
+#1572726360
+ls
+#1572726365
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1572726495
+valgrind  -v --leak-check=full w1
+#1572726835
+cd..
+#1572726842
+cd in_lab
+#1572726848
+ls
+#1572726910
+g++ -g -Wall -std=c++11 -o w1 Ore.cpp OreTester.cpp
+#1572726917
+valgrind  -v --leak-check=full w1
+#1572727822
+g++ -g -Wall -std=c++11 -o w1 Ore.cpp OreTester.cpp
+#1572727825
+valgrind  -v --leak-check=full w1
+#1572727841
+valgrind w1
+#1572929609
+~fardad.soleimanloo/submit 244/NAA/WS02/attendance
+#1572929637
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1572929669
+g++ -g -Wall -std=c++11 -o w1 Ore.cpp OreTester.cpp
+#1572968691
+~fardad.soleimanloo/submit 244/NAA/WS06/attendance
+#1572969946
+~fardad.soleimanloo/submit 244/NAA/WS07/attendance
+#1572969951
+~fardad.soleimanloo/submit 244/NAA/WS06/attendance
+#1572970878
+cd in_lab
+#1572970883
+g++ -g -Wall -std=c++11 -o w1 Ore.cpp OreTester.cpp
+#1572970895
+ls
+#1572970930
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572970981
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1572971707
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572971724
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1572971733
+cd ..
+#1572971879
+cd at_home
+#1572971941
+ls
+#1572971959
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1572971977
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home
+#1572994254
+du -sh *
+#1573269282
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home -due
+#1573269355
+cd at_home
+#1573269357
+ls
+#1573269377
+cd at_home
+#1573269385
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1573269393
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1573269403
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home
+#1573269713
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1573269716
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home
+#1573270052
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1573270054
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home
+#1573270382
+cd ..
+#1573270388
+cd in_lab
+#1573270397
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1573270411
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1573270826
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester.cpp
+#1573270829
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1573270842
+cd ..
+#1573270854
+cd at_home
+#1573271015
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1573271021
+~fardad.soleimanloo/submit 244/NAA/WS06/in_lab
+#1573271045
+g++ -g -Wall -std=c++11 -o w1 Figurine.cpp FigurineTester2.cpp
+#1573271054
+~fardad.soleimanloo/submit 244/NAA/WS06/at_home
+#1573570496
+cd in_lab
+#1573570510
+~fardad.soleimanloo/submit 244/NAA/WS07/in_lab
+#1573571114
+~fardad.soleimanloo/submit 244/NAA/WS07/at_home
+#1573571158
+cd ..
+#1573571162
+cd at_home
+#1573571164
+~fardad.soleimanloo/submit 244/NAA/WS07/at_home
+#1573585245
+~fardad.soleimanloo/244/ms1_date/submissionTester
+#1573782569
+echo 'E2E32F1A-3E99-4EDF-A62A-10EDB5F81201'; tty; echo '3DF461C2-CE92-4D65-BA28-5278E01CFF5A'
+#1573782569
+echo 'sleepforever'
+#1573782569
+sleep infinity
+#1573782572
+export DISPLAY=:0.0;gdb --tty /dev/pts/0 --interpreter=mi; echo fab7778d-5eaf-46cb-943a-0a73f185bbe2
+#1573782761
+/home/hzheng62/projects/linuxCplusplus/bin/x64/Debug/linuxCplusplus.out & disown
+#1573782761
+echo 370868AC-9196-484C-B639-6630EB70ABB7
+#1573782802
+echo 'E2E32F1A-3E99-4EDF-A62A-10EDB5F81201'; tty; echo '3DF461C2-CE92-4D65-BA28-5278E01CFF5A'
+#1573782802
+echo 'sleepforever'
+#1573782802
+sleep infinity
+#1573782804
+export DISPLAY=:0.0;gdb --tty /dev/pts/5 --interpreter=mi; echo fab7778d-5eaf-46cb-943a-0a73f185bbe2
+#1573782859
+gdb --tty /dev/pts/2 --interpreter=mi; echo fab7778d-5eaf-46cb-943a-0a73f185bbe2
+#1573782857
+echo 'E2E32F1A-3E99-4EDF-A62A-10EDB5F81201'; tty; echo '3DF461C2-CE92-4D65-BA28-5278E01CFF5A'
+#1573782858
+echo 'sleepforever'
+#1573782858
+sleep infinity
+#1573782995
+gdb --tty /dev/pts/2 --interpreter=mi; echo fab7778d-5eaf-46cb-943a-0a73f185bbe2
+#1573782962
+echo 'E2E32F1A-3E99-4EDF-A62A-10EDB5F81201'; tty; echo '3DF461C2-CE92-4D65-BA28-5278E01CFF5A'
+#1573778844
+mkdir projects/linuxCplusplus
+#1573778850
+ls
+#1573778862
+cd projects
+#1573778864
+ls
+#1573778920
+cd linuxCplusplus
+#1573778930
+chmode 777
+#1573778951
+ls *
+#1573778952
+ls
+#1573778955
+ls -a
+#1573778965
+ls -l
+#1573779021
+chmod 777
+#1573779049
+chmod 777 projects/linuxCplusplus
+#1573779055
+cd
+#1573779058
+chmod 777 projects/linuxCplusplus
+#1573779130
+ls -l projects/linuxCplusplus
+#1573779137
+touch 1
+#1573779139
+ls -l projects/linuxCplusplus
+#1573779147
+rm 1
+#1573779164
+touch projects/linuxCplusplus/1
+#1573779169
+ls -l projects/linuxCplusplus
+#1573779315
+cd  projects/linuxCplusplus
+#1573779317
+ls
+#1573779326
+ls -l
+#1573779333
+obj
+#1573779363
+g++ -o a main.cpp
+#1573779373
+ls -l
+#1573779379
+a
+#1573780111
+ls -l
+#1573780120
+bin
+#1573780123
+a
+#1573780894
+ls -l
+#1573782697
+a
+#1573782700
+bin
+#1573782705
+obj
+#1573782777
+ls -l
+#1573782789
+ls
+#1573784472
+a
+#1573784476
+.a
+#1573784478
+./a
+#1573784484
+./bin
+#1573784493
+cd bin
+#1573784494
+ls
+#1573784500
+cd x64
+#1573784501
+ls
+#1573784507
+cd debug
+#1573784514
+cd Debug
+#1573784516
+ls
+#1573784542
+linuxCplusplus.out
+#1573784943
+cd ..
+#1573784949
+cd..
+#1573784961
+cd
+#1573784981
+cd  projects/linuxCplusplus
+#1573784983
+ls
+#1573785805
+main.o
+#1573785811
+ls
+#1573785991
+linuxCplusplus.out
+#1573958018
+ls
+#1573958021
+cd ms1
+#1573958024
+ls
+#1573958040
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1 -due
+#1573958067
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1573958102
+g++ -Wall -std=c++11 -o ws utils.o Date.cpp Utils.cpp Menu.cpp ms1.cpp
+#1573958424
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1573959170
+~fardad.soleimanloo/244/ms1/dateTester
+#1573959224
+~fardad.soleimanloo/244/ms1/dateSumbissionTester
+#1574034447
+cd ms1
+#1574034453
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1574053765
+cd ms1
+#1574053767
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1574132415
+cd ms2
+#1574132435
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms2
+#1574133428
+cd ms2
+#1574133431
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms2
+#1574137942
+cd at-home
+#1574137943
+ls
+#1574138014
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574138039
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab -due
+#1574138088
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574140078
+cd oop244/ms2
+#1574140091
+cd OOP244
+#1574140100
+cd ..
+#1574140103
+cd OOP244
+#1574140106
+cd ms2
+#1574140114
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms2
+#1574140153
+cd ..
+#1574140164
+cd at-home
+#1574140170
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574140180
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab -due
+#1574170588
+cd at-home
+#1574170659
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574180654
+cd at-home
+#1574180657
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574178668
+~fardad.soleimanloo/submit 244/NAA/WS08/attendance
+#1574179075
+~fardad.soleimanloo/submit 244/NAA/WS07/attendance
+#1574179084
+~fardad.soleimanloo/submit 244/NAA/WS08/attendance
+#1574195173
+cd at-home
+#1574195200
+~fardad.soleimanloo/submit 244/NAA/WS08/in_lab
+#1574478947
+cd ms
+#1574478998
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms3
+#1574479191
+cat errors.txt
+#1574482198
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms3
+#1574483929
+cd ms
+#1574483931
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms3
+#1574565480
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1574565486
+cd ms
+#1574565488
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1574733243
+cd ws
+#1574733260
+~fardad.soleimanloo/submit 244/NAA/WS09/in_lab
+#1574733317
+g++ -Wall -o ws CalculatorTester.cpp
+#1574733396
+g++ -Wall -std=c+11 -o ws CalculatorTester.cpp
+#1574733408
+g++ -Wall -std=c++11 -o ws CalculatorTester.cpp
+#1574733421
+valgrind ws
+#1574733450
+g++ -Wall -std=c++11 -o ws CalculatorTester.cpp
+#1574733453
+valgrind ws
+#1574740826
+cd ws
+#1574740829
+g++ -Wall -std=c++11 -o ws CalculatorTester.cpp
+#1574740831
+cd ws
+#1574740834
+valgrind ws
+#1574783374
+~fardad.soleimanloo/submit 244/NAA/WS09/attendance
+#1574784481
+valgrind ws
+#1574784504
+~fardad.soleimanloo/submit 244q5a
+#1574785610
+~fardad.soleimanloo/submit 244q56a
+#1574783483
+cd ws
+#1574783494
+~fardad.soleimanloo/submit 244/NAA/WS09/in_lab
+#1574784323
+~fardad.soleimanloo/submit 244q5a
+#1574784386
+~fardad.soleimanloo/submit 244/NAA/WS09/in_lab
+#1574784396
+~fardad.soleimanloo/submit 244q5a
+#1574784404
+cd..
+#1574784407
+~fardad.soleimanloo/submit 244q5a
+#1574785574
+~fardad.soleimanloo/submit 244q56
+#1574785581
+~fardad.soleimanloo/submit 244q56a
+#1574787078
+nano
+#1574787136
+~fardad.soleimanloo/submit 244q56a
+#1574788322
+nano q56.txt
+#1574788336
+~fardad.soleimanloo/submit 244q56a
+#1574820255
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms1
+#1574820265
+cd ws
+#1574820272
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1574820313
+cd ..
+#1574820316
+cd ms
+#1574820319
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1574825902
+cd ms
+#1574825905
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1574863610
+cd ms
+#1574863614
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1575089189
+cd ms
+#1575089206
+cd OOP244
+#1575089207
+ls
+#1575089213
+cd ms4
+#1575089215
+ls
+#1575089223
+cat Book.cpp
+#1575089232
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1575181339
+cd ms
+#1575181342
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1575330555
+cd ms
+#1575330556
+~fardad.soleimanloo/submit 244/NAA/PRJ/ms4
+#1575333758
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575333766
+cd ms
+#1575333768
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575334483
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp 
+#1575335172
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575337069
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp 
+#1575337221
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575338337
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp 
+#1575338341
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575341329
+~fardad.soleimanloo/submit 244/NAA/PRJ/val -due
+#1575341541
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575347297
+cd ms
+#1575347301
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575349990
+cd ms
+#1575349993
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575355126
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1575355638
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575355861
+cd ws
+#1575355866
+cd ms
+#1575355870
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1575355973
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575356049
+ws
+#1575356217
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575380991
+ws
+#1575380997
+cd ms
+#1575380999
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575382744
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575382752
+ws
+#1575382777
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575382781
+ws
+#1575383129
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp 
+#1575383165
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575383182
+ws
+#1575383191
+2
+#1575383202
+ws
+#1575383261
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575383310
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575383328
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp PubAll.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575383351
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp PubApp.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575383357
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575383737
+ws
+#1575384022
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575384668
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp PubAll.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575384676
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575384706
+g++ -Wall -std=c++11 -o ws utils.o ms5.cpp Book.cpp Date.cpp PubApp.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575384720
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575384854
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575384861
+ws
+#1575385027
+g++ -Wall -std=c++11 -o ws utils.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubApp.o PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385031
+g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385157
+gdb ./ms
+#1575385196
+g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385203
+cd ms
+#1575385321
+g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385331
+gdb 
+#1575385526
+g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385531
+ws
+#1575385621
+ g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.cpp ms5.cpp Book.cpp Date.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385625
+ws
+#1575385811
+g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.o Book.cpp Date.cpp library.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
+#1575385819
+ws
+#1575389962
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1575393156
+cd ms
+#1575393160
+~fardad.soleimanloo/submit 244/NAA/PRJ/
+#1575393988
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1576069279
+cd try
+#1576069319
+g++ ConsoleApplication6.cpp
+#1576069382
+g++ -std=c++11 -o w6 ConsoleApplication6.cpp
+#1576069482
+w6
+#1576070116
+g++  -o w6 ConsoleApplication6.cpp
+#1576070126
+g++ -std=c++11 -o w6 ConsoleApplication6.cpp
+#1576362300
+cd ms4
+#1576362321
+~fardad.soleimanloo/submit 244/NAA/PRJ/
+#1576362370
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1576362397
+~fardad.soleimanloo/submit 244/NAA/PRJ/app
+#1576362624
+~fardad.soleimanloo/submit 244/NAA/PRJ/app -due
+#1576375254
+cd ms4
+#1576375257
+~fardad.soleimanloo/submit 244/NAA/PRJ/app -due
+#1576375264
+~fardad.soleimanloo/submit 244/NAA/PRJ/val
+#1578866400
+cd try
+#1578866401
+ls
+#1578866431
+ g++ -g -Wall -std=c++11 -o ws event.cpp event.h w1_lab.cpp
+#1578867521
+ws
+#1578869532
+ws monday.txt tuesday.txt
+#1578878232
+ g++ -g -Wall -std=c++11 -o ws event.cpp event.h w1_lab.cpp
+#1578878293
+ g++ -g -Wall -std=c++11 -o ws event.h event.cpp w1_lab.cpp
+#1578878360
+ws monday.txt tuesday.txt
+#1579056932
+cd
+#1579056934
+try
+#1579056939
+ls
+#1579056946
+cd try
+#1579056948
+ls
+#1579057569
+~fardad.soleimanloo/submit 345NEE_w1_lab
+#1579057586
+cd try
+#1579057589
+~fardad.soleimanloo/submit 345NEE_w1_lab
+#1579057618
+ls
+#1579057748
+~fardad.soleimanloo/submit 345NEE_w1_lab
+#1579136219
+cd try
+#1579136221
+ls
+#1579136228
+~fardad.soleimanloo/submit 345NEE_w1_home
+#1579143360
+cd try
+#1579143362
+ls
+#1579143485
+~fardad.soleimanloo/submit 244/NAA/w101/ws
+#1579143540
+~fardad.soleimanloo/submit 244/NAA/WS01/ws
+#1579208807
+cd try
+#1579208808
+ls
+#1579208818
+valgin ws
+#1579208849
+valgrind ws
+#1579208899
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1579209107
+~fardad.soleimanloo/submit 244/NAA/WS01/ws -due
+#1579209189
+~fardad.soleimanloo/submit 345NEE_w1_home -due
+#1579620976
+cd try
+#1579620978
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579621329
+~fardad.soleimanloo/submit 345NEE_w2_lab -due
+#1579621344
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1579622008
+~fardad.soleimanloo/submit 345NEE_w1_home -due
+#1579622038
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1579622049
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579622061
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1579622158
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimeEvents.cpp w2_home.cpp
+#1579622175
+ls
+#1579622190
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579622313
+ls
+#1579622335
+ws gutenbery_shakespear
+#1579622476
+ws ./gutenbery_shakespear
+#1579622490
+ws .gutenbery_shakespear
+#1579622525
+ws .//gutenbery_shakespear
+#1579622535
+ws ./gutenbery_shakespear
+#1579622682
+ls
+#1579622702
+ws ~/try/gutenbery_shakespear
+#1579622727
+ls a
+#1579622734
+ls -l
+#1579622757
+ws ~/try/gutenberg_shakespear
+#1579622802
+ws ~/try/gutenberg_shakespeare
+#1579623022
+ws gutenberg_shakespeare
+#1579623036
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579623050
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1579623096
+
+#1579623112
+ls
+#1579623134
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579623187
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579623232
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579623237
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579623247
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+#1579623279
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws gutenberg_shakspeare
+#1579623322
+ws gutenberg_shakespeare
+#1579623376
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws gutenberg_shakspeare
+#1579623439
+valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws gutenberg_shakespeare
+#1579623477
+ws gutenberg_shakespeare
+#1579623489
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579623498
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579626400
+ls
+#1579626700
+ws gutenberg_shakespeare
+#1579658262
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579695958
+cd try
+#1579695962
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579721847
+~fardad.soleimanloo/submit 345NEE/w02/attendance
+#1579721869
+~fardad.soleimanloo/submit 345/NEE/ws02/attendance
+#1579721895
+~fardad.soleimanloo/submit 345/NEE/WS02/attendance
+#1579721912
+exit
+#1579723316
+cd try
+#1579723322
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579721991
+~fardad.soleimanloo/submit 345NEE_w2_lab -due
+#1579722020
+cd try
+#1579722026
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579722394
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_home.cpp
+#1579722398
+ls
+#1579722429
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2__lab_prof.cpp
+#1579722436
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp
+#1579722455
+ws gutenberg_shakespeare
+#1579722644
+g++ -g -Wall -std=c++17 -o ws RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp
+#1579722702
+g++ -g -Wall -std=c++11 -o ws RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp
+#1579722950
+ws gutenberg_shakespeare
+#1579722960
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579723031
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp 2> errors.txt
+#1579723041
+ws gutenberg_shakespeare
+#1579723669
+ /usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp 2> errors.txt
+#1579723746
+ ~fardad.soleimanloo/submit 345/NEE/WS02/attendance
+#1579724792
+cd /usr/local/gcc/9.1.0/
+#1579724794
+ls
+#1579724805
+cd lib64
+#1579724812
+ls
+#1579724933
+cd libstdc++.so.6
+#1579724960
+copy libstdc++.so.6 ~/try
+#1579725054
+ cy libstdc++.so.6 ~/try
+#1579725074
+ cp libstdc++.so.6 ~/try
+#1579725084
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579725096
+cd ~/try
+#1579725098
+~fardad.soleimanloo/submit 345NEE_w2_lab
+#1579725189
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1579726364
+cd lib64
+#1579726372
+cd /usr/local/gcc/9.1.0/
+#1579726379
+cd /usr/local/gcc/9.1.0/lib64
+#1579726381
+ls
+#1579726420
+cd /usr/local/gcc/9.1.0/bin/lib64/libstdc++.so.6
+#1579726433
+cd /usr/local/gcc/9.1.0/bin/lib64
+#1579726454
+cd /usr/local/gcc/9.1.0/lib64
+#1579726464
+ls
+#1579726862
+.bash_profile
+#1579726878
+vi .bash_profile
+#1579727003
+vim .bash_profile
