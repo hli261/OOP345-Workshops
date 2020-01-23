@@ -44,6 +44,7 @@ namespace sdds {
         //        m_recordNumber++;
         //    }
         //}
+
         m_recordNumber = 0;
         string temp;
         std::ifstream file(str);
@@ -52,17 +53,21 @@ namespace sdds {
         {
             while (std::getline(file, temp, ' '))
                 ++m_recordNumber;
+
+            // allocate memory
+            m_record = new std::string[m_recordNumber];
+
+            file.clear();
+            file.seekg(0, ios::beg);
+
+            for (int i = 0; i < m_recordNumber; i++) {
+                getline(file, m_record[i], ' ');
+            }
+        }
+        else {
+            std::cout << "failed to open " << str << '\n';
         }
 
-        // allocate memory
-        m_record = new std::string[m_recordNumber];
-
-        file.clear();
-        file.seekg(0, ios::beg);
-
-        for (int i = 0; i < m_recordNumber; i++) {
-            getline(file, m_record[i], ' ');
-        }
     }
 
     RecordSet::RecordSet(const RecordSet& recordSet) {
