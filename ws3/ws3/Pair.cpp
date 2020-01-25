@@ -16,5 +16,8 @@
 using namespace std;
 
 namespace sdds {
+    //Pair::Pair(T1 str, T2 i) {
+
+    //}
 
 }

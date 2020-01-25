@@ -17,7 +17,14 @@ using namespace std;
 
 
 namespace sdds {
+    template<class T1, class T2>
     class PairSummable {
+
+    public:
+        PairSummable(T1 t1, T2 t2) {
+
+        }
+
 
     };
 }

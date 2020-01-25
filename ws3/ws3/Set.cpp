@@ -16,5 +16,19 @@
 using namespace std;
 
 namespace sdds {
-
+//    Set::Set(T1 str, size_t i) {
+//
+//    }
+//    size_t Set::size() {
+//
+//    }
+//    int& Set::operator[](size_t i) {
+//
+//    }
+//
+//
+//
+////    Ostream& operator<<(Ostream& os, const Set<T1, int>) {
+////
+////}
 }

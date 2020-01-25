@@ -147,10 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Pair.cpp" />
-    <ClCompile Include="PairSummable.cpp" />
-    <ClCompile Include="Set.cpp" />
-    <ClCompile Include="SetSummable.cpp" />
     <ClCompile Include="w3_home.cpp" />
     <ClCompile Include="w3_lab.cpp" />
   </ItemGroup>

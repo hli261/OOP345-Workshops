@@ -15,22 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="w3_home.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="w3_lab.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PairSummable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SetSummable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pair.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Set.cpp">
+    <ClCompile Include="w3_home.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

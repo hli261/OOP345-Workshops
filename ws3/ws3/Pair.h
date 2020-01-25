@@ -17,7 +17,12 @@ using namespace std;
 
 
 namespace sdds {
+    template<class T1, class T2>
     class Pair {
+    public:
+        Pair(T1 str,T2 i) {
+
+        }
 
     };
 }
