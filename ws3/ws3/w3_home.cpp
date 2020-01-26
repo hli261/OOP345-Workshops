@@ -13,8 +13,7 @@
 #include "PairSummable.h"
 
 
-//int main(int argc, char* argv[])
-int main1(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
 	std::cout << "Command Line:\n";
 	std::cout << "--------------------------\n";
@@ -30,7 +29,7 @@ int main1(int argc, char* argv[])
 
 		// get the data from the file
 		{
-			std::ifstream input(argv[1]);
+			std::ifstream input(argv[2]);
 			if (!input)
 			{
 				std::cerr << "ERROR: Cannot open file [" << argv[1] << "].\n";
@@ -73,7 +72,7 @@ int main1(int argc, char* argv[])
 
 		// get the data from the file
 		{
-			std::ifstream input(argv[2]);
+			std::ifstream input(argv[1]);
 			if (!input)
 			{
 				std::cerr << "ERROR: Cannot open file [" << argv[2] << "].\n";

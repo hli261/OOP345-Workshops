@@ -199,7 +199,8 @@ No other changes are necessary in this module.
 
 ### `PairSummable` Module
 
-Add a new module called `PairSummable` that represents a `Pair` with summation and key alignment functionality.
+Add a new module called `PairSummable` that represents a `Pair` with summation 
+and key alignment functionality.
 
 This class is derived from `Pair<K, V>`, and receives 2 template parameters:
 - `K`: the type of the key
@@ -210,8 +211,12 @@ This class is derived from `Pair<K, V>`, and receives 2 template parameters:
 
 ***Static Private Members for `PairSummable`***
 
-- an object of type `V` that holds the *initial value* for starting a summation. The initial value depends on the type of the value in the key-value pair and will be defined separately.
-- a variable of type `size_t` that holds the minimum field width for pretty columnar output of key-value pairs (initialize it with 0). This is the minimum number of characters needed to display any of the key in a set of keys.
+- an object of type `V` that holds the *initial value* for starting a summation.
+The initial value depends on the type of the value in the key-value pair and 
+will be defined separately.
+- a variable of type `size_t` that holds the minimum field width for pretty 
+columnar output of key-value pairs (initialize it with 0). This is the minimum 
+number of characters needed to display any of the key in a set of keys.
 
   This value must be updated every time a new pair is added to the collection.
 
@@ -227,12 +232,15 @@ This class is derived from `Pair<K, V>`, and receives 2 template parameters:
 
 - default constructor
 
-- `PairSummable(const K& key, const V& value)`: stores the pair in the collection, and updates the field width if necessary.
-  This functions assumes that the type `K` supports a function named `size()` that returns the number of characters required to display `key`.
+- `PairSummable(const K& key, const V& value)`: stores the pair in the collection, 
+and updates the field width if necessary.  This functions assumes that the type `K` 
+supports a function named `size()` that returns the number of characters required 
+to display `key`.
 
 - `V sum(const K& key, const V& val) const`:
-  - If the key of the pair stored in the current instance is `key`, then add the value of the pair and `val` together and return the result. Use `+` for addition.
-  - Otherwise, return `val`.
+  - If the key of the pair stored in the current instance is `key`, then add the 
+  value of  the pair and `val` together and return the result. Use `+` for addition.
+    - Otherwise, return `val`.
 
 - overload the `display()` function to set the alignment to left and the field width and then call `display()` from the parent class. At the end, restore the alignment to right.
 
@@ -275,17 +283,26 @@ In this design, *summable* elements are objects of a type that supports the oper
 
 ***Public Members for `SetSummable`***
 
-- `V accumulate(const K& key) const`: this function accumulates all the values stored in the collection that have the key `key` into a local object of type `V`.
+- `V accumulate(const K& key) const`: this function accumulates all the values 
+stored in the collection that have the key `key` into a local object of type `V`.
 
-  - get the initial value from the type `T` and store it into a local variable of type `V`: this is the accumulator.
-    In this design, the type `T` must have a static member called `getInitialValue()`.
 
-  - iterate over the collection and call the function `sum()` for each item (use the overloaded `operator[]` to access the item at index `i`). Store the result of `sum()` into the accumulator.
+  - get the initial value from the type `T` and store it into a local variable 
+  of type `V`: this is the accumulator.
+    In this design, the type `T` must have a static member called 
+    `getInitialValue()`.
+
+  - iterate over the collection and call the function `sum()` 
+  for each item (use the overloaded `operator[]` to access the item at index `i`).
+  Store the result of `sum()` into the accumulator.
 
   - return the accumulator to the client.
 
 
-Once the implementation of this module is complete, if you attempt to instantiate the class `SetSummable` using a type `T` that doesn't support the `sum()` and `getInitialValue()` operations, you will receive compilation errors **for that specific instantiation**.
+Once the implementation of this module is complete, if you attempt to 
+instantiate the class `SetSummable` using a type `T` that doesn't support 
+the `sum()` and `getInitialValue()` operations, you will receive compilation 
+errors **for that specific instantiation**.
 
 
 

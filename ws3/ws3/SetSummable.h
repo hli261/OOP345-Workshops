@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <string>
+#include "Set.h"
 #include "PairSummable.h"
 
 using namespace std;
@@ -18,45 +19,25 @@ using namespace std;
 
 
 namespace sdds {
-    template<class T1, size_t N, class T2, class T3>
-    class SetSummable {
+    template<class T, size_t N, class K, class V>
+    class SetSummable :public Set<T,N>{
 
     public:
-        SetSummable() {
+        SetSummable():Set<T,N>() {
 
         }
 
-        SetSummable& operator+=(const T1& record) {
+        V accumulate(const K& key) const{
+            V temp = this->operator[](0).getInitialValue();
+            V temp1 = 0;
+            for (size_t i = 0; i < this->size(); i++) {
+               temp1=(this->operator[](i)).sum(key, this->operator[](i).getInitialValue());
+            }
 
-            return *this;
-        }
-
-        SetSummable& operator[](size_t i) {
-
-            return *this;
-        }
-
-        SetSummable& operator*(double d) {
-
-            return *this;
-        }
-
-        size_t size() {
-
-
-            return 0;
-        }
-
-        SetSummable& accumulate(std::string t2) {
-
-
-            return *this;
+            return temp1-temp;
         }
         
-        friend ostream& operator<<(ostream& os, const SetSummable& setSummable) {
 
-            return os;
-        }
     };
 }
 #endif

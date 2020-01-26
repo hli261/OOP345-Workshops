@@ -36,15 +36,23 @@ namespace sdds {
             return m_value;
         }
 
-        void display(ostream& os) const {
+        virtual void display(ostream& os) const {
             os << m_key << " : " << m_value << endl;
         }
 
-        friend ostream& operator<<(ostream& os, const Pair<K, V>& pair)
-        {
-            pair.display(os);
-            return os;
-        }
+        //friend ostream& operator<<(ostream& os, const Pair<K,V>& pair)
+        //{
+        //    pair.display(os);
+        //    return os;
+        //}
+
     };
+
+    template<class K, class V>
+    ostream& operator<<(ostream& os, const Pair<K, V>& pair)
+    {
+        pair.display(os);
+        return os;
+    }
 }
 #endif

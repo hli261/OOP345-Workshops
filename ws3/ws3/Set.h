@@ -21,34 +21,26 @@ namespace sdds {
     class Set {
         T m_setArray[N]{ {} };
         size_t m_index{};
+
     public:
-        Set() {
-        }
 
         size_t size() const{
-
-            return m_index+1;
+            return m_index;
         }
 
         void operator+=(const T& pair) {
-
-
-//            return *this;
+            T temp(pair.Key(), pair.Value());
+            if (m_index < N) {
+                (m_setArray[m_index++])=temp;
+            }
         }
 
-         const Set& operator[](size_t idx) {
+         const T& operator[](size_t idx) const{
 
-            return *this;
-        }
-
-        friend ostream& operator<<(ostream& os, const Set& set) {
-
-            return os;
+            return m_setArray[idx];
         }
 
     };
-
-
 
 }
 #endif

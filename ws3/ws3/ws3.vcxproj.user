@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>C:\OOP345Workshop\ws3\ws3\sales.txt C:\OOP345Workshop\ws3\ws3\products.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>C:\OOP345Workshop\ws3\ws3\sales.txt C:\OOP345Workshop\ws3\ws3\products.txt C:\OOP345Workshop\ws3\ws3\sales.txt</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

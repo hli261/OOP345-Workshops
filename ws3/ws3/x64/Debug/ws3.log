@@ -1,2 +1,21 @@
-﻿  w3_lab.cpp
-  ws3.vcxproj -> C:\OOP345Workshop\ws3\x64\Debug\ws3.exe
+﻿  w3_home.cpp
+C:\OOP345Workshop\ws3\ws3\SetSummable.h(37,25): error C2676: binary '-': 'V' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              V=std::string
+          ]
+C:\OOP345Workshop\ws3\ws3\SetSummable.h(30): message : while compiling class template member function 'V sdds::SetSummable<sdds::PairSummable<std::string,V>,15,std::string,V>::accumulate(const K &) const'
+          with
+          [
+              V=std::string,
+              K=std::string
+          ]
+C:\OOP345Workshop\ws3\ws3\w3_home.cpp(60): message : see reference to function template instantiation 'V sdds::SetSummable<sdds::PairSummable<std::string,V>,15,std::string,V>::accumulate(const K &) const' being compiled
+          with
+          [
+              V=std::string,
+              K=std::string
+          ]
+C:\OOP345Workshop\ws3\ws3\w3_home.cpp(28): message : see reference to class template instantiation 'sdds::SetSummable<sdds::PairSummable<std::string,std::string>,15,std::string,std::string>' being compiled
+  w3_lab.cpp
+  Generating Code...

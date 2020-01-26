@@ -8,7 +8,9 @@
 //-------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
+#include <iomanip>
 #include <string>
+#include "Pair.h"
 
 using namespace std;
 
@@ -17,15 +19,41 @@ using namespace std;
 
 
 namespace sdds {
-    template<class T1, class T2>
-    class PairSummable {
-
+    template<class K, class V>
+    class PairSummable :public Pair<K, V> {
+        static V m_summation;
+        static size_t m_minWidth;
     public:
-        PairSummable(T1 t1, T2 t2) {
+        static const V& getInitialValue() {
+            return m_summation;
+        }
+
+        PairSummable() :Pair<K, V>() {
 
         }
 
+        PairSummable(const K& key, const V& value) :Pair<K, V>(key, value) {
+            m_minWidth = m_minWidth > key.length() ? m_minWidth : key.length();
 
+        }
+
+        V sum(const K& key, const V& val) const {
+            return m_summation= (this->Key() == key) ? this->Value() + val : val;
+        }
+
+        void display(ostream& os) const {
+            os << left << setw(m_minWidth);
+            Pair<K, V>::display(os);
+            os << right;
+
+        }
     };
+
+    template<class K, class V>
+    V PairSummable<K, V>::m_summation = 0;
+
+    template<class K, class V>
+    size_t PairSummable<K, V>::m_minWidth = 0u;
+
 }
 #endif
