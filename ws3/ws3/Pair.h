@@ -17,13 +17,34 @@ using namespace std;
 
 
 namespace sdds {
-    template<class T1, class T2>
+    template<class K, class V>
     class Pair {
+        K m_key{};
+        V m_value{};
     public:
-        Pair(T1 str,T2 i) {
+        Pair() { }
+
+        Pair(const K& key, const V& value) :m_key(key), m_value(value) {
 
         }
 
+        const K& Key() const {
+            return m_key;
+        }
+
+        const V& Value() const {
+            return m_value;
+        }
+
+        void display(ostream& os) const {
+            os << m_key << " : " << m_value << endl;
+        }
+
+        friend ostream& operator<<(ostream& os, const Pair<K, V>& pair)
+        {
+            pair.display(os);
+            return os;
+        }
     };
 }
 #endif

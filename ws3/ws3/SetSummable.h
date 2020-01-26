@@ -18,7 +18,7 @@ using namespace std;
 
 
 namespace sdds {
-    template<class T1, size_t size, class T2, class T3>
+    template<class T1, size_t N, class T2, class T3>
     class SetSummable {
 
     public:
@@ -26,17 +26,10 @@ namespace sdds {
 
         }
 
-        template<class T>
-        SetSummable& operator+=(const T& record) {
+        SetSummable& operator+=(const T1& record) {
 
             return *this;
         }
-
-        //SetSummable& operator+=(const PairSummable<std::string, std::string>& record) {
-
-        //    return *this;
-        //}
-
 
         SetSummable& operator[](size_t i) {
 
@@ -59,20 +52,11 @@ namespace sdds {
 
             return *this;
         }
+        
+        friend ostream& operator<<(ostream& os, const SetSummable& setSummable) {
 
-
-
+            return os;
+        }
     };
-
-    template<class T1>
-    ostream& operator<<(ostream& os, const T1& setSummable) {
-
-        return os;
-    }
-
-    //ostream& operator<<(ostream& os, const SetSummable<sdds::PairSummable<std::string, int>, 25, std::string, int>& setSummable) {
-
-    //    return os;
-    //}
 }
 #endif

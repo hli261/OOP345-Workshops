@@ -9,7 +9,6 @@
 
 #include <iostream>
 #include <string>
-#include "Pair.h"
 
 using namespace std;
 
@@ -18,32 +17,38 @@ using namespace std;
 
 
 namespace sdds {
-    template<class T1, int size>
+    template<class T, size_t N>
     class Set {
-        string m_str{};
-        size_t m_size{};
+        T m_setArray[N]{ {} };
+        size_t m_index{};
     public:
         Set() {
         }
 
-        size_t size() {
+        size_t size() const{
 
-            return 0;
+            return m_index+1;
         }
 
-        Set& operator+=(const Pair<std::string, int>& pair) {
+        void operator+=(const T& pair) {
+
+
+//            return *this;
+        }
+
+         const Set& operator[](size_t idx) {
 
             return *this;
         }
 
-        size_t operator[](size_t i) {
+        friend ostream& operator<<(ostream& os, const Set& set) {
 
-            return i;
+            return os;
         }
-
 
     };
 
- //   Ostream& operator<<(Ostream& os, const Set<T1, int>);
+
+
 }
 #endif
