@@ -34,26 +34,33 @@ namespace sdds {
 
         PairSummable(const K& key, const V& value) :Pair<K, V>(key, value) {
             m_minWidth = m_minWidth > key.length() ? m_minWidth : key.length();
-
         }
 
         V sum(const K& key, const V& val) const {
-            return m_summation= (this->Key() == key) ? this->Value() + val : val;
+            return (this->Key() == key) ? this->Value() + val : val;
         }
 
         void display(ostream& os) const {
             os << left << setw(m_minWidth);
             Pair<K, V>::display(os);
             os << right;
-
         }
     };
 
     template<class K, class V>
-    V PairSummable<K, V>::m_summation = 0;
+    size_t PairSummable<K, V>::m_minWidth = 0u;
+
 
     template<class K, class V>
-    size_t PairSummable<K, V>::m_minWidth = 0u;
+    V PairSummable<K, V>::m_summation = 0u;
+
+    template<>
+    string PairSummable<string, string>::m_summation = "";
+
+    template<>
+    string PairSummable<string, string>::sum(const string& key, const string& val) const {
+        return (this->Key() == key) ? (val == "" ? this->Value() : val + ", " + this->Value()) : val;
+    }
 
 }
 #endif

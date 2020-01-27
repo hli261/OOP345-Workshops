@@ -29,14 +29,12 @@ namespace sdds {
 
         V accumulate(const K& key) const{
             V temp = this->operator[](0).getInitialValue();
-            V temp1 = 0;
             for (size_t i = 0; i < this->size(); i++) {
-               temp1=(this->operator[](i)).sum(key, this->operator[](i).getInitialValue());
+               temp=(this->operator[](i)).sum(key, temp);
             }
 
-            return temp1-temp;
+            return temp;
         }
-        
 
     };
 }
