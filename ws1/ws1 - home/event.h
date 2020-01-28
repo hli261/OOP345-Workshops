@@ -13,7 +13,6 @@
 #define _SDDS_EVENT_HEADER_
 
 extern  unsigned int g_sysClock;
-
 namespace sdds {
     class Event {
         char* m_description{nullptr};
@@ -27,4 +26,5 @@ namespace sdds {
         void display() const;
     };
 }
+
 #endif

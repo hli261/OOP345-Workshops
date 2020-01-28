@@ -13,8 +13,9 @@
 #include <iomanip>
 #include <cstring>
 
-unsigned int g_sysClock = 0;
+
 using namespace std;
+unsigned int g_sysClock = 0;
 
 namespace sdds {
     static uint16_t counters = 1;
@@ -65,3 +66,4 @@ namespace sdds {
         cout << m_description << std::endl;
     }
 }
+
