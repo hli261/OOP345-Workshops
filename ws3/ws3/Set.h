@@ -24,18 +24,18 @@ namespace sdds {
 
     public:
 
-        size_t size() const{
+        size_t size() const {
             return m_index;
         }
 
         void operator+=(const T& pair) {
-            T temp(pair.Key(), pair.Value());
+            //T temp(pair.Key(), pair.Value());
             if (m_index < N) {
-                (m_setArray[m_index++])=temp;
+                (m_setArray[m_index++]) = pair;//Temp;
             }
         }
 
-         const T& operator[](size_t idx) const{
+        const T& operator[](size_t idx) const {
 
             return m_setArray[idx];
         }
