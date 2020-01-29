@@ -29,16 +29,17 @@ namespace sdds {
         }
 
         void operator+=(const T& pair) {
-            if (m_index < N - 1) {
+            if (m_index < N) {
                 (m_setArray[m_index++]) = pair;
             }
+        }
 
-            const T& operator[](size_t idx) const {
+        const T& operator[](size_t idx) const {
 
-                return m_setArray[idx];
-            }
+            return m_setArray[idx];
+        }
 
-        };
+    };
 
-    }
+}
 #endif

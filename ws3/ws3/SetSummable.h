@@ -28,7 +28,8 @@ namespace sdds {
         }
 
         V accumulate(const K& key) const{
-            V temp = this->operator[](0).getInitialValue();
+            V temp = Set<T, N>::operator[](0).getInitialValue();//or:
+            //V temp = this->operator[](0).getInitialValue();
             for (size_t i = 0; i < this->size(); i++) {
                temp=(this->operator[](i)).sum(key, temp);
             }
