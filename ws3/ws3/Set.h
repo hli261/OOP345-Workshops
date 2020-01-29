@@ -29,18 +29,16 @@ namespace sdds {
         }
 
         void operator+=(const T& pair) {
-            //T temp(pair.Key(), pair.Value());
-            if (m_index < N) {
-                (m_setArray[m_index++]) = pair;//Temp;
+            if (m_index < N - 1) {
+                (m_setArray[m_index++]) = pair;
             }
-        }
 
-        const T& operator[](size_t idx) const {
+            const T& operator[](size_t idx) const {
 
-            return m_setArray[idx];
-        }
+                return m_setArray[idx];
+            }
 
-    };
+        };
 
-}
+    }
 #endif
