@@ -14,3 +14,5 @@ export LC_COLLATE=C
 
 PATH=$PATH:~/scripts
 umask 077
+
+
