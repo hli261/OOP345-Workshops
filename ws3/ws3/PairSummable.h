@@ -59,7 +59,11 @@ namespace sdds {
 
     template<>
     string PairSummable<string, string>::sum(const string& key, const string& val) const {
-        return (this->Key() == key) ? (val == "" ? this->Value() : val + ", " + this->Value()) : val;
+        return (this->Key() == key) ? 
+            (val == "" ?
+                this->Value() : 
+                val + ", " + this->Value()) 
+            : val;
     }
 
 }
