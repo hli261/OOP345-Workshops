@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/try
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/try:/usr/local/gcc/9.1.0/lib64:/usr/local/gcc/9.1.0/bin
 
 export PATH
 
@@ -17,3 +17,5 @@ alias g11="g++ -g -Wall -std=c++11 -o ws"
 
 alias fsub="~fardad.soleimanloo/submit"
 alias val="valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes"
+
+cd try
