@@ -10,7 +10,6 @@
 #include <iostream>
 #include <string>
 #include "Set.h"
-#include "PairSummable.h"
 
 using namespace std;
 
