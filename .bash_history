@@ -11352,3 +11352,405 @@ ls
 vi .bash_profile
 #1579727003
 vim .bash_profile
+#1579748778
+cd try
+#1579748859
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o GiftMain.cpp Gift.cpp 2> errors.txt
+#1579748871
+ws
+#1579749005
+g++ -Wall -std=c++11 -o ws utils.o GiftMain.cpp Gift.cpp 2> errors.txt
+#1579749008
+ws
+#1579749498
+~fardad.soleimanloo/submit 244/NAA/WS02/ws -due
+#1579749506
+~fardad.soleimanloo/submit 244/NAA/WS02/ws 
+#1579749554
+~fardad.soleimanloo/submit 244/NAA/WS02/in_lab
+#1579750028
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1579750033
+ws
+#1579750037
+dsafasdfj
+#1579750038
+dsfj
+#1579750040
+ws
+#1579750517
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1579750535
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1579750861
+cd try
+#1579750864
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1579751231
+ws
+#1579751299
+ws gutenberg_shakespeare
+#1579751313
+ws ~/try/gutenberg_shakespeare
+#1579751617
+cd try
+#1579751640
+g++ -Wall -std=c++11 -o ws GiftMain.cpp Gift.cpp 2> errors.txt
+#1579751743
+ws
+#1579755134
+exit
+#1579755071
+ls
+#1579755075
+cd try
+#1579755140
+exit
+#1580140636
+cd try
+#1580140638
+ls
+#1580140768
+g17 Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580141009
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580141235
+g17 Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580141611
+ws
+#1580141616
+cd try
+#1580141618
+ws
+#1580141620
+ls
+#1580141631
+g17
+#1580141742
+cd /usr/local/gcc/9.1.0/bin
+#1580141747
+g++
+#1580141750
+ls
+#1580141770
+g++
+#1580142768
+cd try
+#1580142779
+cd /usr/local/gcc/9.1.0/bin
+#1580142782
+cd ..
+#1580142788
+cd
+#1580142791
+cd try
+#1580142794
+ls
+#1580142819
+g++ -Wall -std=c++11 -o ws GiftMain.cpp Gift.cpp 2> errors.txt
+#1580142822
+ls
+#1580142827
+ws
+#1580142842
+ls
+#1580142857
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580142869
+g17 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580142894
+rm ws
+#1580142895
+ls
+#1580142899
+g17 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580142901
+ls
+#1580142926
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580142927
+ls
+#1580142947
+ws
+#1580143058
+cd try
+#1580143061
+ls
+#1580143066
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580143068
+ls
+#1580143230
+g11 GiftMain.cpp Gift.cpp 2> errors.txt
+#1580143233
+ls
+#1580143289
+cd try
+#1580143297
+g11 GiftMain.cpp Gift.cpp 
+#1580143299
+ls
+#1580143303
+ws
+#1580143310
+rm ws
+#1580143311
+ls
+#1580143322
+g17 GiftMain.cpp Gift.cpp 
+#1580143357
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp
+#1580143362
+ls
+#1580143434
+g17 GiftMain.cpp Gift.cpp 
+#1580143638
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1580143742
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o
+#1580143800
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_h_prof.cpp
+#1580143835
+ws
+#1580144144
+g++ -Wall -std=c++17 -o ws utils.o Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580144170
+g++ -Wall -std=c++11 -o ws utils.o Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580144373
+g++ -Wall -std=c++17 -o ws utils.o Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_home.cpp
+#1580144436
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_lab.cpp
+#1580144456
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_lab.cpp
+#1580144529
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  Pair.cpp PairSummable.cpp Set.cpp SetSummable.cpp w3_lab.cpp 2>errors.txt
+#1580144913
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  w3_lab.cpp
+#1580144929
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  w3_home.cpp
+#1580144934
+ws
+#1580144995
+ws sales.txt products.txt
+#1580145100
+ g11  w3_home.cpp
+#1580145116
+ g17  w3_home.cpp
+#1580145124
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  w3_home.cpp
+#1580145156
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o  w3_home.cpp
+#1580145162
+ws sales.txt products.txt
+#1580145475
+~fardad.soleimanloo/submit 345NEE_w3_home -feedback
+#1580145584
+~fardad.soleimanloo/submit 345NEE_w3_home -feedback~fardad.soleimanloo/submit 345/NEE/w3_home -feedback
+#1580145587
+~fardad.soleimanloo/submit 345/NEE/w3_home -feedback
+#1580150073
+echo path
+#1580150080
+echo PATH
+#1580150087
+echo $PATH
+#1580152132
+g17 GiftMain.cpp Gift.cpp 
+#1580152141
+cd try
+#1580152146
+g17 GiftMain.cpp Gift.cpp 
+#1580152173
+g17  w3_home.cpp
+#1580152205
+ls
+#1580152208
+ws
+#1580152214
+g17 GiftMain.cpp Gift.cpp 
+#1580152217
+ws
+#1580152223
+g17 GiftMain.cpp Gift.cpp 
+#1580152230
+val ws
+#1580152243
+g17  w3_home.cpp
+#1580152266
+val ws sales.txt products.txt
+#1580152390
+~fardad.soleimanloo/submit 345/NEE/w3_home -feedback
+#1580152405
+~fardad.soleimanloo/submit 345/NEE/w3_home
+#1580152438
+~fardad.soleimanloo/submit 345/NEE/w3_home -feedback~fardad.soleimanloo/submit 3345NEE_w1_home -feedback
+#1580152440
+~fardad.soleimanloo/submit 3345NEE_w1_home -feedback
+#1580152444
+~fardad.soleimanloo/submit 3345NEE_w1_home -feedback~fardad.soleimanloo/submit 3345NEE_w1_home -feedback
+#1580152464
+~fardad.soleimanloo/submit 3345NEE_w1_home -due
+#1580152472
+~fardad.soleimanloo/submit 3345NEE_w3_home -due
+#1580152483
+~fardad.soleimanloo/submit 345NEE_w3_home -due
+#1580152509
+~fardad.soleimanloo/submit 345NEE_w2_home -feedback
+#1580152550
+~fardad.soleimanloo/submit 345NEE_w3_home -feedback
+#1580152561
+~fardad.soleimanloo/submit 345NEE_w3_lab -feedback
+#1580152567
+~fardad.soleimanloo/submit 345NEE_w3_lab -due
+#1580184072
+cd try
+#1580184073
+ls
+#1580184083
+~fardad.soleimanloo/submit 345NEE_w3_lab -feedback
+#1580184203
+~fardad.soleimanloo/submit 345NEE_w3_home -feedback
+#1580184794
+~fardad.soleimanloo/submit 345NEE_w3_home
+#1580184815
+~fardad.soleimanloo/submit 345NEE_w3_lab
+#1580220417
+echo $PATH
+#1580221687
+try
+#1580221690
+cd try
+#1580221694
+echo $PATH
+#1580221698
+~fardad.soleimanloo/submit 345NEE_w3_lab
+#1580221719
+~fardad.soleimanloo/submit 345NEE_w3_home
+#1580262781
+try
+#1580262783
+cd try
+#1580262789
+~fardad.soleimanloo/submit 345NEE_w3_home
+#1580262799
+~fardad.soleimanloo/submit 345NEE_w3_lab
+#1580266584
+cd try
+#1580266593
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1580266610
+~fardad.soleimanloo/submit 345NEE_w2_home feedback
+#1580266619
+~fardad.soleimanloo/submit 345NEE_w2_home
+#1580266669
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp 
+#1580266681
+ls
+#1580266698
+ws gutenberg_shakespeare
+#1580266843
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580266855
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580266860
+ws gutenberg_shakespeare
+#1580266875
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580266880
+ws gutenberg_shakespeare
+#1580267185
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580267191
+ws gutenberg_shakespeare
+#1580267880
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580267935
+ws gutenberg_shakespeare
+#1580268159
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580268261
+ws gutenberg_shakespeare
+#1580268540
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580268544
+ws gutenberg_shakespeare
+#1580268569
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580268574
+ws gutenberg_shakespeare
+#1580268638
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580268847
+ws gutenberg_shakespeare
+#1580269080
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home.cpp 
+#1580269174
+ws gutenberg_shakespeare
+#1580269188
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580269192
+ws gutenberg_shakespeare
+#1580269403
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580269408
+ws gutenberg_shakespeare
+#1580269434
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580269555
+ws gutenberg_shakespeare
+#1580270000
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580270007
+
+#1580270024
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580270029
+ws gutenberg_shakespeare
+#1580273456
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580273464
+ws gutenberg_shakespeare
+#1580273793
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580273796
+ws gutenberg_shakespeare
+#1580303882
+~fardad.soleimanloo/submit 345NEE_w3_home feedback
+#1580303893
+~fardad.soleimanloo/submit 345NEE_w3_home
+#1580330400
+~fardad.soleimanloo/submit 345/NEE/WS03/attendance
+#1580330420
+ls
+#1580330442
+cat howToSubmit.txt
+#1580330487
+~fardad.soleimanloo/submit 345/NEE/WS03/attendance~fardad.soleimanloo/submit 345/NEE/WS02/attendance
+#1580330496
+~fardad.soleimanloo/submit 345/NEE/WS03/attendance
+#1580337941
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580337967
+ws gutenberg_shakespeare
+#1580342574
+~fardad.soleimanloo/submit 345NEE_w3_home feedback
+#1580342589
+~fardad.soleimanloo/submit 345NEE_w3_home
+#1580345773
+~fardad.soleimanloo/submit 345NEE_w3_lab
+#1580345809
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580345816
+ws gutenberg_shakespeare
+#1580353820
+export LD_LIBRARY_PATH=/usr/local/gcc/9.1.0/lib64:$LD_LIBRARY_PATH
+#1580353972
+cd try
+#1580353980
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 
+#1580353991
+~fardad.soleimanloo/submit 345NEE_w3_lab
+#1580354346
+cd try
+#1580354349
+~fardad.soleimanloo/submit 345NEE_w3_lab
