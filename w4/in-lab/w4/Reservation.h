@@ -7,28 +7,28 @@
 //-------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
+#include <cstring>
 #include <string>
 #include <sstream>
 #include<algorithm>
 
+#ifndef _SDDS_RESERVATION_HEADER_
+#define _SDDS_RESERVATION_HEADER_
+
 using namespace std;
-
-#ifndef _SDDS_RecordSet_HEADER_
-#define _SDDS_RecordSet_HEADER_
-
 
 namespace sdds {
     class Reservation {
-        string m_reservationID{};// -**reservation id * *: an array of characters
-        string m_Name{};//  - **the name on the reservation * *
-        string m_email{};// -**the email * *that can be used to send the confirmation that the reservation can be honored or not
+        char m_reservationID[8]{};
+        string m_Name{};
+        string m_email{};
         int m_numberOfPeoply{};// -**the number of people * *in the party
         int m_day{};// - **the day * *when the party is expected to come(for simplicity, the day is an integer between 1 and 31)
         int m_hour{};// - **the hour * *when the party is expected to come(for simplicity, the hour is an integer between 1 and 24)
 
     public:
         Reservation() { }
-        Reservation(const string reservation);
+        Reservation(const string& reservation);
 
         friend ostream& operator<<(ostream& os, const Reservation& reservation);
     };
