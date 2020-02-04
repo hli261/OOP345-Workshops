@@ -29,23 +29,10 @@ namespace sdds {
         string a = "adgadfA\n";
 
     public:
-        Reservation() {
+        Reservation() { }
+        Reservation(const string reservation);
 
-        }
-        Reservation(const string reservation) {
-            string str = reservation;
-            replace(str.begin(), str.end(), ',', ' ');
-            stringstream record(str);
-            record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
-
-        }
-
-        friend ostream& operator<<(ostream& os,const Reservation& reservation) {
-          os << reservation. m_reservationID << reservation. m_Name << reservation. m_email << reservation. m_numberOfPeoply << reservation. m_day << reservation. m_hour <<endl;
-
-            return os;
-        }
-
+        friend ostream& operator<<(ostream& os, const Reservation& reservation);
     };
 }
 #endif
