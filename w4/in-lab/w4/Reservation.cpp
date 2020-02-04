@@ -16,15 +16,32 @@ namespace sdds {
     Reservation::Reservation(const string& reservation) {
 
         string str = reservation;
+
         //replace(str.begin(), str.end(), ',', ' ');
         //replace(str.begin(), str.end(), ':', ' ');
-
+        //or:        
         for (size_t i = 0; i < reservation.length(); i++) {
-            if (reservation[i] == ',' || reservation[i] == ':')  str[i] = ' ';
+            if (reservation[i] == ',' || reservation[i] == ':')
+                str[i] = ' ';
         }
-
         stringstream record(str);
         record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
+
+
+
+        size_t pos{};
+        char temp{};
+        string tempStr{};
+        for (size_t i = 0; i < reservation.length(); i++) {
+            if (reservation[i] == ',' || reservation[i] == ':') {
+                temp=str[i];
+                pos = reservation.find(temp);
+                tempStr = reservation.substr(0, pos);
+                str.erase(0, pos);
+            }
+        }
+
+
 
     }
 
@@ -42,7 +59,7 @@ namespace sdds {
             os << "Dinner";
         else  os << "Drinks";
 
-        os <<" on day "<<reservation.m_day << " @ " << reservation.m_hour << ":00 for " << reservation.m_numberOfPeoply << " people." << endl;
+        os << " on day " << reservation.m_day << " @ " << reservation.m_hour << ":00 for " << reservation.m_numberOfPeoply << " people." << endl;
 
         return os;
     }
