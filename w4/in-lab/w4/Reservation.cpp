@@ -7,19 +7,22 @@
 // I confirm that the content of this file is created by me,  with the exception of the parts provided to me by my professor.
 //-------------------------------------------------------------------------------------------------------------
 
-#include <iostream>
 #include <iomanip>
-#include <string>
-#include <fstream>
 #include "Reservation.h"
 
 using namespace std;
 
 namespace sdds {
     Reservation::Reservation(const string& reservation) {
+
         string str = reservation;
-        replace(str.begin(), str.end(), ',', ' ');
-        replace(str.begin(), str.end(), ':', ' ');
+        //replace(str.begin(), str.end(), ',', ' ');
+        //replace(str.begin(), str.end(), ':', ' ');
+
+        for (size_t i = 0; i < reservation.length(); i++) {
+            if (reservation[i] == ',' || reservation[i] == ':')  str[i] = ' ';
+        }
+
         stringstream record(str);
         record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
 
