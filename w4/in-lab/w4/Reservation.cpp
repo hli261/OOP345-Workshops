@@ -18,50 +18,57 @@ namespace sdds {
 
         string str = reservation;
 
-        ////replace(str.begin(), str.end(), ',', ' ');
-        ////replace(str.begin(), str.end(), ':', ' ');
-        ////or:        
-        //for (size_t i = 0; i < reservation.length(); i++) {
-        //    if (reservation[i] == ',' || reservation[i] == ':')
-        //        str[i] = ' ';
-        //}
-        //stringstream record(str);
-        //record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
-
-
-
-        size_t pos{}, lastPos{}, j{};
-        string tempStr[6]{ {} };
-        size_t count{};
-
+    
+        size_t pos{};
         pos = str.find(' ');
-        while (pos != -1) {
-
+        while (pos != (size_t)(-1)) {
             str.erase(pos, 1);
             pos = str.find(' ');
-       }
-
+        }
 
         for (size_t i = 0; i < str.length(); i++) {
-            if (str[i] == ' ') {
-                cout << i<<'\t';
-            }
-            if (str[i] == ',' || str[i] == ':') {
-                pos = str.find(str[i]);
-                tempStr[count++] = str.substr(lastPos+1, pos-lastPos-1);
-                lastPos = pos;
-                str[i] = '*';
-            }
+            if (str[i] == ',' || str[i] == ':')
+                str[i] = ' ';
         }
-  
-        tempStr[count] = str.substr(pos+1);
 
-        strcpy(m_reservationID, tempStr[0].c_str());
-        m_Name = tempStr[1];
-        m_email = tempStr[2];
-        m_numberOfPeoply = stoi(tempStr[3]);
-        m_day = stoi(tempStr[4]);
-        m_hour = stoi(tempStr[5]);
+     
+        stringstream record(str);
+        record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
+
+
+        //string str = reservation;
+        //size_t pos{}, lastPos{}, j{};
+        //string tempStr[6]{ {} };
+        //size_t count{};
+
+        //pos = str.find(' ');
+        //while (pos != -1) {
+
+        //    str.erase(pos, 1);
+        //    pos = str.find(' ');
+        //}
+
+
+        //for (size_t i = 0; i < str.length(); i++) {
+        //    if (str[i] == ' ') {
+        //        cout << i << '\t';
+        //    }
+        //    if (str[i] == ',' || str[i] == ':') {
+        //        pos = str.find(str[i]);
+        //        tempStr[count++] = str.substr(lastPos + 1, pos - lastPos - 1);
+        //        lastPos = pos;
+        //        str[i] = '*';
+        //    }
+        //}
+
+        //tempStr[count] = str.substr(pos + 1);
+
+        //strcpy(m_reservationID, tempStr[0].c_str());
+        //m_Name = tempStr[1];
+        //m_email = tempStr[2];
+        //m_numberOfPeoply = stoi(tempStr[3]);
+        //m_day = stoi(tempStr[4]);
+        //m_hour = stoi(tempStr[5]);
 
     }
 
