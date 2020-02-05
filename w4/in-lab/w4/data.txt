@@ -1,11 +1,11 @@
 # ID    : Name    ,             email, # of people, Day, Time
 #------------------------------------------------------------
- RES-001: John    ,  john@email.com  ,           2,   3,    5
+  RES-006: Vanessa , vanessa@email.com,      2     ,   3,   10
+RES-001: John    ,  john@email.com  ,           2,   3,    5
  RES-002: David   , david@email.com  ,          1 ,   4,    6
  RES-003: Sara    , sara@email.com   ,         2  ,   5,    7
  RES-004: Ana     ,   ana@email.com  ,        1   ,   5,    8
  RES-005: John    , john@email.com   ,       1    ,   4,    9
- RES-006: Vanessa , vanessa@email.com,      2     ,   3,   10
  RES-007: Mike    , mike@email.com   ,     4      ,   4,   11
  RES-008: Mike    , mike@email.com   ,    8       ,   5,   12
  RES-009: Dan     , dan@email.com    ,   2        ,   3,   13
