@@ -1,8 +1,8 @@
-1) g++ w1_in_lab.cpp -Wall -std=c++11 -o w1<ENTER>  
-2) g++ -g -Wall -std=c++11 -o w1 utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp
+1) g++ w1_in_lab.cpp -Wall -std=c++11 -o ws<ENTER>  
+2) g++ -g -Wall -std=c++11 -o ws utils.o Parts.cpp Robot.cpp RobotSquad.cpp RobotSquadTester.cpp
 
-3) valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes w1
-4) valgrind  -v --leak-check=full w1
+3) valgrind -v --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes ws
+4) valgrind  -v --leak-check=full ws
 
 5) g++ -g -Wall -std=c++11 -o ws utils.o  PubApp.cpp ms5.cpp Book.cpp Date.cpp Magazine.cpp Menu.cpp PubRecord.cpp ReadWriteable.cpp Utils.cpp
 
@@ -16,15 +16,25 @@
 ~fardad.soleimanloo/submit 345NEE_w1_home
 ~fardad.soleimanloo/submit 345NEE_w1_lab
 ~fardad.soleimanloo/submit 345/NEE/WS02/attendance
+~fardad.soleimanloo/submit 345NEE_w2_home -feedback
 
 =============================================================================
 c++11:
 g++ -Wall -std=c++11 -o ws utils.o Date.cpp Utils.cpp Menu.cpp ms1.cpp
 
+=============================================================================
 c++17:
 /usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_lab_prof.cpp 2> errors.txt
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o RecordSet.cpp TimedEvents.cpp w2_home_prof.cpp 2> errors.txt
+
 
 cp /usr/local/gcc/9.1.0/lib64/libstdc++.so.6 ~/try
+
+/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws utils.o  w3_home.cpp
+ /usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17 -o ws  w3_home.cpp
+
+ws sales.txt products.txt
+
 =============================================================================
 Set these alieses in .bash_profile or .bashrc in your home directory of Matrix for your compiler settings and ease of submitting works:
 export LD_LIBRARY_PATH=/usr/local/gcc/9.1.0/lib64:$LD_LIBRARY_PATH

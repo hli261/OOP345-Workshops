@@ -42,7 +42,7 @@ namespace sdds {
         //size_t count{};
 
         //pos = str.find(' ');
-        //while (pos != -1) {
+        //while (pos != (size_t)(-1)) {
 
         //    str.erase(pos, 1);
         //    pos = str.find(' ');
@@ -50,9 +50,6 @@ namespace sdds {
 
 
         //for (size_t i = 0; i < str.length(); i++) {
-        //    if (str[i] == ' ') {
-        //        cout << i << '\t';
-        //    }
         //    if (str[i] == ',' || str[i] == ':') {
         //        pos = str.find(str[i]);
         //        tempStr[count++] = str.substr(lastPos + 1, pos - lastPos - 1);
