@@ -8,7 +8,12 @@
 //-------------------------------------------------------------------------------------------------------------
 
 #define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include <iomanip>
+#include <cstring>
+#include <string>
+#include <sstream>
+#include<algorithm>
 #include "Reservation.h"
 
 using namespace std;
@@ -37,7 +42,7 @@ namespace sdds {
 
 
         string str = reservation;
-        size_t pos{}, lastPos{};
+        size_t pos{}, lastPos{size_t(-1)};
         string tempStr[6]{ {} };
         size_t count{};
 
