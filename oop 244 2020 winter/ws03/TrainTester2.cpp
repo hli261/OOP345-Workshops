@@ -94,8 +94,8 @@ int main() {
     cout << endl;
     t2.display();
 
-    //c1.deleteCargo();
-    //c2.deleteCargo();
+    c1.deleteCargo();
+    c2.deleteCargo();
 
     return 0;
 }

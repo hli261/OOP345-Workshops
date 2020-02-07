@@ -29,7 +29,7 @@ namespace sdds {
 		void setDescriptionPtr(char* s_description);
 		void setWeight(const double s_double);
 		char* getDescription() const;
-		char* getDescriptionArray() ;
+		char* getDescriptionArray() ;//²»ÄÜÓÐconst
 		double getWeight() const;
 		void deleteCargo();
 		void init(const char*, double);

@@ -116,9 +116,9 @@ int main(int argc, char** argv)
 
 		std::cout << "CS: Testing Operators\n";
 		std::cout << "==========================\n";
+		sender1 += *ppReservations[16];
+		sender1 += *ppReservations[16];
 		sender1 += *ppReservations[5];
-		sender1 += *ppReservations[16];
-		sender1 += *ppReservations[16];
 		sender1 += *ppReservations[8];
 		std::cout << sender1;
 		sender1 -= *ppReservations[8];
