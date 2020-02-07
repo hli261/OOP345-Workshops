@@ -99,13 +99,14 @@ namespace sdds {
             if (m_size > 0) {
                 temp = new Reservation * [m_size];
                 temp[0] = new Reservation[m_size];
-                if (0 == foundedIndex) *temp[0] = *m_ppReservation[foundedIndex + 1];
-                else *temp[0] = *m_ppReservation[foundedIndex];
+                if (0 == foundedIndex) *temp[0] = *m_ppReservation[1];
+                else *temp[0] = *m_ppReservation[0];
                 for (size_t i = 1; i < m_size; i++) {
                     temp[i] = temp[i - 1] + 1;
 
-                    if (i == foundedIndex) *temp[i] = *m_ppReservation[foundedIndex + 1];
-                    else *temp[i] = *m_ppReservation[foundedIndex];
+                    if (i == foundedIndex) *temp[i] = *m_ppReservation[i + 1];
+                    else *temp[i] = *m_ppReservation[i];
+
                 }
             }
             if (m_ppReservation != nullptr) {

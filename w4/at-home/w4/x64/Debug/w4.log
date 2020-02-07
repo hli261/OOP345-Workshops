@@ -1,3 +1,2 @@
 ﻿  ConfirmationSender.cpp
-C:\OOP345Workshop\w4\at-home\w4\ConfirmationSender.cpp(120): warning C4715: 'sdds::ConfirmationSender::operator-=': not all control paths return a value
   w4.vcxproj -> C:\OOP345Workshop\w4\at-home\x64\Debug\w4.exe
