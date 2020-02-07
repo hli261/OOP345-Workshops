@@ -1,0 +1,9 @@
+﻿  Train.cpp
+  TrainTester2.cpp
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(39,24): error C2440: '=': cannot convert from 'char (*)[10]' to 'char (*)[6]'
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(39,9): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(41,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(41,12): message : consider using '%zd' in the format string
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(43,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\OOP345Workshop\oop 244 2020 winter\ws03\TrainTester2.cpp(43,12): message : consider using '%zd' in the format string
+  Generating Code...

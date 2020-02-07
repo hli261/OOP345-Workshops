@@ -23,6 +23,9 @@ namespace sdds {
         size_t m_size{};
 
     public:
+        Restaurant() {}
+        ~Restaurant();
+
         Restaurant(Reservation* reservations[], size_t cnt);
 
         Restaurant(Restaurant& restaurant);

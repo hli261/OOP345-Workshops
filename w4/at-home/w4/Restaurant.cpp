@@ -18,20 +18,28 @@
 using namespace std;
 
 namespace sdds {
-    Restaurant::Restaurant(Reservation* reservations[], size_t cnt) {
-        //m_ppReservation = new Reservation * [cnt] ;
-        //m_ppReservation[0] = new Reservation[cnt * sizeof(Reservation)];
-        //for (size_t i = 0; i < cnt; i++) {
-        //    m_ppReservation[i] = m_ppReservation[i - 1] + sizeof(Reservation);
-        //}
+    Restaurant::~Restaurant() {
+        for (auto i = 0u; i < m_size; ++i)
+            delete m_ppReservation[i];
+        delete[] m_ppReservation;
+    }
 
-        m_ppReservation = reservations;
+    Restaurant::Restaurant(Reservation* reservations[], size_t cnt) {
+        m_ppReservation = new Reservation * [cnt];
+        for (size_t i = 0; i < cnt; i++) {
+            m_ppReservation[i] = new Reservation;
+            *m_ppReservation[i] = *reservations[i];
+        }
         m_size = cnt;
     }
 
 
     Restaurant::Restaurant(Restaurant& restaurant) {
-        m_ppReservation = restaurant.m_ppReservation;
+        m_ppReservation = new Reservation * [restaurant.m_size];
+        for (size_t i = 0; i < restaurant.m_size; i++) {
+            m_ppReservation[i] = new Reservation;
+            *m_ppReservation[i] = *restaurant.m_ppReservation[i];
+        }
         m_size = restaurant.m_size;
     }
 

@@ -18,10 +18,11 @@ using namespace std;
 
 namespace sdds {
     class ConfirmationSender {
-        Reservation** m_ppReservation{};
         size_t m_size{};
+        Reservation** m_ppReservation{};
     public:
-        ConfirmationSender(){}
+        ConfirmationSender();
+        ~ConfirmationSender();
         ConfirmationSender(const ConfirmationSender& sender);
         ConfirmationSender(ConfirmationSender&& sender);
         ConfirmationSender& operator+=(const Reservation& sender);

@@ -15,8 +15,22 @@
 using namespace std;
 
 namespace sdds {
+
+    ConfirmationSender::ConfirmationSender() {
+    }
+
+    ConfirmationSender::~ConfirmationSender() {
+        for (auto i = 0u; i < m_size; ++i)
+            delete m_ppReservation[i];
+        delete[] m_ppReservation;
+    }
+
     ConfirmationSender::ConfirmationSender(const ConfirmationSender& sender) {
-        m_ppReservation = sender.m_ppReservation;
+        m_ppReservation = new Reservation * [sender.m_size];
+        for (size_t i = 0; i < sender.m_size; i++) {
+            m_ppReservation[i] = new Reservation;
+            *m_ppReservation[i] = *sender.m_ppReservation[i];
+        }
         m_size = sender.m_size;
     }
 
@@ -38,20 +52,28 @@ namespace sdds {
             }
         }
         if (!founded) {
+            Reservation** temp{};
             m_size++;
             if (m_ppReservation != nullptr) {
-                Reservation** temp = m_ppReservation;
-                m_ppReservation = new Reservation * [m_size];
+                temp = new Reservation * [m_size];
                 for (size_t i = 0; i < m_size - 1; i++) {
-                    m_ppReservation[i] = new Reservation;
-                    *m_ppReservation[i] = *temp[i];
+                    temp[i] = new Reservation;
+                    *temp[i] = *m_ppReservation[i];
                 }
+                for (auto i = 0u; i < m_size - 1; ++i)
+                    delete m_ppReservation[i];
+                delete[] m_ppReservation; 
             }
             else {
-                m_ppReservation = new Reservation * [m_size];
+                temp = new Reservation * [m_size];
             }
-            m_ppReservation[m_size - 1] = new Reservation;
-            *m_ppReservation[m_size - 1] = sender;
+            temp[m_size - 1] = new Reservation;
+            *temp[m_size - 1] = sender;
+
+            if (m_ppReservation != nullptr) {
+
+            }
+            m_ppReservation = temp;
         }
         return *this;
     }
@@ -67,13 +89,18 @@ namespace sdds {
 
         if (founded) {
             m_size--;
-            Reservation** temp = m_ppReservation;
-            m_ppReservation = new Reservation * [m_size];
+            Reservation** temp = new Reservation * [m_size];
             for (size_t i = 0; i < m_size; i++) {
-                m_ppReservation[i] = new Reservation;
-                if (i < founded - (size_t)1) *m_ppReservation[i] = *temp[i];
-                else *m_ppReservation[i] = *temp[i + 1];
+                temp[i] = new Reservation;
+                if (i < founded - (size_t)1) *temp[i] = *m_ppReservation[i];
+                else *temp[i] = *m_ppReservation[i + 1];
             }
+            for (auto i = 0u; i < m_size + 1; ++i)
+                delete m_ppReservation[i];
+            delete[] m_ppReservation;
+
+            m_ppReservation = temp;
+
         }
         return *this;
     }
