@@ -19,15 +19,18 @@ using namespace std;
 
 namespace sdds {
     Restaurant::~Restaurant() {
-        for (auto i = 0u; i < m_size; ++i)
-            delete m_ppReservation[i];
-        delete[] m_ppReservation;
+        if (m_ppReservation!=nullptr) {
+            delete[] m_ppReservation[0];
+            delete[] m_ppReservation;
+        }
     }
 
     Restaurant::Restaurant(Reservation* reservations[], size_t cnt) {
         m_ppReservation = new Reservation * [cnt];
-        for (size_t i = 0; i < cnt; i++) {
-            m_ppReservation[i] = new Reservation;
+        m_ppReservation[0] = new Reservation[cnt];
+        *m_ppReservation[0] = *reservations[0];
+        for (size_t i = 1; i < cnt; i++) {
+            m_ppReservation[i] = m_ppReservation[i - 1] + 1;
             *m_ppReservation[i] = *reservations[i];
         }
         m_size = cnt;
@@ -36,8 +39,11 @@ namespace sdds {
 
     Restaurant::Restaurant(Restaurant& restaurant) {
         m_ppReservation = new Reservation * [restaurant.m_size];
-        for (size_t i = 0; i < restaurant.m_size; i++) {
-            m_ppReservation[i] = new Reservation;
+        m_ppReservation[0] = new Reservation[restaurant.m_size];
+        *m_ppReservation[0] = *restaurant.m_ppReservation[0];
+
+        for (size_t i = 1; i < restaurant.m_size; i++) {
+            m_ppReservation[i] = m_ppReservation[i - 1] + 1;
             *m_ppReservation[i] = *restaurant.m_ppReservation[i];
         }
         m_size = restaurant.m_size;
