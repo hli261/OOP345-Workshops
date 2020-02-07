@@ -48,69 +48,72 @@ namespace sdds {
 
 
     ConfirmationSender& ConfirmationSender::operator+=(const Reservation& sender) {
-        size_t founded{};
+        size_t foundedIndex{};
         for (size_t i = 0; i < m_size; i++) {
             if (m_ppReservation[i]->operator==(sender)) {
-                founded = i + 1;//the firs founded
+                foundedIndex = i;//the firs founded
                 break;
             }
         }
-        if (!founded) {
+        if (!foundedIndex) {
+
             m_size++;
-            Reservation** temp = new Reservation * [m_size];
+
+            Reservation** temp{};
+            temp = new Reservation * [m_size];
             temp[0] = new Reservation[m_size];
-            *temp[0] = *m_ppReservation[0];
             if (m_size > 1) {
+                *temp[0] = *m_ppReservation[0];
                 for (size_t i = 1; i < m_size - 1; i++) {
                     temp[i] = temp[i - 1] + 1;
                     *temp[i] = *m_ppReservation[i];
                 }
                 temp[m_size - 1] = temp[m_size - 2] + 1;
-                *temp[m_size - 1] = sender;
             }
+            *temp[m_size - 1] = sender;
 
             if (m_ppReservation != nullptr) {
                 delete[] m_ppReservation[0];
                 delete[] m_ppReservation;
             }
+
             m_ppReservation = temp;
+
         }
         return *this;
     }
 
     ConfirmationSender& ConfirmationSender::operator-=(const Reservation& sender) {
-        size_t founded{};
+        size_t foundedIndex{};
         for (size_t i = 0; i < m_size; i++) {
             if (m_ppReservation[i]->operator==(sender)) {
-                founded = i + 1;//the first founded
+                foundedIndex = i;//the first founded
                 break;
             }
         }
 
-        if (founded) {
+        if (foundedIndex) {
             m_size--;
+
+            Reservation** temp{};
             if (m_size > 0) {
-                Reservation** temp = new Reservation * [m_size];
+                temp = new Reservation * [m_size];
                 temp[0] = new Reservation[m_size];
-                *temp[0] = *m_ppReservation[0];
+                if (0 == foundedIndex) *temp[0] = *m_ppReservation[foundedIndex + 1];
+                else *temp[0] = *m_ppReservation[foundedIndex];
                 for (size_t i = 1; i < m_size; i++) {
                     temp[i] = temp[i - 1] + 1;
 
-                    if (i < founded - (size_t)1) *temp[i] = *m_ppReservation[i];
-                    else *temp[i] = *m_ppReservation[i + 1];
+                    if (i == foundedIndex) *temp[i] = *m_ppReservation[foundedIndex + 1];
+                    else *temp[i] = *m_ppReservation[foundedIndex];
                 }
-                if (m_ppReservation != nullptr) {
-                    delete[] m_ppReservation[0];
-                    delete[] m_ppReservation;
-                }
-
-                m_ppReservation = temp;
             }
-            else {
+            if (m_ppReservation != nullptr) {
                 delete[] m_ppReservation[0];
                 delete[] m_ppReservation;
-                m_ppReservation = nullptr;
             }
+
+            m_ppReservation = temp;
 
         }
         return *this;
