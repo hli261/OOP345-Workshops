@@ -21,19 +21,15 @@ namespace sdds {
 
     ConfirmationSender::~ConfirmationSender() {
         if (m_ppReservation != nullptr) {
-            delete[] m_ppReservation[0];
             delete[] m_ppReservation;
         }
     }
 
     ConfirmationSender::ConfirmationSender(const ConfirmationSender& restaurant) {
-        m_ppReservation = new Reservation * [restaurant.m_size];
-        m_ppReservation[0] = new Reservation[restaurant.m_size];
-        *m_ppReservation[0] = *restaurant.m_ppReservation[0];
+        m_ppReservation = new const Reservation * [restaurant.m_size];
 
-        for (size_t i = 1; i < restaurant.m_size; i++) {
-            m_ppReservation[i] = m_ppReservation[i - 1] + 1;
-            *m_ppReservation[i] = *restaurant.m_ppReservation[i];
+        for (size_t i = 0; i < restaurant.m_size; i++) {
+            m_ppReservation[i] = restaurant.m_ppReservation[i];
         }
         m_size = restaurant.m_size;
     }
@@ -48,45 +44,35 @@ namespace sdds {
 
 
     ConfirmationSender& ConfirmationSender::operator+=(const Reservation& sender) {
-        size_t foundedIndex{};
+        size_t foundedIndex{ };
         for (size_t i = 0; i < m_size; i++) {
-            if (m_ppReservation[i]->operator==(sender)) {
-                foundedIndex = i;//the firs founded
+            if (m_ppReservation[i] == &sender) {
+                foundedIndex = i;//the first founded
                 break;
             }
         }
         if (!foundedIndex) {
-
             m_size++;
 
-            Reservation** temp{};
-            temp = new Reservation * [m_size];
-            temp[0] = new Reservation[m_size];
-            if (m_size > 1) {
-                *temp[0] = *m_ppReservation[0];
-                for (size_t i = 1; i < m_size - 1; i++) {
-                    temp[i] = temp[i - 1] + 1;
-                    *temp[i] = *m_ppReservation[i];
-                }
-                temp[m_size - 1] = temp[m_size - 2] + 1;
+            const Reservation** temp = new const Reservation * [m_size];
+            for (size_t i = 0; i < m_size - 1; i++) {
+                temp[i] = m_ppReservation[i];
             }
-            *temp[m_size - 1] = sender;
+            temp[m_size - 1] = &sender;
 
-            if (m_ppReservation != nullptr) {
-                delete[] m_ppReservation[0];
+            if (m_ppReservation != nullptr)
                 delete[] m_ppReservation;
-            }
-
             m_ppReservation = temp;
+
 
         }
         return *this;
     }
 
     ConfirmationSender& ConfirmationSender::operator-=(const Reservation& sender) {
-        size_t foundedIndex{};
+        size_t foundedIndex{ };
         for (size_t i = 0; i < m_size; i++) {
-            if (m_ppReservation[i]->operator==(sender)) {
+            if (m_ppReservation[i] == &sender) {
                 foundedIndex = i;//the first founded
                 break;
             }
@@ -95,26 +81,18 @@ namespace sdds {
         if (foundedIndex) {
             m_size--;
 
-            Reservation** temp{};
+            const Reservation** temp{};
             if (m_size > 0) {
-                temp = new Reservation * [m_size];
-                temp[0] = new Reservation[m_size];
-                if (0 == foundedIndex) *temp[0] = *m_ppReservation[1];
-                else *temp[0] = *m_ppReservation[0];
-                for (size_t i = 1; i < m_size; i++) {
-                    temp[i] = temp[i - 1] + 1;
-
-                    if (i == foundedIndex) *temp[i] = *m_ppReservation[i + 1];
-                    else *temp[i] = *m_ppReservation[i];
-
+                temp = new const Reservation * [m_size];
+                for (size_t i = 0; i < m_size; i++) {
+                    if (i < foundedIndex) temp[i] = m_ppReservation[i];
+                    else temp[i] = m_ppReservation[i + 1];
                 }
-            }
-            if (m_ppReservation != nullptr) {
-                delete[] m_ppReservation[0];
-                delete[] m_ppReservation;
-            }
+             }
+               delete[] m_ppReservation;
+    
+                m_ppReservation = temp;
 
-            m_ppReservation = temp;
 
         }
         return *this;

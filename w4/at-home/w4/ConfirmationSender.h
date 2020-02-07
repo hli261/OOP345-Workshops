@@ -19,7 +19,7 @@ using namespace std;
 namespace sdds {
     class ConfirmationSender {
         size_t m_size{};
-        Reservation** m_ppReservation{};
+        const Reservation** m_ppReservation{};
     public:
         ConfirmationSender();
         ~ConfirmationSender();
