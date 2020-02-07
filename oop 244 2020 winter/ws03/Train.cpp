@@ -23,10 +23,12 @@ namespace sdds {
         }
         else temp = cargoWeight;
         m_weight = temp;
+     
+
     }
 
     void Cargo::init(const char* cargoName, double cargoWeight) {
-        m_description = new char[strlen(cargoName) + 1];
+        m_description = new char[strlen(cargoName) + 1]{'r','e','t','8'};//////////////////////////////////////
         strcpy(m_description, cargoName);
         setWeight(cargoWeight);
     }

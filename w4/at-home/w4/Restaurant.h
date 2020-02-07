@@ -9,7 +9,8 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include<algorithm>
+
+#include "Reservation.h"
 
 #ifndef _SDDS_RESTAURANT_HEADER_
 #define _SDDS_RESTAURANT_HEADER_
@@ -18,9 +19,23 @@ using namespace std;
 
 namespace sdds {
     class Restaurant {
+        Reservation** m_ppReservation{};
+        size_t m_size{};
+
+    public:
+        Restaurant(Reservation* reservations[], size_t cnt);
+
+        Restaurant(Restaurant& restaurant);
+
+        Restaurant(Restaurant&& restaurant) noexcept;
 
 
+        size_t size() const;
+
+        friend ostream& operator<<(ostream& os, const Restaurant& restaurant);
 
     };
+
+
 }
 #endif

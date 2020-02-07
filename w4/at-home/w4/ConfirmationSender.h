@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include<algorithm>
+#include "Reservation.h"
 
 #ifndef _SDDS_CONFIRMATIONSENDER_HEADER_
 #define _SDDS_CONFIRMATIONSENDER_HEADER_
@@ -18,8 +18,15 @@ using namespace std;
 
 namespace sdds {
     class ConfirmationSender {
-
-
+        Reservation** m_ppReservation{};
+        size_t m_size{};
+    public:
+        ConfirmationSender(){}
+        ConfirmationSender(const ConfirmationSender& sender);
+        ConfirmationSender(ConfirmationSender&& sender);
+        ConfirmationSender& operator+=(const Reservation& sender);
+        ConfirmationSender& operator-=(const Reservation& sender);
+        friend ostream& operator<< (ostream& os, const ConfirmationSender& sender);
     };
 }
 #endif

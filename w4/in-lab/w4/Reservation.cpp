@@ -20,9 +20,7 @@ using namespace std;
 
 namespace sdds {
     Reservation::Reservation(const string& reservation) {
-
         //string str = reservation;
-
     
         //size_t pos{};
         //pos = str.find(' ');
@@ -35,11 +33,10 @@ namespace sdds {
         //    if (str[i] == ',' || str[i] == ':')
         //        str[i] = ' ';
         //}
-
      
         //stringstream record(str);
         //record >> m_reservationID >> m_Name >> m_email >> m_numberOfPeoply >> m_day >> m_hour;
-
+//*****************************************************************************************************
 
         string str = reservation;
         size_t pos{}, lastPos{size_t(-1)};

@@ -14,7 +14,7 @@
 #include "Reservation.h"
 
 
-int main1(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	std::cout << "Command Line:\n";
 	std::cout << "--------------------------\n";

@@ -24,9 +24,6 @@
     <ClCompile Include="Restaurant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="w4_lab.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="w4_home.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

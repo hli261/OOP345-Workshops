@@ -20,6 +20,8 @@ namespace sdds {
 	class Cargo {
 		char* m_description{};
 		char m_descriptionArray[MAX_DESC]{};
+	//	char(*a)[10]    = new (char(*)[10]);
+	////	char **a= new char[10];
 
 		double m_weight{};
 	public:

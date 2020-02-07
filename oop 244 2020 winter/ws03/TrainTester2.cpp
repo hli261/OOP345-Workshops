@@ -33,6 +33,16 @@ ostream& number(int num) {
 }
 
 int main() {
+    char(*a)[6];    //指向数组的指针
+
+    //a = (char(*)[6])malloc(sizeof(char*) * 10);
+    a = new char[10][6];
+
+    printf("%d\n", sizeof(a));   //4，指针
+
+    printf("%d\n", sizeof(a[0]));//N，一维数组
+
+    free(a);
 
     Cargo c1, c2;
     c1.init("Boxes", -5000);
