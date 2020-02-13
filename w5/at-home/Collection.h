@@ -16,6 +16,7 @@
 using namespace std;
 
 namespace sdds {
+    template<class T>
     class Collection {
         struct CollectionInfo {
             string author{};
@@ -26,15 +27,15 @@ namespace sdds {
             string summary{};
         }CollectionInfo{}, library[7]{ {} };
     public:
-        Collection() = default;
-        Collection(const string& str);
-        void eraseSpace(string& str);
-        const std::string& title() const;
-        const string& country() const;
-        const size_t& year() const;
-        double& price();
+        //Collection() = default;
+        //Collection(const string& str);
+        //void eraseSpace(string& str);
+        //const std::string& title() const;
+        //const string& country() const;
+        //const size_t& year() const;
+        //double& price();
 
-        friend ostream& operator<<(ostream& os, const Collection& collection);
+        //friend ostream& operator<<(ostream& os, const Collection& collection);
 
 
     };

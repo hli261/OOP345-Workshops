@@ -22,7 +22,7 @@ namespace sdds {
     Book::Book(const string& str) {
         char garbage{};
         stringstream record(str);
-
+        string temp;
         if (record) {
             getline(record, bookInfo.author, ',');
             eraseSpace(bookInfo.author);
@@ -30,8 +30,15 @@ namespace sdds {
             eraseSpace(bookInfo.title);
             getline(record, bookInfo.country, ',');
             eraseSpace(bookInfo.country);
-            record >> bookInfo.price >> garbage
-                >> bookInfo.year >> garbage;
+
+            getline(record, temp, ',');
+            eraseSpace(temp);
+            bookInfo.price = stod(temp);
+
+            getline(record, temp, ',');
+            eraseSpace(temp);
+            bookInfo.year = stoi(temp);
+
             getline(record, bookInfo.summary, '\n');
             eraseSpace(bookInfo.summary);
         }
@@ -58,10 +65,7 @@ namespace sdds {
         return bookInfo.price;
     }
 
-
-
-
-
+           
     ostream& operator<<(ostream& os, const Book& book) {
         string str{ " | " };
         os << setw(20) << book.bookInfo.author << str

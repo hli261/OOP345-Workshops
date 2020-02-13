@@ -18,9 +18,6 @@
     <ClCompile Include="Book.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Collection.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Movie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

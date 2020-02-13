@@ -17,14 +17,14 @@ using namespace std;
 
 namespace sdds {
     class Movie {
-        struct MoviesInfo {
+        struct  {
             string author{};
             string title{};
             string country{};
             double price{};
             size_t year{};
             string summary{};
-        }MoviesInfo{}, library[7]{ {} };
+        }MovieInfo{};
     public:
         Movie() = default;
         Movie(const string& str);
@@ -34,7 +34,7 @@ namespace sdds {
         const size_t& year() const;
         double& price();
 
-        friend ostream& operator<<(ostream& os, const Movies& Movies);
+        friend ostream& operator<<(ostream& os, const Movie& Movies);
 
 
     };

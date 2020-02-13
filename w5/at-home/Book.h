@@ -17,14 +17,14 @@ using namespace std;
 
 namespace sdds {
     class Book {
-        struct bookInfo {
+        struct {
             string author{};
             string title{};
             string country{};
             double price{};
             size_t year{};
             string summary{};
-        }bookInfo{}, library[7]{ {} };
+        }bookInfo{};
     public:
         Book() = default;
         Book(const string& str);

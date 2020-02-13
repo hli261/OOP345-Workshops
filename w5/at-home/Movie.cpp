@@ -14,62 +14,62 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
-#include "Moive.h"
+#include "Movie.h"
 
 using namespace std;
 
 namespace sdds {
-    Moive::Moive(const string& str) {
+    Movie::Movie(const string& str) {
         char garbage{};
         stringstream record(str);
 
         if (record) {
-            getline(record, MoiveInfo.author, ',');
-            eraseSpace(MoiveInfo.author);
-            getline(record, MoiveInfo.title, ',');
-            eraseSpace(MoiveInfo.title);
-            getline(record, MoiveInfo.country, ',');
-            eraseSpace(MoiveInfo.country);
-            record >> MoiveInfo.price >> garbage
-                >> MoiveInfo.year >> garbage;
-            getline(record, MoiveInfo.summary, '\n');
-            eraseSpace(MoiveInfo.summary);
+            getline(record, MovieInfo.author, ',');
+            eraseSpace(MovieInfo.author);
+            getline(record, MovieInfo.title, ',');
+            eraseSpace(MovieInfo.title);
+            getline(record, MovieInfo.country, ',');
+            eraseSpace(MovieInfo.country);
+            record >> MovieInfo.price >> garbage
+                >> MovieInfo.year >> garbage;
+            getline(record, MovieInfo.summary, '\n');
+            eraseSpace(MovieInfo.summary);
         }
 
     }
 
-    void Moive::eraseSpace(string& str) {
+    void Movie::eraseSpace(string& str) {
         if (!str.empty()) {
             str.erase(0, str.find_first_not_of(" "));
             str.erase(str.find_last_not_of(" ") + 1);
         }
     }
 
-    const std::string& Moive::title() const {
-        return MoiveInfo.title;
+    const std::string& Movie::title() const {
+        return MovieInfo.title;
     }
-    const string& Moive::country() const {
-        return MoiveInfo.country;
+    const string& Movie::country() const {
+        return MovieInfo.country;
     }
-    const size_t& Moive::year() const {
-        return MoiveInfo.year;
+    const size_t& Movie::year() const {
+        return MovieInfo.year;
     }
-    double& Moive::price() {
-        return MoiveInfo.price;
+    double& Movie::price() {
+        return MovieInfo.price;
     }
 
 
 
 
 
-    ostream& operator<<(ostream& os, const Moive& Moive) {
+    ostream& operator<<(ostream& os, const Movie& Movie) {
         string str{ " | " };
-        os << setw(20) << Moive.MoiveInfo.author << str
-            << setw(22) << Moive.MoiveInfo.title << str
-            << setw(5) << Moive.MoiveInfo.country << str
-            << setw(4) << Moive.MoiveInfo.year << str
-            << setw(6) << fixed << setprecision(2) << Moive.MoiveInfo.price << str
-            << Moive.MoiveInfo.summary<<endl;
+        os << setw(20) << Movie.MovieInfo.author << str
+            << setw(22) << Movie.MovieInfo.title << str
+            << setw(5) << Movie.MovieInfo.country << str
+            << setw(4) << Movie.MovieInfo.year << str
+            << setw(6) << fixed << setprecision(2) << Movie.MovieInfo.price << str
+            << Movie.MovieInfo.summary<<endl;
 
 
         return os;
