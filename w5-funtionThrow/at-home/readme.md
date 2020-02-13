@@ -268,7 +268,7 @@ The class collection will provide two overloads for `operator[]` to access the s
 - the size of the array
 - a pointer to a function that returns `void` and receives two parameters of type `const Collection<T>&` and `const T&`.
 
-  This is the **observer** function (it *observes* an event): when an item has been added to the collection, the class `Collection<T>` will call this function informing the client about the adition.
+  This is the **observer** function (it *observes* an event): when an item has been added to the collection, the class `Collection<T>` will call this function informing the client about the addition.
 
 
 ***Public Members***

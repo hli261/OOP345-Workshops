@@ -24,11 +24,11 @@ namespace sdds {
     SpellChecker::SpellChecker(const char* filename) {
         if (filename == nullptr || filename[0] == '\0') {
             throw "Bad file name!";
-   }
+        }
         else {
             ifstream words(filename);
             if (words) {
-                for (auto i : {0, 1, 2, 3, 4})
+                for (auto i : { 0, 1, 2, 3, 4 })
                     words >> m_badWords[i] >> m_goodWords[i];
             }
             else
@@ -37,7 +37,13 @@ namespace sdds {
 
     }
     void SpellChecker::operator()(std::string& text) const {
-        //////////////////////////////////////////////////////
+        size_t pos{};
+        for (auto i : { 0, 1, 2, 3, 4 }) {
+            pos = text.find(m_badWords[i]);
+            if (pos != std::string::npos) {
+                text.replace(pos, m_badWords[i].length(), m_goodWords[i]); ;
+            }
+        }
 
 
     }

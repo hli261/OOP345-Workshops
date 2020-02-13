@@ -35,8 +35,9 @@ namespace sdds {
         double& price();
 
         template<class T>
-        void fixSpelling(T spellChecker) {//////////////////////////////////////////////////
-
+        void fixSpelling(T spellChecker) {
+            string record = bookInfo.author + bookInfo.title + bookInfo.country + bookInfo.summary;
+            spellChecker(record);
         }
 
         friend ostream& operator<<(ostream& os, const Book& book);

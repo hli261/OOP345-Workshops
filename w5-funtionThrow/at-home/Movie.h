@@ -23,12 +23,15 @@ namespace sdds {
     public:
         Movie() = default;
         Movie(const std::string& strMovie);
+
         const std::string& title() const;
 
         void eraseSpace(string& str);
 
         template<class T>
         void fixSpelling(T spellChecker) {
+            string record = m_title + m_summary;
+            spellChecker(record);
 
         }
 
