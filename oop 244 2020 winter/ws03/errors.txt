@@ -1,4 +1,0 @@
-Train.cpp: In member function ‘void sdds::Train::setTrain(const char*, int)’:
-Train.cpp:66:21: warning: statement has no effect [-Wunused-value]
-             m_cargo != nullptr;
-                     ^

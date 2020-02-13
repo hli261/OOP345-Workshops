@@ -49,6 +49,28 @@ namespace sdds {
             str.erase(0, str.find_first_not_of(" "));
             str.erase(str.find_last_not_of(" ") + 1);
         }
+
+        /*//////////////////////////////////////////////////////
+        //reuse the function from W4 Reservation module
+        size_t i = 0;
+        for (i = 0; i < string.length() && string[i] == ' '; i++);
+        string = string.substr(i);
+
+        for (i = string.length(); i > 0 && string[i - 1] == ' '; i--);
+        string = string.substr(0, i);
+        *///////////////////////////////////////////////////////////////
+
+        ///////////////////////////////////////////////////////////////
+ /*       while (string.at(0) == ' ')
+        {
+            string = string.substr(1, string.length() - 1);
+        }
+
+        while (string.at(string.length() - 1) == ' ')
+        {
+            string = string.substr(0, string.length() - 1);
+        }*/
+        ///////////////////////////////////////////////////////////////
     }
 
     const std::string& Book::title() const {
@@ -64,7 +86,7 @@ namespace sdds {
         return bookInfo.price;
     }
 
-           
+
     ostream& operator<<(ostream& os, const Book& book) {
         string str{ " | " };
         os << setw(20) << book.bookInfo.author << str
@@ -72,7 +94,7 @@ namespace sdds {
             << setw(5) << book.bookInfo.country << str
             << setw(4) << book.bookInfo.year << str
             << setw(6) << fixed << setprecision(2) << book.bookInfo.price << str
-            << book.bookInfo.summary<<endl;
+            << book.bookInfo.summary << endl;
 
 
         return os;

@@ -163,15 +163,15 @@ int main(int argc, char** argv)
     //EXCEPTION: ERROR_MESSAGE<endl>
     //         where ERROR_MESSAGE is extracted from the exception object.
 
-    for (auto i = 0u; i < 10; ++i) {
-        try {
+    try {
+        for (auto i = 0u; i < 10; ++i) {
             std::cout << theCollection[i];
         }
-        catch (out_of_range& msg) {
-            cout << "EXCEPTION: " << msg.what() << endl;
-            break;
-        }
     }
+    catch (out_of_range & msg) {
+        cout << "EXCEPTION: " << msg.what() << endl;
+    }
+
 
     std::cout << "-----------------------------------------\n\n";
 
