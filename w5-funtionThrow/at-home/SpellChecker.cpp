@@ -40,8 +40,9 @@ namespace sdds {
         size_t pos{};
         for (auto i : { 0, 1, 2, 3, 4 }) {
             pos = text.find(m_badWords[i]);
-            if (pos != std::string::npos) {
-                text.replace(pos, m_goodWords[i].length(), m_goodWords[i]);
+            while (pos != std::string::npos) {
+                text.replace(pos, m_badWords[i].length(), m_goodWords[i]);
+                pos = text.find(m_badWords[i]);
             }
         }
 

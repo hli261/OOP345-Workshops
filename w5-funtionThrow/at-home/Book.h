@@ -36,8 +36,10 @@ namespace sdds {
 
         template<class T>
         void fixSpelling(T spellChecker) {
-            string record = bookInfo.author +" "+ bookInfo.title + " " + bookInfo.country + " " + bookInfo.summary;
-            spellChecker(record);
+            spellChecker(bookInfo.author);
+            spellChecker(bookInfo.title);
+            spellChecker(bookInfo.country);
+            spellChecker(bookInfo.summary);
         }
 
         friend ostream& operator<<(ostream& os, const Book& book);
