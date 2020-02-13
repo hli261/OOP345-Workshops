@@ -36,7 +36,7 @@ namespace sdds {
 
         template<class T>
         void fixSpelling(T spellChecker) {
-            string record = bookInfo.author + bookInfo.title + bookInfo.country + bookInfo.summary;
+            string record = bookInfo.author +" "+ bookInfo.title + " " + bookInfo.country + " " + bookInfo.summary;
             spellChecker(record);
         }
 

@@ -58,21 +58,20 @@ int main(int argc, char** argv)
             return 0;
         }
         else
-        while(book){
-            getline(book, str);
-            if (str[0] != '#' && i < 4) {
-                library += Book(str);
-                i++;
+            while (book && i < 4) {
+                getline(book, str);
+                if (str[0] != '#') {
+                    library += Book(str);
+                    i++;
+                }
             }
-            if (i == 4) break;
-        }
 
         library.setObserver(bookAddedObserver);
 
         // TODO: add the rest of the books from the file.
-        while (book) {
+        while (book && i < 7) {
             getline(book, str);
-            if (str[0] != '#' && i < 7) {
+            if (str[0] != '#') {
                 library += Book(str);
                 i++;
             }
@@ -103,90 +102,119 @@ int main(int argc, char** argv)
     std::cout << library;
     std::cout << "-----------------------------------------\n\n";
 
-    //// TODO (from in-lab): iterate over the library and update the price of each book
-    ////         using the lambda defined above.
-    //for (auto& book : library)
-    //	newPrice(book);
+    // TODO (from in-lab): iterate over the library and update the price of each book
+    //         using the lambda defined above.
+    for (size_t i = 0u; i < library.size(); i++)
+        newPrice(library[i]);
 
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << "The library content (updated prices)\n";
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << library;
-    //std::cout << "-----------------------------------------\n\n";
+    std::cout << "-----------------------------------------\n";
+    std::cout << "The library content (updated prices)\n";
+    std::cout << "-----------------------------------------\n";
+    std::cout << library;
+    std::cout << "-----------------------------------------\n\n";
 
-    //Collection<Movie> theCollection("Action Movies");
+    Collection<Movie> theCollection("Action Movies");
 
-    //// Process the file
-    //Movie movies[5];
-    //{
-    //	// TODO: load 5 movies from the file "argv[2]".
-    //	//       - read one line at a time, and pass it to the Movie constructor
-    //	//       - store each movie read into the array "movies"
-    //	//       - lines that start with "#" are considered comments and should be ignored
-
-
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << "Testing addition and callback function\n";
-    //std::cout << "-----------------------------------------\n";
-    //// Add a few movies to collection; no observer is set
-    //((theCollection += movies[0]) += movies[1]) += movies[2];
-    //theCollection += movies[1];
-    //// add more movies; now we get a callback from the collection
-    //theCollection.setObserver(movieAddedObserver);
-    //theCollection += movies[3];
-    //theCollection += movies[3];
-    //theCollection += movies[4];
-    //std::cout << "-----------------------------------------\n\n";
-    //
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << "Testing exceptions and operator[]\n";
-    //std::cout << "-----------------------------------------\n";
-
-    //	// TODO: The following loop can generate generate an exception
-    //	//         write code to handle the exception
-    //	//       If an exception occurs print a message in the following format
-    //	//EXCEPTION: ERROR_MESSAGE<endl>
-    //	//         where ERROR_MESSAGE is extracted from the exception object.
-    //	for (auto i = 0u; i < 10; ++i)
-    //		std::cout << theCollection[i];
-
-    //std::cout << "-----------------------------------------\n\n";
+    // Process the file
+    Movie movies[5];
+    {
+        // TODO: load 5 movies from the file "argv[2]".
+        //       - read one line at a time, and pass it to the Movie constructor
+        //       - store each movie read into the array "movies"
+        //       - lines that start with "#" are considered comments and should be ignored
+        ifstream movie(argv[2]);
+        string str;
+        uint16_t i = 0u;
+        if (!movie) {
+            cout << "The data file can not be opened!\n";
+            return 0;
+        }
+        else
+            while (movie && i < 5) {
+                getline(movie, str);
+                if (str[0] != '#') {
+                    movies[i] = Movie(str);
+                    i++;
+                }
+            }
+    }
 
 
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << "Testing the functor\n";
-    //std::cout << "-----------------------------------------\n";
-    //for (auto i = 3u; i <= 4u; ++i)
-    //{
-    //		// TODO: The following statement can generate generate an exception
-    //		//         write code to handle the exception
-    //		//       If an exception occurs print a message in the following format
-    //		//EXCEPTION: ERROR_MESSAGE<endl>
-    //		//         where ERROR_MESSAGE is extracted from the exception object.
-    //		SpellChecker sp(argv[i]);
-    //		for (auto j = 0u; j < theCollection.size(); ++j)
-    //			theCollection[j].fixSpelling(sp);
-    //		for (auto j = 0u; j < library.size(); ++j)
-    //			library[j].fixSpelling(sp);
+    std::cout << "-----------------------------------------\n";
+    std::cout << "Testing addition and callback function\n";
+    std::cout << "-----------------------------------------\n";
+    // Add a few movies to collection; no observer is set
+    ((theCollection += movies[0]) += movies[1]) += movies[2];
+    theCollection += movies[1];
+    // add more movies; now we get a callback from the collection
+    theCollection.setObserver(movieAddedObserver);
+    theCollection += movies[3];
+    theCollection += movies[3];
+    theCollection += movies[4];
+    std::cout << "-----------------------------------------\n\n";
 
-    //}
-    //std::cout << "--------------- Movies ------------------\n";
-    //std::cout << theCollection;
-    //std::cout << "--------------- Books -------------------\n";
-    //std::cout << library;
-    //std::cout << "-----------------------------------------\n\n";
+    std::cout << "-----------------------------------------\n";
+    std::cout << "Testing exceptions and operator[]\n";
+    std::cout << "-----------------------------------------\n";
+
+    // TODO: The following loop can generate generate an exception
+    //         write code to handle the exception
+    //       If an exception occurs print a message in the following format
+    //EXCEPTION: ERROR_MESSAGE<endl>
+    //         where ERROR_MESSAGE is extracted from the exception object.
+
+    for (auto i = 0u; i < 10; ++i) {
+        try {
+            std::cout << theCollection[i];
+        }
+        catch (out_of_range& msg) {
+            cout << "EXCEPTION: " << msg.what() << endl;
+            break;
+        }
+    }
+
+    std::cout << "-----------------------------------------\n\n";
 
 
-    //std::cout << "-----------------------------------------\n";
-    //std::cout << "Testing operator[] (the other overload)\n";
-    //std::cout << "-----------------------------------------\n";
-    //const Movie* aMovie = theCollection["Terminator 2"];
-    //if (aMovie == nullptr)
-    //	std::cout << "Movie Terminator 2 not in collection.\n";
-    //aMovie = theCollection["Dark Phoenix"];
-    //if (aMovie != nullptr)
-    //	std::cout << "In collection:\n" << *aMovie;
-    //std::cout << "-----------------------------------------\n\n";
+    std::cout << "-----------------------------------------\n";
+    std::cout << "Testing the functor\n";
+    std::cout << "-----------------------------------------\n";
+    for (auto i = 3u; i <= 4u; ++i)
+    {
+        // TODO: The following statement can generate generate an exception
+        //         write code to handle the exception
+        //       If an exception occurs print a message in the following format
+        //EXCEPTION: ERROR_MESSAGE<endl>
+        //         where ERROR_MESSAGE is extracted from the exception object.
+        try {
+            SpellChecker sp(argv[i]);
+            for (auto j = 0u; j < theCollection.size(); ++j)
+                theCollection[j].fixSpelling(sp);
+            for (auto j = 0u; j < library.size(); ++j)
+                library[j].fixSpelling(sp);
+        }
+        catch (const char* msg) {
+            cout << "EXCEPTION: " << msg << endl;
+        }
+
+    }
+    std::cout << "--------------- Movies ------------------\n";
+    std::cout << theCollection;
+    std::cout << "--------------- Books -------------------\n";
+    std::cout << library;
+    std::cout << "-----------------------------------------\n\n";
+
+
+    std::cout << "-----------------------------------------\n";
+    std::cout << "Testing operator[] (the other overload)\n";
+    std::cout << "-----------------------------------------\n";
+    const Movie* aMovie = theCollection["Terminator 2"];
+    if (aMovie == nullptr)
+        std::cout << "Movie Terminator 2 not in collection.\n";
+    aMovie = theCollection["Dark Phoenix"];
+    if (aMovie != nullptr)
+        std::cout << "In collection:\n" << *aMovie;
+    std::cout << "-----------------------------------------\n\n";
 
     return 0;
 }

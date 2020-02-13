@@ -32,16 +32,16 @@ namespace sdds {
                     words >> m_badWords[i] >> m_goodWords[i];
             }
             else
-                cout << "Fail to open!\n";
+                throw "Bad file name!";
         }
-
     }
+
     void SpellChecker::operator()(std::string& text) const {
         size_t pos{};
         for (auto i : { 0, 1, 2, 3, 4 }) {
             pos = text.find(m_badWords[i]);
             if (pos != std::string::npos) {
-                text.replace(pos, m_badWords[i].length(), m_goodWords[i]); ;
+                text.replace(pos, m_goodWords[i].length(), m_goodWords[i]);
             }
         }
 

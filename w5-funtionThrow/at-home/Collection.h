@@ -22,7 +22,7 @@ namespace sdds {
         string m_collectionName{};
         T* m_items{};
         size_t m_size{};
-        void (*m_observer)(const Collection<T>&, const T&);
+        void (*m_observer)(const Collection<T>&, const T&) {};
     public:
         Collection() = default;
         Collection(std::string name) {
@@ -54,19 +54,20 @@ namespace sdds {
                     break;
                 }
             }
+
             if (!isFound) {
                 m_size++;
                 T* temp = new T[m_size];
 
-                for (size_t i = 0; i < m_size - 1; i++) {
+                for (size_t i = 0u; i < m_size - 1u; i++)   
                     temp[i] = m_items[i];
-                    i++;
-                }
-                if (m_items != nullptr) delete[] m_items;
+
+                delete[] m_items;
+
                 temp[m_size - 1u] = item;
                 m_items = temp;
 
-                m_observer(*this, item);
+                if (m_observer != nullptr)m_observer(*this, item);
             }
 
             return *this;
@@ -75,9 +76,12 @@ namespace sdds {
 
         T& operator[](size_t idx) const {
             string str = "Bad index [" + to_string(idx) + "]. Collection has [" + to_string(m_size) + "] items.";
-            if (idx >= m_size) throw str;//type `std::out_of_range`---Standard library header <stdexcept>
 
-            return m_items[idx];
+            if (idx >= m_size)
+                throw  out_of_range(str);
+            else
+                return m_items[idx];
+
         }
 
         T* operator[](std::string title) const {
@@ -90,7 +94,7 @@ namespace sdds {
                     break;
                 }
             }
-            return isFound ? *m_items[idx] : nullptr;
+            return isFound ? &m_items[idx] : nullptr;
         }
 
 

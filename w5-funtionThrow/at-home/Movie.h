@@ -30,7 +30,7 @@ namespace sdds {
 
         template<class T>
         void fixSpelling(T spellChecker) {
-            string record = m_title + m_summary;
+            string record = m_title +" "+ m_summary;
             spellChecker(record);
 
         }

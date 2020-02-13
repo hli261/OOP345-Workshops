@@ -20,7 +20,6 @@ using namespace std;
 
 namespace sdds {
     Book::Book(const string& str) {
-        char garbage{};
         stringstream record(str);
         string temp;
         if (record) {
