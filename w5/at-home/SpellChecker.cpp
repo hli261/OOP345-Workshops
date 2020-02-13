@@ -13,65 +13,30 @@
 #include <cstring>
 #include <string>
 #include <sstream>
+#include <fstream>
 #include <algorithm>
 #include "SpellChecker.h"
 
 using namespace std;
 
 namespace sdds {
-    SpellChecker::SpellChecker(const string& str) {
-        char garbage{};
-        stringstream record(str);
 
-        if (record) {
-            getline(record, SpellCheckerInfo.author, ',');
-            eraseSpace(SpellCheckerInfo.author);
-            getline(record, SpellCheckerInfo.title, ',');
-            eraseSpace(SpellCheckerInfo.title);
-            getline(record, SpellCheckerInfo.country, ',');
-            eraseSpace(SpellCheckerInfo.country);
-            record >> SpellCheckerInfo.price >> garbage
-                >> SpellCheckerInfo.year >> garbage;
-            getline(record, SpellCheckerInfo.summary, '\n');
-            eraseSpace(SpellCheckerInfo.summary);
+    SpellChecker::SpellChecker(const char* filename) {
+        if (filename == nullptr || filename[0] == '\0') {
+            throw "Bad file name!";
+   }
+        else {
+            ifstream words(filename);
+            if (words) {
+                for (auto i : {0, 1, 2, 3, 4})
+                    words >> m_badWords[i] >> m_goodWords[i];
+            }
+            else
+                cout << "Fail to open!\n";
         }
 
     }
+    void SpellChecker::operator()(std::string& text) const {
 
-    void SpellChecker::eraseSpace(string& str) {
-        if (!str.empty()) {
-            str.erase(0, str.find_first_not_of(" "));
-            str.erase(str.find_last_not_of(" ") + 1);
-        }
-    }
-
-    const std::string& SpellChecker::title() const {
-        return SpellCheckerInfo.title;
-    }
-    const string& SpellChecker::country() const {
-        return SpellCheckerInfo.country;
-    }
-    const size_t& SpellChecker::year() const {
-        return SpellCheckerInfo.year;
-    }
-    double& SpellChecker::price() {
-        return SpellCheckerInfo.price;
-    }
-
-
-
-
-
-    ostream& operator<<(ostream& os, const SpellChecker& SpellChecker) {
-        string str{ " | " };
-        os << setw(20) << SpellChecker.SpellCheckerInfo.author << str
-            << setw(22) << SpellChecker.SpellCheckerInfo.title << str
-            << setw(5) << SpellChecker.SpellCheckerInfo.country << str
-            << setw(4) << SpellChecker.SpellCheckerInfo.year << str
-            << setw(6) << fixed << setprecision(2) << SpellChecker.SpellCheckerInfo.price << str
-            << SpellChecker.SpellCheckerInfo.summary<<endl;
-
-
-        return os;
     }
 }

@@ -17,25 +17,12 @@ using namespace std;
 
 namespace sdds {
     class SpellChecker {
-        struct SpellCheckerInfo {
-            string author{};
-            string title{};
-            string country{};
-            double price{};
-            size_t year{};
-            string summary{};
-        }SpellCheckerInfo{}, library[7]{ {} };
+        string m_badWords[5]{};
+        string m_goodWords[5]{};
     public:
         SpellChecker() = default;
-        SpellChecker(const string& str);
-        void eraseSpace(string& str);
-        const std::string& title() const;
-        const string& country() const;
-        const size_t& year() const;
-        double& price();
-
-        friend ostream& operator<<(ostream& os, const SpellChecker& spellChecker);
-
+        SpellChecker(const char* filename);
+        void operator()(std::string& text) const;
 
     };
 }

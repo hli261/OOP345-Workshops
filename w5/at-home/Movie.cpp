@@ -20,20 +20,21 @@ using namespace std;
 
 namespace sdds {
     Movie::Movie(const string& str) {
-        char garbage{};
+
         stringstream record(str);
+        string temp{};
 
         if (record) {
-            getline(record, MovieInfo.author, ',');
-            eraseSpace(MovieInfo.author);
-            getline(record, MovieInfo.title, ',');
-            eraseSpace(MovieInfo.title);
-            getline(record, MovieInfo.country, ',');
-            eraseSpace(MovieInfo.country);
-            record >> MovieInfo.price >> garbage
-                >> MovieInfo.year >> garbage;
-            getline(record, MovieInfo.summary, '\n');
-            eraseSpace(MovieInfo.summary);
+            getline(record, m_title, ',');
+            eraseSpace(m_title);
+
+
+            getline(record, temp, ',');
+            eraseSpace(temp);
+            m_year = stoi(temp);
+
+            getline(record, m_summary, '\n');
+            eraseSpace(m_summary);
         }
 
     }
@@ -46,17 +47,9 @@ namespace sdds {
     }
 
     const std::string& Movie::title() const {
-        return MovieInfo.title;
+        return m_title;
     }
-    const string& Movie::country() const {
-        return MovieInfo.country;
-    }
-    const size_t& Movie::year() const {
-        return MovieInfo.year;
-    }
-    double& Movie::price() {
-        return MovieInfo.price;
-    }
+
 
 
 
@@ -64,12 +57,9 @@ namespace sdds {
 
     ostream& operator<<(ostream& os, const Movie& Movie) {
         string str{ " | " };
-        os << setw(20) << Movie.MovieInfo.author << str
-            << setw(22) << Movie.MovieInfo.title << str
-            << setw(5) << Movie.MovieInfo.country << str
-            << setw(4) << Movie.MovieInfo.year << str
-            << setw(6) << fixed << setprecision(2) << Movie.MovieInfo.price << str
-            << Movie.MovieInfo.summary<<endl;
+        os << setw(40) << Movie.m_title << str
+            << setw(4) << Movie.m_year << str
+            << Movie.m_summary << endl;
 
 
         return os;

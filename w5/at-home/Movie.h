@@ -17,22 +17,20 @@ using namespace std;
 
 namespace sdds {
     class Movie {
-        struct  {
-            string author{};
-            string title{};
-            string country{};
-            double price{};
-            size_t year{};
-            string summary{};
-        }MovieInfo{};
+            string m_title{};
+            size_t m_year{};
+            string m_summary{};
     public:
         Movie() = default;
-        Movie(const string& str);
-        void eraseSpace(string& str);
+        Movie(const std::string& strMovie);
         const std::string& title() const;
-        const string& country() const;
-        const size_t& year() const;
-        double& price();
+
+        void eraseSpace(string& str);
+
+        template<class T>
+        void fixSpelling(T spellChecker) {
+
+        }
 
         friend ostream& operator<<(ostream& os, const Movie& Movies);
 

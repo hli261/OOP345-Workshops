@@ -34,6 +34,11 @@ namespace sdds {
         const size_t& year() const;
         double& price();
 
+        template<class T>
+        void fixSpelling(T spellChecker) {
+
+        }
+
         friend ostream& operator<<(ostream& os, const Book& book);
 
 
